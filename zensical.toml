@@ -1,0 +1,92 @@
+[project]
+site_name = "METR"
+site_description = "Management of Electronic Traffic Regulations — ISO 24315 series"
+site_author = "ISO/TC 204/WG 19"
+site_url = "https://k-vaughn.github.io/iso24315/"
+repo_url = "https://github.com/k-vaughn/iso24315"
+repo_name = "iso24315"
+edit_uri = "edit/main/docs/"
+
+copyright = """
+Website content: <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="license">CC BY 4.0</a>
+"""
+
+nav = [
+  { "Home" = "index.md" },
+  { "Overview" = "overview.md" },
+  { "Development" = "development.md" },
+  { "Guides" = [
+    "guides.md",
+    { "Promotional" = "promotional.md" },
+    { "Overview" = "overview.md" },
+    { "Rule Makers" = "rule-makers.md" },
+    { "Regulation System" = "regulation-system.md" },
+    { "Distribution System" = "distribution-system.md" },
+    { "Consumer System" = "consumer-system.md" },
+    { "Discrepancy Handling System" = "discrepancy-handling-system.md" },
+  ]},
+  { "Discussion" = "https://github.com/ISO-TC204/iso24315/discussions" },
+]
+
+[[project.extra.social]]
+icon = "fontawesome/brands/github"
+link = "https://github.com/ISO-TC204/iso24315"
+
+[project.theme]
+language = "en"
+# Typical doc layout: left sidebar navigation + inline page TOC — no tabs (avoids cramped / duplicate header chrome).
+features = [
+  "content.action.edit",
+  "content.code.copy",
+  "navigation.footer",
+  "navigation.sections",
+  "navigation.expand",
+  "navigation.path",
+  "navigation.top",
+  "navigation.tracking",
+  "navigation.instant",
+  "search.highlight",
+  "search.suggest",
+  "search.share",
+  "toc.follow",
+]
+
+[[project.theme.palette]]
+scheme = "default"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+scheme = "slate"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to light mode"
+
+[project.markdown_extensions.abbr]
+[project.markdown_extensions.admonition]
+[project.markdown_extensions.attr_list]
+[project.markdown_extensions.def_list]
+[project.markdown_extensions.footnotes]
+[project.markdown_extensions.md_in_html]
+[project.markdown_extensions.toc]
+permalink = true
+[project.markdown_extensions.pymdownx.arithmatex]
+generic = true
+[project.markdown_extensions.pymdownx.betterem]
+[project.markdown_extensions.pymdownx.caret]
+[project.markdown_extensions.pymdownx.details]
+[project.markdown_extensions.pymdownx.emoji]
+emoji_generator = "zensical.extensions.emoji.to_svg"
+emoji_index = "zensical.extensions.emoji.twemoji"
+[project.markdown_extensions.pymdownx.highlight]
+anchor_linenums = true
+[project.markdown_extensions.pymdownx.inlinehilite]
+[project.markdown_extensions.pymdownx.keys]
+[project.markdown_extensions.pymdownx.magiclink]
+[project.markdown_extensions.pymdownx.mark]
+[project.markdown_extensions.pymdownx.smartsymbols]
+[project.markdown_extensions.pymdownx.superfences]
+[project.markdown_extensions.pymdownx.tabbed]
+alternate_style = true
+[project.markdown_extensions.pymdownx.tasklist]
+custom_checkbox = true
+[project.markdown_extensions.pymdownx.tilde]
