@@ -17,8 +17,6 @@ nav = [
   { "Development" = "development.md" },
   { "Guides" = [
     "guides.md",
-    { "Promotional" = "promotional.md" },
-    { "Overview" = "overview.md" },
     { "Rule Makers" = "rule-makers.md" },
     { "Regulation System" = "regulation-system.md" },
     { "Distribution System" = "distribution-system.md" },
