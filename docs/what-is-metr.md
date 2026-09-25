@@ -1,6 +1,6 @@
 # What is METR?
 
-METR is a [system of systems](systems-of-systems.md) that ensures digital rules and regulations are communicated dynamically across systems, infrastructure, and end users. Importantly, METR authenticates and secures these communications in real time. This facilitates interoperability that is trustworthy, safe and effective. As an international standard, METR has to be flexible enough to support a range of environments. As such, METR is built on the three-tiered model depicted below. This allows for further refinements at the regional (multi-national), national, and local levels to support a connected, interoperable, and safe global transportation ecosystem.
+METR is a [system of systems](system-of-systems.md) that ensures digital rules and regulations are communicated dynamically across systems, infrastructure, and end users. Importantly, METR authenticates and secures these communications in real time. This facilitates interoperability that is trustworthy, safe and effective. As an international standard, METR has to be flexible enough to support a range of environments. As such, METR is built on the three-tiered model depicted below. This allows for further refinements at the regional (multi-national), national, and local levels to support a connected, interoperable, and safe global transportation ecosystem.
 
 ![Three-tiered model of METR](images/three-tiered-model.png)
 

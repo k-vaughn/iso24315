@@ -30,8 +30,8 @@ nav = [
       "functional-view.md",
     ]},
     { "Key Components" = [
-      "key-components.md",
-      "system-of-systems.md",
+      { "Key Components" = "key-components.md"},
+      { "A System of Systems" = "system-of-systems.md"},
       "physical-view.md",
     ]},
     { "Possible Deployment Scenarios" = "deployment-scenarios.md" },
@@ -64,15 +64,13 @@ nav = [
     ]},
     { "METR Engineering Information" = [
       "metr-engineering-information.md",
-      { "Cybersecurity" = [
-    "cybersecurity.md",
-    { "Cybersecurity Use Cases" = "cybersecurity-use-cases.md" },
-]},
-      { "Development Process" = [
-        "development.md",
-        "workshops.md",
-      ]},
+      { "Development Process" = "development.md"},
+      "workshops.md",
       { "Vocabulary" = "https://isotc204.org/iso24315-vocab/" },
+      { "Cybersecurity" = [
+        "cybersecurity.md",
+        { "Cybersecurity Use Cases" = "cybersecurity-use-cases.md" },
+      ]},
       { "Traceability" = [
         "documentation/index.md",
         { "Introduction" = "documentation/Intro.md" },
@@ -83,16 +81,6 @@ nav = [
         { "Workshop Points" = "documentation/SP.md" },
         { "Notes" = "documentation/N.md" },
       ]},
-    ]},
-    { "Implementation Guides" = [
-      { "Guide Structure" = "ig/guides.md" },
-      { "Regional Guidance" = "ig/regional-guidance.md" },
-      { "Sample Regional Framework" = "ig/regional-framework.md" },
-      { "Rule Makers" = "ig/rule-makers.md" },
-      { "Regulation System" = "ig/regulation-system.md" },
-      { "Distribution System" = "ig/distribution-system.md" },
-      { "Consumer System" = "ig/consumer-system.md" },
-      { "Discrepancy Handling System" = "ig/discrepancy-handling-system.md" },
     ]},
     { "Frequently Asked Questions" = "faqs.md" },
     { "Discussion" = "https://github.com/ISO-TC204/iso24315/discussions" },

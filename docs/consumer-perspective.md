@@ -1,4 +1,4 @@
-# Guidance for METR Consumer System
+# METR User Device Developer Perspective
 
 !!! note
     Audience: Deployer of METR consumer system (e.g., consumer system developers for vehicle, smartphone app, navigation app, etc.)
