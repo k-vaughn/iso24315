@@ -1,37 +1,23 @@
 # Jurisdictional Entities and Rule Makers
 
-A **jurisdictional entity** (or jurisdictional authority) has the legal power to issue regulations of behaviour for users of road infrastructure. Each entity is associated with a **jurisdictional area**. Those areas can overlap: the same location may be subject to multi-national, national, sub-national, local, and even private-property regulations (for example, a university campus).
+A regulator (e.g., a road authority) has the legal power to issue traffic regulations on behalf of its **jurisdictional entity** (e.g., city). Each jurisdictional entity is associated with a **jurisdictional area** and each regulator authorized by the jurisdictional entity can be further constrained to a sub-area within that jurisdictional area. Areas can overlap; for example, the same location can be subject to multi-national, national, sub-national, local, and even private-property regulations (for example, a university campus).
 
-Legal implications for private roads and enforcement vary by parent jurisdiction and are set by national and local policy.
+!!! note
+    Legal implications related to defining traffic regulations for private roads and the enforcement of those traffic regulations vary by parent jurisdiction (e.g., national and local legislation).
 
 ## Overlapping authority in practice
 
-Who may establish which regulations at a location often depends on facility type and regulation type:
-
-- a city may define most regulations on most facilities inside city limits
-- a county may define most regulations on county roads
-- a national authority may define most regulations on motorways
-- the city police or traffic management function may still be authorized to issue temporary regulations on a motorway during real-time incidents
-
-In general, **higher-level jurisdictional entities** define the policy framework that assigns authority for regulation types and facilities.
+The authority to establish traffic regulations at a particular location can depend upon several factors, including type of facility, type of traffic regulation, etc. For example, a city can be responsible for defining most traffic regulations for most transport facilities within its jurisdictional area, while the county defines the most traffic regulations for county roads and a higher-level jurisdictional entity (e.g., state or national government) can define traffic regulations for motorways. However, even in this case, the city could still be granted the authority to issue temporary traffic regulations on the motorway (e.g., if the city police are responsible for responding to real-time conditions). In general, it is the responsibility of the higher-level jurisdictional entities to establish the policy framework that defines who has the authority to establish which type of traffic regulations. 
 
 ## Rule makers within a jurisdiction
 
-A **rule maker** creates and maintains regulations for a geographic and operational scope assigned by the parent jurisdictional entity. One jurisdiction often has several rule makers, for example:
+A **rule maker** creates and maintains R&amp;Rs for a geographic and operational scope. The scope is limited by the jurisdictional area associated with the rule maker's parent jurisdictional entity but can be further constrained by the jurisdictional entity to a sub-area within that jurisdictional area. One jurisdictional entity often designates multiple rule makers, for example:
 
 | Kind of rule maker | Typical scope |
 | --- | --- |
-| Legislative entity (e.g., city council) | Regulations that require deliberative political process (e.g., default city speed limit) |
-| Administrative / engineering entity | Regulations based on engineering practice (e.g., speed limit on a specific segment) |
-| Operations entity (police, TMC) | Regulations activated for real-time conditions (lane closures, emergency plans) |
+| Legislative entity (e.g., city council) | Traffic rules that require deliberative political process (e.g., default city speed limit) |
+| Administrative / engineering entity | Traffic regulations based on engineering practice (e.g., speed limit on a specific segment) |
+| Operations entity (police, TMC) | Traffic regulations activated for real-time conditions (lane closures, emergency plans) |
 
-Higher-level law may require cities to define certain regulations; the city may then delegate portions of that work to administrative or operations staff.
+Higher-level law can require lower-level jurisdictional entities to define certain R&amp;Rs. In response, the lower-level entity can define traffic rules through its legislative entity, delegate the work to its regulators, or a combination of both.
 
-## Implications for METR rule makers
-
-1. **Know your mandate** — only propose and approve TROs inside your delegated geographic and categorical scope.
-2. **Expect neighbours and parents** — national roads, campuses, and adjacent towns may publish regulations that affect the same trip; METR collection and distribution must reconcile multi-source catalogues.
-3. **Use the hosted platform** — smaller rule makers usually enter TROs into a parent [jurisdictional regulation system](jurisdictional-management-perspective.md) rather than operating their own METR stack.
-4. **Keep private and public scopes distinct** — campus or private-facility regulations need clear defined areas so users do not confuse them with public-road regulations.
-
-Next: [regulation states](tro-regulation-states.md) that describe where an individual regulation sits in its lifecycle.

@@ -16,6 +16,52 @@
   text-decoration: underline;
 }
 
+/* Regulation-type examples: caption above each figure, four figures in one row. */
+.tro-example-row {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.75rem 0.6rem;
+  align-items: start;
+  margin: 0.35rem 0 0.15rem;
+}
+
+.tro-example-row .tro-example {
+  min-width: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.tro-example-row .tro-example p {
+  margin: 0 0 0.25rem;
+}
+
+.tro-example-row .tro-example-kind {
+  display: block;
+  font-weight: 700;
+  font-size: 0.75rem;
+  color: var(--md-primary-fg-color);
+}
+
+.tro-example-row .tro-example-label {
+  display: block;
+  margin: 0.15rem 0 0.35rem;
+}
+
+.tro-example-row .tro-example img {
+  display: inline-block;
+  max-width: 100%;
+  max-height: 6.5rem;
+  width: auto;
+  height: auto;
+  margin: 0.25rem auto 0;
+}
+
+@media screen and (max-width: 600px) {
+  .tro-example-row {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
 figcaption,
 em.figcaption {
   font-style: italic;

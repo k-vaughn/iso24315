@@ -14,24 +14,28 @@
     - Sample project-level architecture
     - Relevant legislation, obligations and encouragement
 
-This section focuses on the rule-maker view of METR: what a TRO is, how authority is scoped, how regulations and TROs move through lifecycle states, how legal and electronic representations must stay aligned, and how physical installation on the roadway is coordinated with digital activation for METR users.
+This section focuses on the rule-maker view of METR and contains the following sections:
 
-## Introduction
-
-1. [What is a Traffic Regulation Order?](tro-what-is-a-tro.md)
-2. [Jurisdictional entities and rule makers](tro-jurisdictional-entity.md)
-3. [Regulation states](tro-regulation-states.md)
-4. [TRO states](tro-states.md)
-5. [Regulation and TRO representations](tro-representations.md)
-6. [TRO proposal and approval](tro-proposal-and-approval.md)
-7. [Installation and implementation](tro-installation-and-implementation.md)
-8. [Coordinating physical and digital activation](tro-physical-digital-activation.md)
+1. [Traffic Regulation Orders](tro-what-is-a-tro.md): Explains what a TRO is and how it is used in the METR system.
+2. [Jurisdictional entities and rule makers](tro-jurisdictional-entity.md): Explains the relationships between jurisdictional entities and rule makers and among the various rule makers that often exist within a jurisdiction.
+3. [Regulation states](tro-regulation-states.md): Explains how regulations move through lifecycle states.
+4. [TRO states](tro-states.md): Explains how TROs move through lifecycle states.
+5. [Electronic TRO representations](tro-representations.md): Explains how regulations and TROs are represented in the METR system and how legal and electronic representations must stay aligned.
+6. ==[TRO proposal and approval](tro-proposal-and-approval.md): Explains the process of proposing and approving a TRO.==
+7. [Installation and implementation](tro-installation-and-implementation.md): Explains how physical installation on the roadway is coordinated with digital activation for METR users
+8. [Coordinating physical and digital activation](tro-physical-digital-activation.md): Explains how physical installation on the roadway is coordinated with digital activation for METR users
+9. Prioritizing electronic conversions: Discusses issues that need to be considered when developing a plan to capture TROs in an electronic format.
+10.  System evolution: Discusses issues that need to be considered to gracefully handle the evolution of the regulations stored by the system as well as the evolution of the system itself.
+11. Prerequisites
+12. Regional guidance
 
 ### Audience
 
-This section is intended for a diverse audience that includes rule makers from smaller jurisdictions, campus administrators, toll road operators, and other entities that manage localized transportation regulations but do not necessarily control their own METR systems. It is also valuable for IT professionals, transportation planners, and consultants who support these entities in transitioning to METR. Additionally, regional authorities may find this section useful as they collaborate with smaller entities to ensure consistent and interoperable implementation of METR standards.
+This section is intended for any rule maker or associated body, including those representing government jurisdictions, campuses, toll roads, and other entities that regulate transport infrastructure. This includes those using a METR regulation system managed by another entity as well as those that manage their own METR regulation system. It is also valuable for IT professionals, transportation planners, and consultants who support these entities in transitioning to METR. Additionally, this section is useful for regional authorities and operators of METR regulation systems as they collaborate with smaller entities to ensure consistent and interoperable implementation of METR standards.
 
-The purpose of this guide is to provide these entities with the necessary framework and strategies for participating in a METR system, ensuring that their local regulations are accurately represented and effectively integrated. By following the guidance provided here, rule makers can efficiently transition their regulation sets into an electronic format, enabling seamless interoperability with metropolitan-area, national, and multi-national METR systems.
+The section provides these entities with the necessary framework and strategies for participating in a METR system, ensuring that their local regulations are accurately represented and effectively integrated. By following the guidance provided here, rule makers can efficiently transition their regulation sets into an electronic format, enabling seamless interoperability with metropolitan-area, national, and multi-national METR systems.
+
+==The rest of this page are notes that we need to make sure are reflected in the above==
 
 ## Regulation Conversion Priority
 
@@ -51,7 +55,7 @@ Before claiming that a regulation category is fully represented and trustworthy 
 
 ## Evolution of Regulation Sets
 
-As new regulations are created or existing regulations change, it’s essential to have processes in place to manage this evolution. This section discusses how METR systems can accommodate new regulations&mdash;such as the installation of new stop signs&mdash;temporary regulations like planned parking restrictions, and emergent regulations such as rolling lane closures. By planning for these scenarios, rule makers can ensure that their systems remain up-to-date and responsive to changing conditions, maintaining the integrity and effectiveness of the METR system.
+As new regulations are created or existing regulations change, it's essential to have processes in place to manage this evolution. This section discusses how METR systems can accommodate new regulations&mdash;such as the installation of new stop signs&mdash;temporary regulations like planned parking restrictions, and emergent regulations such as rolling lane closures. By planning for these scenarios, rule makers can ensure that their systems remain up-to-date and responsive to changing conditions, maintaining the integrity and effectiveness of the METR system.
 
 ## Planning for Evolution of the METR Standards
 
