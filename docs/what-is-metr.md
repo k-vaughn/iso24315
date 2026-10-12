@@ -2,23 +2,24 @@
 
 METR is a [system of systems](system-of-systems.md) that ensures digital rules and regulations are communicated dynamically across systems, infrastructure, and end users. Importantly, METR authenticates and secures these communications in real time. This facilitates interoperability that is trustworthy, safe and effective. As an international standard, METR has to be flexible enough to support a range of environments. As such, METR is built on the three-tiered model depicted below. This allows for further refinements at the regional (multi-national), national, and local levels to support a connected, interoperable, and safe global transportation ecosystem.
 
-![Three-tiered model of METR](images/three-tiered-model.png)
+![Three-tiered model of METR](images/three-tiered-approach.png)
 
 Based on this model, the ISO documents capture globally applicable principles and requirements for the trustworthy management and distribution of electronic traffic regulations. The regions are defined as geographic areas within which transport users generally expect to be able to seamlessly travel; these are typically multi-national areas. Each regional body is responsible for refining the global, high-level requirements to promote an interoperable environment within their region. For example, regional bodies will typically want to define policies and interface standards to facilitate data sharing; this might include identifying the cybersecurity scheme, data models, and protocols to be used; which often vary by region. At the national and local level, the details need to be tailored further; for example, identifying how the roles and responsibilities of the various actors defined within the METR standards are to be fulfilled by the various entities within the locality. 
 
 ## Terminology used on this website
 
-This website uses the following conventions so the language stays searchable if the terms evolve again:
+This website uses the following conventions:
 
 | Term | Meaning on this website |
 | --- | --- |
-| **rule** | Legislative provisions (for example, highway/road-code **rules of the road**) |
-| **regulation** | Provisions established by a regulator, whether mandatory, advisory, or guidance |
-| **rules and regulations** or **R&amp;Rs** | The combined set of both |
+| **[rule](https://isotc204.org/iso24315-vocab/latest/terms/rule/)** | Legislative provisions (for example, highway/road-code **[rules of the road](https://isotc204.org/iso24315-vocab/latest/terms/rules%20of%20the%20road/)**) |
+| **[regulation](https://isotc204.org/iso24315-vocab/latest/terms/regulation/)** | Provisions established by a regulator, whether mandatory, advisory, or guidance |
+| **[rules and regulations](https://isotc204.org/iso24315-vocab/latest/terms/rule%20or%20regulation/)** or **R&amp;Rs** | The combined set of both |
 
-The ISO 24315 series title and the acronym **METR** remain **Management of Electronic Traffic Regulations**. That name does not change. In the text, METR is understood to apply to **rules and regulations (R&R)** — not only to regulator-issued regulations.
+!!! note
+    The ISO 24315-1:2025 Vocabulary used the term *rule* to refer to both rules and regulations. Based on feedback, materials are being updated to distinguish between legislatively defined rules and regulations defined by regulators.
 
-ISO 24315-1 Vocabulary still uses *rule* as a broader umbrella term in the published standard. Where this website’s prose differs for clarity, the [vocabulary](documentation/Vocab.md) pages retain the ISO wording and note the website convention.
+The ISO 24315 series title and the acronym **[METR](https://isotc204.org/iso24315-vocab/latest/terms/METR/)** remain **Management of Electronic Traffic Regulations**. Nonetheless, METR applies to both **rules and regulations (R&R)** — not only to regulator-issued regulations.
 
 ## Scope of R&R covered by METR
 
@@ -88,6 +89,17 @@ Each user needs access to the relevant regulations in a trustworthy manner altho
 
 Within its scope, METR will support both pre-announced regulations, which can be accessed well in advance of the location and time of need, and emergent regulations, which reflect recent changes in regulations (for example, due to flooding or other unplanned activities). Pre-announced regulations can easily be distributed via any number of internet technologies; the provision of emergent regulations can be more challenging given that they can be enacted with limited notice and impact vehicles that do not currently have internet connectivity.
 
-### Regional Tailoring
+## Regional Tailoring
 
 The METR standards provide a framework for providing electronic regulations, but as an international standard, these standards are designed to be very flexible to accommodate the political, legal, and financial realities across the world. It is the responsibility of regional authorities to further guide deployments to develop a consistent environment within each region. Additional details are provided in the [regional body perspective](regional-body-perspective.md).
+
+| **Stakeholder**                                  | **Key Benefits**                                                                                                                                                              |
+|--------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Planners and Decision Makers (Public Sector)** | Enhanced digitalization programs; improved interoperability for cross-jurisdictional planning; lower risks via international collaboration.|
+| **Infrastructure Owners/Operators (IOOs)**       | Safer, better informed ADS and ADAS; efficient data sharing for traffic management systems, minimizes cost of development of electronic traffic regulation systems.|
+| **Fleet Managers, Navigators, and Other Planners** | Trustworthy, real-time access to regulations for safer routing and compliance; reduced liability and operational costs; support for automated fleets in diverse environments.|
+| **Vehicle Operators**                 | Trustworthy, real-time access to on-board regulations for better compliance; safer operations; and reduced liability.|
+| **ADS Developers and Map Providers**             | Standardized data reduces interpretation efforts; facilitates global scalability; avoids vendor lock-in.|
+| **Enforcement and Emergency Agencies**           | Better ADS and ADAS accountability; improved road safety through compliant automation; improve the safety of mixing conventional and automated vehicles.  |
+
+As a connected system of systems, METR facilitates AV deployment, enhances mobility efficiency, and promotes safer roadways by providing all relevant trustworthy digital regulations.

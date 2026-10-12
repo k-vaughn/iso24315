@@ -41,6 +41,12 @@ nav = [
         "regional-body-perspective.md",
         "regional-framework.md",
       ]},
+      { "Jurisdictional Management Perspective" = [
+        "jurisdictional-management-perspective.md",
+        "regulation-system-perspective.md",
+        "distribution-perspective.md",
+        "discrepancy-handling-perspective.md",
+      ]},
       { "Rule Maker Perspective" = [
         "rule-maker-perspective.md",
         "tro-what-is-a-tro.md",
@@ -51,12 +57,6 @@ nav = [
         "tro-proposal-and-approval.md",
         "tro-installation-and-implementation.md",
         "tro-physical-digital-activation.md",
-      ]},
-      { "Jurisdictional Management Perspective" = [
-        "jurisdictional-management-perspective.md",
-        "regulation-system-perspective.md",
-        "distribution-perspective.md",
-        "discrepancy-handling-perspective.md",
       ]},
       "road-operator-perspective.md",
       "consumer-perspective.md",

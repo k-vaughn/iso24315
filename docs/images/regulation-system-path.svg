@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 250" width="1100" height="250" role="img" aria-labelledby="title desc">
+  <title id="title">Path from a legal regulation to a published electronic regulation</title>
+  <desc id="desc">Five steps: recognize the rule maker, enter the regulation, check scope and quality, sign, and publish. Discrepancy reports and discovery are optional side paths.</desc>
+  <rect width="1100" height="250" fill="#f4f7f9"/>
+
+  <rect x="16" y="28" width="180" height="88" rx="8" fill="#0b3a5b"/>
+  <text x="106" y="68" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700">Recognize</text>
+  <text x="106" y="90" text-anchor="middle" fill="#d6e4ee" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12">the rule maker</text>
+
+  <path d="M204 72 H228" fill="none" stroke="#6a7f8e" stroke-width="2"/>
+  <path d="M222 66 L232 72 L222 78" fill="none" stroke="#6a7f8e" stroke-width="2"/>
+
+  <rect x="236" y="28" width="180" height="88" rx="8" fill="#1f6f8b"/>
+  <text x="326" y="68" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700">Enter</text>
+  <text x="326" y="90" text-anchor="middle" fill="#e7f3f8" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12">the regulation</text>
+
+  <path d="M424 72 H448" fill="none" stroke="#6a7f8e" stroke-width="2"/>
+  <path d="M442 66 L452 72 L442 78" fill="none" stroke="#6a7f8e" stroke-width="2"/>
+
+  <rect x="456" y="28" width="200" height="88" rx="8" fill="#2f6f62"/>
+  <text x="556" y="62" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700">Check</text>
+  <text x="556" y="84" text-anchor="middle" fill="#e5f3ef" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12">scope and quality</text>
+
+  <path d="M664 72 H688" fill="none" stroke="#6a7f8e" stroke-width="2"/>
+  <path d="M682 66 L692 72 L682 78" fill="none" stroke="#6a7f8e" stroke-width="2"/>
+
+  <rect x="696" y="28" width="160" height="88" rx="8" fill="#8a6a32"/>
+  <text x="776" y="78" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700">Sign</text>
+
+  <path d="M864 72 H888" fill="none" stroke="#6a7f8e" stroke-width="2"/>
+  <path d="M882 66 L892 72 L882 78" fill="none" stroke="#6a7f8e" stroke-width="2"/>
+
+  <rect x="896" y="28" width="184" height="88" rx="8" fill="#0b3a5b"/>
+  <text x="988" y="78" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700">Publish</text>
+
+  <rect x="16" y="156" width="520" height="68" rx="8" fill="#ffffff" stroke="#6a7f8e"/>
+  <text x="36" y="184" fill="#0b3a5b" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700">Optional: discrepancy handling</text>
+  <text x="36" y="206" fill="#3d4f5c" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13">Field conflicts come back to the responsible rule maker</text>
+
+  <rect x="564" y="156" width="516" height="68" rx="8" fill="#ffffff" stroke="#6a7f8e"/>
+  <text x="584" y="184" fill="#0b3a5b" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="700">Optional: regulation discovery</text>
+  <text x="584" y="206" fill="#3d4f5c" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13">Users can ask which regulations apply at a place</text>
+</svg>

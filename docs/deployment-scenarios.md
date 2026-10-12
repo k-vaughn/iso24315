@@ -2,9 +2,9 @@
 
 METR can be deployed incrementally. A jurisdiction does not need to implement the entire METR ecosystem or distribute regulations to external users to gain value. This page explains possible deployment scenarios for METR.
 
-## Jurisdictional Management of Electronic Regulations
+## Digitization of Traffic Regulations
 
-In this foundational scenario, a jurisdiction can start receiving benefits of METR through the management of electronic regulations throughout their lifecycle. Authorized personnel can create or amend regulations, translate them into a machine-readable form, verify that the electronic representation accurately reflects the governing regulation, and maintain the resulting regulatory data.
+In this foundational scenario, a jurisdiction can start receiving benefits of METR through digitizing them and managing the electronic records throughout the regulation lifecycle. Authorized personnel can create or amend regulations, translate them into a machine-readable form, verify that the electronic representation accurately reflects the governing regulation, and maintain the resulting regulatory data.
 
 This scenario does not require regulations to be distributed to vehicles, navigation providers, or other external consumers. A single jurisdiction can deploy a METR regulation system purely as an internal regulation-management system, improving consistency, traceability, reuse, and quality control while continuing to publish regulations through existing channels.
 
@@ -29,7 +29,7 @@ Trip planning extends the jurisdictional-management scenario by adding distribut
 
 ## Pre-announced Regulations
 
-Pre-announced regulations are regulations that are electronically published and distributed to all users with fresh data before they take effect. This includes most regulations issued by legislative and regulatory authorities (i.e., as opposed to emergent regulations that are typically issued by operational authorities and emergency services).
+Pre-announced regulations are regulations that are electronically published and distributed to all users with fresh data before they take effect. This includes most regulations issued by legislative and road authorities (i.e., as opposed to emergent regulations that are typically issued by road operators, maintenance agencies, and emergency services).
 
 Because the effective location, conditions, and time period are known beforehand, the regulation can be verified, distributed, and loaded onto a user device or vehicle system using highly reliable communication channels before it becomes relevant to the user or vehicle. The receiving system can then apply the regulation at the appropriate time and place, including when network connectivity is unavailable.
 
@@ -39,15 +39,15 @@ This scenario supports a large percentage of regulations while notifying users t
 
 Emergent regulations are introduced in response to an unplanned or rapidly changing situation. Examples include restrictions associated with a collision, extreme weather, an evacuation, infrastructure damage, or another immediate safety concern.
 
-In this scenario, the interval between creating a regulation and applying it may be very short. METR must support rapid authorization, translation, verification, distribution, and receipt while still preserving the regulation's provenance and validity. Receiving systems can use this information to prioritize assess whether it affects an active trip, notify the user, or adapt system behaviour as appropriate.
+In this scenario, the interval between creating a regulation and applying it may be very short. METR must support rapid authorization, translation, verification, distribution, and receipt while still preserving the regulation's provenance and validity. Receiving systems can use this information to assess whether the regulation affects an active trip and notify the user or adapt system behaviour as appropriate.
 
 Emergent regulation deployment places greater emphasis on timely distribution, freshness, revocation, and discrepancy handling than the earlier scenarios. It may also operate alongside existing traffic-management or emergency-notification mechanisms.
 
-Deploying emergent regulations can be done before or after deploying pre-announced regulations; however, users must always be informed of which types of regulations are available electronically for a location and how to obtain them. For example, a jurisdiction can decide to deploy electronic emergent regulations within a work zone to improve compliance (especially for ADS) while still relying on posted regulations (and ADS databases) for other regulations.
+Deploying a system that distributes emergent regulations can be done before or after deploying a system that distributes pre-announced regulations; however, users must always be informed of which types of regulations are available electronically for a location, how to obtain them, and the legal standing of the electronic regulations. For example, a jurisdiction can decide to deploy electronic emergent speed limit regulations within a work zone to improve compliance (especially for ADS) while still relying on posted regulations legal enforcement of regulations of any type.
 
 ## Regulation Discovery
 
-Regulation discovery enables a specially authorized user or vehicle to identify posted regulations, generate or update a regulation record, and provide the record directly to a regulation system as a draft electronic regulation for further processing. For example, a specially equipped vehicle with can drive routes and identify all existing posted regulations rather than requiring an agency to manually enter this information into a database. Even if this information is already available in a database, the discovery process can be used to update the database with more accurate as-built information (e.g., a more accurate location of where an associated sign is actually posted).
+Regulation discovery enables a specially authorized and equipped user or vehicle to identify posted regulations, generate or update a regulation record, and provide the record directly to a regulation system as a draft electronic regulation for further processing. For example, a specially equipped vehicle with can drive routes and identify all existing posted regulations rather than requiring an agency to manually enter this information into a database. Even if this information is already available in a database, the discovery process can be used to update the database with more accurate as-built information (e.g., a more accurate location of where an associated sign is actually posted).
 
 The discovery process is conceptually similar to discrepancy handling, but uses an authorized user or vehicle to obtain the information rather than any METR user device.
 

@@ -1,90 +1,130 @@
 # Guidance for METR Regulation System
 
 !!! note
-    Audience: Deployer of METR regulation system (e.g., larger jurisdictions)
+    ==Audience: Deployer of METR regulation system (e.g., larger jurisdictions)==
 
-    Purpose: Guidance for implementation, deployment, maintenance, and operation, including legal and cybersecurity responsibilities
+    ==Purpose: Guidance for implementation, deployment, maintenance, and operation, including legal and cybersecurity responsibilities==
     
-    Scope: Guidance on:
-    - Prerequisites and policies that need to be established/considered
-    - Account management & relationships that may need to be created
-    - Resources & capabilities needed
-    - Data quality & consistency, certification, certificate management
-    - Responsibilities of owner/operator (including any legal responsibilities)
-    - Sample project-level architecture, existing systems with similar or related capabilities
+    ==Scope: Guidance on:==
+    ==- Prerequisites and policies that need to be established/considered==
+    ==- Account management & relationships that may need to be created==
+    ==- Resources & capabilities needed==
+    ==- Data quality & consistency, certification, certificate management==
+    ==- Responsibilities of owner/operator (including any legal responsibilities)==
+    ==- Sample project-level architecture, existing systems with similar or related capabilities==
 
-## Introduction
+This guide is for the organization that hosts the regulation system: state and local transportation agencies, their IT and policy staff, infrastructure owner-operators, and the consultants who support them. The host stores the original electronic regulations for its own jurisdictional entity and for other rule makers it recognizes. The system is responsible for providing these rules to other METR systems (primarily distribution systems) in a trustworthy electronic form.
 
-### Purpose of Page
+In addition to the issues discussed on this page, stakeholders of the regulation system should also be familiar with the [system management perspective](system-management-perspective.md) for responsibilities that apply to every METR component system.
 
-This page is designed to provide comprehensive guidance for state and local entities that operate a Management of Electronic Traffic Regulations (METR) system. Its primary purpose is to assist sub-national governments in effectively deploying, managing, and maintaining METR systems, ensuring that rules and regulations are accessible in trustworthy, electronic formats. By focusing on sub-national guidance, this page addresses the unique challenges and opportunities that state and local operators face, helping them to establish robust and compliant METR systems tailored to their specific needs and jurisdictions.
+## Where the regulation system sits
 
-### Audience
+The regulation system is the catalogue. Rule makers define regulations, the system checks and stores them, and distribution systems carry the signed result to users. Discrepancy reports can come back when the electronic record and the roadside disagree.
 
-This page is intended for state and local government officials, transportation regulators, IT professionals, and other stakeholders involved in the deployment and operation of METR systems. It is particularly relevant for those responsible for the oversight and management of electronic traffic regulations, including infrastructure owners and operators (IOOs), policy makers, and technical staff who ensure the system’s integrity and compliance. Additionally, this guide will be useful for consultants and service providers who support sub-national entities in implementing METR systems.
+![The METR regulation system between rule makers, distribution, users, and discrepancy handling](images/concept-arch.png)
 
-## Prerequisites for Deploying a METR Regulation System
+## Who may publish, and how far that authority goes
 
-Before deploying a METR regulation system, operators must address several key prerequisites to ensure successful implementation. These include:
+The operator's core policy job is deciding **who** may define **which** regulations **where**. Record each recognized rule maker's geographic extent, regulation categories, and any limits on temporary or emergent regulations.
 
-1. **Regulation Signing Policies:** Establish clear policies on regulation signing, including the required certification levels for different regulations (e.g., testing, status quo, verified, verified and proven). Additionally, determine who is authorized to sign regulations, such as requiring a professional engineering license.
+### Several rule makers inside one jurisdiction
 
-2. **Regulation Category Prioritization:** Prioritize which categories of regulations will be converted into the METR system first, such as speed limits, right of way, or parking regulations.
+A single jurisdiction often splits the work. A municipality might assign speed limits to the road authority, parking regulations to the city manager, and emergency regulations to its response teams. The regulation system has to record each of those scopes, and how the rule makers relate, so one office cannot publish into another's authority.
 
-3. **Regulation Freshness Periods:** Define how much advance notice the regulation system will provide before a regulation goes into effect without needing to classify it as an emergent regulation.
+### From a road network down to a single parking space
 
-4. **Regulation Provisioning Agreements:** Determine who the regulation system will provide regulations to, including any external entities or third-party systems.
+Recognition should match the risk and the responsibility. The same hosted system can serve all of these:
 
-5. **METR Options to Support:** Decide which METR features to enable, such as linking to discrepancy handling systems or supporting regulation discovery features.
+![Rule-maker authority narrows from a municipality to a single parking space](images/regulation-system-scopes.svg)
 
-6. **Supporting Data Providers:** Identify authorized providers of supporting data for regulations that require additional datasets and determine if formal agreements with these providers are necessary.
+- A municipality in a large metropolitan area can have broad rights to publish regulations on the public roads it controls.
+- A university or airport can have rights to campus speed limits, access restrictions, and kerbside regulations.
+- A shopping centre can be limited to its parking facilities.
+- A small store can register a single accessible parking space or a private driveway restriction.
 
-7. **Outsourcing vs. In-House Operations:** Assess how much of the METR system will be managed in-house versus outsourced, considering factors such as cost, expertise, and control.
+The small entity should not need its own METR regulation system. It needs:
 
-## Cost Factors
+1. a process to become a recognized rule maker
+2. credentials scoped to its authority
+3. tools or services to enter, update, and retire its regulations
+4. clear expectations for data quality and completeness within its defined area
+5. a way to move responsibility when the property is sold or transferred
 
-While specific cost estimates are beyond the scope of this page, several cost factors must be considered during the deployment, operation, and maintenance of a METR system:
+The [rule maker guide](rule-maker-perspective.md) covers how those entities prepare and enter data. The host owns the onboarding, scoping, and oversight that make that participation safe.
 
-1. **Connectivity Costs:** Ensure reliable and secure connectivity for all system components, which is crucial for real-time regulation dissemination and compliance.
+### Onboarding before anyone can publish
 
-2. **Security Ecosystem:** Invest in a comprehensive security framework to protect the integrity of the regulation system, including data encryption, access controls, and threat monitoring.
+Establish a formal process to:
 
-3. **Operation and Maintenance Costs:** Budget for the ongoing costs associated with running the regulation system, including data storage, archiving, non-repudiation, and auditing.
+- verify that an applicant is a legitimate authority for the claimed facilities and regulation types
+- record the legal basis and the contact points for escalation
+- assign organizational identifiers used in audit and provenance metadata
+- approve, suspend, or revoke recognition when ownership or responsibility changes
 
-4. **Information Entry Costs:** Consider the costs of entering various categories of regulations into the system, with attention to the complexity and volume of data required for different regulation types.
+Campus onboarding will likely be lighter than onboarding another public agency. It still has to be deliberate: an unrecognized party must not be able to publish regulations that look authoritative to vehicles and navigation systems.
 
-5. **Impact on Maintenance, Construction, and Emergency Services:** Plan for the operational impacts of emergent regulations on field personnel, particularly during critical periods such as construction or emergency response.
+### Completeness only for a defined area
 
-6. **Certification, Verification, and Compliance Costs:** Allocate resources for the certification, verification, and ongoing compliance of regulations within the METR system.
+Before a regulation category is advertised as electronically trustworthy, the catalogue for that category in that area has to be necessary and sufficient for users. Support **defined areas** so completeness can be claimed in phases — speed limits on a corridor first, parking later — and so a subordinate rule maker can declare completeness only for the facilities inside its scope.
 
-7. **Personnel Training:** Ensure that staff are adequately trained to manage and operate the METR system, including understanding the technical, legal, and operational aspects of electronic regulation management.
+## How a regulation becomes publishable
 
-## Benefits of Optional METR Features
+Every regulation follows the same path on the hosted system. Optional discrepancy handling and discovery sit beside that path. They are not required to publish.
 
-This section explores the benefits and challenges of implementing optional METR features, such as:
+![From recognizing a rule maker through publish, with optional discrepancy handling and discovery](images/regulation-system-path.svg)
 
-1. **Discrepancy Reporting:** Enables the identification and resolution of conflicts or errors in the regulations, improving the overall reliability and trustworthiness of the system.
+## Policies to settle before deployment
 
-2. **Regulation Discovery:** Allows users to query the system for applicable regulations in specific areas, enhancing transparency and accessibility.
+Agree these points before rule makers depend on the system. They become the operating rules the platform has to enforce.
 
-3. **Verification Processes:** Independent verification of regulations can increase confidence in their accuracy, but may also introduce additional costs and complexity.
+### Who may sign, and at what certification level
 
-## Data Collection
+Set the digital signature to use and how certificates are issued, stored, rotated, and revoked. Set the certification levels required for different regulation types (for example, testing, status quo, verified, or verified and proven). Rule makers identify the people allowed to sign, and the system has to authenticate them.
 
-The METR regulation system can be utilized by multiple rule makers within a jurisdiction, such as campuses that input data into the parent jurisdiction’s system. This section also emphasizes the importance of data accuracy and the need to indicate confidence levels within the metadata of each regulation. By following the guidelines provided in the Rule Maker Guide, operators can ensure that all data entered into the system meets the required standards of accuracy and reliability.
+### Which regulation categories to convert first
 
-## Auditing Capabilities
+Guide the order of conversion — speed limits, right of way, parking, or another category — so users see a consistent service across the area the system covers.
 
-Implementing robust auditing capabilities within the METR system is crucial for maintaining its integrity and compliance. This section explains the importance of audit systems, which allow operators to track changes, verify regulation accuracy, and identify potential issues before they become critical. Effective auditing can reduce the risk and cost of operating the system, ensuring that it remains secure and trustworthy over time.
+### How much notice counts as pre-announced
 
-## Evolution of Regulation Systems
+Define how far ahead a regulation must be available before it takes effect without being treated as emergent. Put that period in the agreement with each rule maker so they know the expectation.
 
-As METR regulation systems are relatively new, particularly outside of navigation providers, it is essential to plan for their evolution from the outset. This section discusses the need to design systems that can gracefully migrate between software versions and adapt to changing standards and requirements. By planning for evolution, operators can ensure that their METR systems remain relevant and effective in the long term.
+### Who receives the published regulations
 
-## Deployment Example with Project-Level Architecture
+Decide which distributors, peer systems, and other parties the regulation system will provide regulations to.
 
-This section provides a practical example of how the ISO reference architecture might be implemented in a specific location where it must interface with multiple systems of the same type, such as a parent regulation system and a peer regulation system. The example illustrates how the architecture can be adapted to meet the needs of a particular project while ensuring compatibility and interoperability with other systems.
+### Which supporting-data providers are trusted
 
-## How to Tailor the Guide and the Standards
+For regulations that depend on extra datasets, name the authorized providers and whether a formal agreement is required.
 
-While this guide offers a comprehensive framework for METR implementation, it is important for deployment sites to tailor the guidance and standards to their specific contexts. This section highlights the key aspects that may require customization, including regulation prioritization, data quality requirements, and operational processes. By tailoring the guide to local conditions, operators can ensure that their METR systems are both effective and sustainable, meeting the unique needs of their jurisdictions.
+### What stays in-house
+
+Decide how much of the system the host will operate and how much will be contracted, including cost, expertise, and who keeps control of recognition and signing policy.
+
+## Optional capabilities worth turning on
+
+These features are not required for a minimal catalogue. Each one improves trust or access and adds operational work.
+
+### Discrepancy reporting
+
+Field and system reports identify conflicts between electronic regulations and what is posted, or between regulations themselves. Linking the regulation system to a discrepancy handling system gives those reports somewhere to go and a path back to the responsible rule maker.
+
+### Regulation discovery
+
+Discovery lets a user ask which regulations apply in a specific area. That makes the catalogue easier to inspect. It also means the system must answer from the same scoped, signed data it publishes.
+
+### Independent verification
+
+A check by someone other than the person who entered the regulation raises confidence in accuracy. It also adds cost and another role in the workflow. Certification levels should say when that extra check is required.
+
+## Data entry that stays inside scope
+
+Many rule makers use one system: the host jurisdiction's own regulators, and subordinate authorities such as campuses that enter data into the parent system. Apply the recognition and scope rules at entry time. Record a confidence or certification level in the metadata of each regulation so downstream systems can see how far the data has been checked.
+
+## Related pages
+
+- [System management perspective](system-management-perspective.md)
+- [Jurisdictional management perspective](jurisdictional-management-perspective.md)
+- [Rule maker perspective](rule-maker-perspective.md)
+- [Regulatory environment](regulatory-environment.md)
+- [Key components](key-components.md)

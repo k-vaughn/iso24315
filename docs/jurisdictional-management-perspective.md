@@ -1,8 +1,8 @@
 # Jurisdictional Management Perspective
 
-The jurisdictional management perspective represents the point of view of an entity that hosts — and is accountable for — one or more of the back-office METR components that make electronic regulations available within a geographic area. In practice, that often means operating a **regulation system**, a **discrepancy handling system**, all or part of a **distribution system** (e.g., it might just perform the **collection function** and serve as a single access point to multiple regulation systems), or a combination of these.
+The jurisdictional management perspective represents the point of view of an entity that hosts — and is accountable for — one or more of the back-office METR component systems that make electronic regulations available within a geographic area. In practice, that often means operating a **regulation system**, a **discrepancy handling system**, all or part of a **distribution system** (e.g., it might just perform the **collection function** and serve as a link between multiple regulation systems and multiple distribution systems), or a combination of these.
 
-This role is more than IT system ownership. The jurisdictional manager defines who may act as a rule maker on the hosted platform, how far each rule maker’s authority extends, how credentials and signing rights are issued and revoked, and how the hosted systems stay aligned with regional interoperability policies. Smaller jurisdictions — including campuses, toll operators, business parks, and even a mom-and-pop store with a single enforceable parking regulation — typically will not run their own METR platforms. They become recognized rule makers on a parent jurisdiction’s system instead.
+This role is more than ownership of an ICT system. The jurisdictional manager defines who may act as a rule maker on the hosted platform, how far each rule maker's authority extends, how credentials and signing rights are issued and revoked, and how the hosted systems stay aligned with regional interoperability policies. Smaller jurisdictions — including towns, toll road operators and campuses, such as universities, hospitals, ports, business parks, shopping centres, and even mom-and-pop stores with a small car park — typically will not run their own METR platforms. They become recognized rule makers on a parent jurisdiction’s system instead.
 
 For the technical deployment details of each component, see the [regulation system](regulation-system-perspective.md), [discrepancy handling](discrepancy-handling-perspective.md), and [distribution system](distribution-perspective.md) guides. This page focuses on the governance and operational perspective of the host.
 
@@ -29,7 +29,11 @@ Jurisdictional hosting concentrates platform, security, and interface responsibi
 - **Shared discrepancy and collection services** that would be impractical for each small entity to operate alone
 - **Incremental rollout** — a jurisdiction can begin with internal regulation management and later add collection, external distribution, or discrepancy handling ([deployment scenarios](deployment-scenarios.md))
 
-## Scope of What a Jurisdictional Manager May Host
+## Jurisdictional Management Context
+
+To understand the role of the jurisdictional manager, it is important to understand the context in which they operate. This is largely explained by the [regulatory environment](regulatory-environment.md) and [distribution environment](distribution-environment.md) pages.
+
+### Scope of What a Jurisdictional Manager May Host
 
 A jurisdictional manager may host one component or several. Common patterns include:
 
@@ -42,119 +46,13 @@ A jurisdictional manager may host one component or several. Common patterns incl
 
 Not every jurisdictional manager will host everything. Regional policy can assign collection or discrepancy handling to another entity. What the jurisdictional manager should do is make those relationships explicit: which systems it operates, which it depends on, and how rule makers and users discover them.
 
-## Recognizing Smaller Jurisdictions as Rule Makers
-
-A core complexity of this job is deciding **who is allowed to define which regulations where**.
-
-The jurisdictional manager defines **recognized rule makers**, each with a scoped authority: geographic extent, regulation categories, and any limits on temporary or emergent regulations.
-
-### Nested and neighbouring authorities
-
-METR must accommodate real geography and governance:
-
-- smaller governmental areas contained inside a parent jurisdiction (towns within a county; campuses within a city)
-- private or semi-private campuses whose transport regulations apply on facilities they manage
-- non-contiguous “islands” of authority
-- higher-authority roads that pass through a lower-authority area
-- neighbouring jurisdictions that prefer to use a nearby parent platform rather than stand up their own
-
-### Multiple rule makers in a single jurisdiction
-
-A single jurisdiction can have multiple rule makers, each with a different scope. This is common in areas where different types of regulations are published by different entities. For example, a municipality can assign a road authority to define speed limits, a city manager to define parking regulations, and its emergency response teams to define emergency regulations.
-
-In this case, the jurisdictional manager needs to record the scope of each rule maker and how they interact with each other. This can be done by recording the geographic extent of the jurisdictional entity that they represent and the types of regulations that they are allowed to issue.
-
-### From considerable areas to mom-and-pop stores
-
-Recognition should scale with risk and responsibility. Examples:
-
-- A municipality within a large metropolitan area can have broad rights to publish any type of regulation.
-- A university or airport can have rights to publish campus speed limits, access restrictions, and kerbside regulations.
-- A shopping centre can have rights limited to its parking facilities.
-- A small store can register a single accessible parking space or a private driveway restriction.
-
-In all cases, the small entity should not need its own METR regulation system. It needs:
-
-1. a process to become a recognized rule maker
-2. credentials scoped to its authority
-3. tools or services to enter, update, and retire its regulations
-4. clear expectations for data quality and completeness within its defined area
-5. a process that allows the migration of responsibility (e.g., in the case of the property being sold or transferred to a new owner)
-
-The [rule makers guide](rule-maker-perspective.md) addresses how those entities prepare and enter data. The jurisdictional manager owns the onboarding, scoping, and oversight policies that make that participation safe.
-
-### Defined areas and trustworthy completeness
-
-Before a regulation category is advertised as electronically trustworthy in an area, the catalogue for that category must be necessary and sufficient for users. Jurisdictional managers should support **defined areas** so completeness can be claimed in phases — for example, speed limits on a corridor first, parking later — so that subordinate rule makers can declare completeness only within their scoped facilities.
-
-## Credentials and Security Management
-
-Because hosted systems speak with legal and safety consequence, identity and cryptographic controls are central to jurisdictional management.
-
-### Organizational identity and onboarding
-
-Establish a formal process to:
-
-- verify that an applicant is a legitimate authority for the claimed facilities or regulation types
-- record legal basis and contact points for escalation
-- assign organizational identifiers used in audit and provenance metadata
-- approve, suspend, or revoke recognition when ownership or responsibility changes
-
-Mom-and-pop and campus onboarding will be lighter-weight than onboarding another public agency, but it must still be deliberate: an unrecognized party must not be able to publish regulations that appear authoritative to vehicles and navigation systems.
-
-### User accounts and role separation
-
-Within each recognized organization, separate duties such as:
-
-- translation / data entry
-- verification
-- approval / signing
-- administration (user and certificate management)
-- read-only audit or oversight
-
-Least privilege reduces the chance that a single compromised account can inject or alter signed regulations unnoticed.
-
-### Certificates, signing rights, and trust
-
-Regulation trustworthiness depends on signing and certification practices. Jurisdictional managers should define:
-
-- which roles may sign which regulation categories and confidence levels
-- how signing keys and certificates are issued, stored, rotated, and revoked
-- whether subordinate rule makers sign as themselves, or whether the parent jurisdiction countersigns or co-signs under defined policies
-- how certificate status is published so distributors and consumer systems can validate signatures over time
-
-Digital signatures should ideally indicate the entity legally responsible for the regulation, even when the regulation is hosted on a parent platform.
-
-### Scope enforcement in the platform
-
-Credentials are not enough by themselves. The hosted regulation system should enforce authorization in software and workflow:
-
-- geographic and categorical limits for each rule maker
-- rejection or quarantine of out-of-scope submissions
-- mandatory metadata for confidence / certification level
-- retention of who entered, verified, and signed each change
-
-### Discrepancy and collection credentials
-
-If the jurisdiction also hosts discrepancy handling or collection:
-
-- consumer systems and partner distributors need authenticated channels to submit reports or retrieve catalogues
-- peer regulation systems need mutual authentication for collection and hand-off
-- operators need credentials to investigate reports without gaining unnecessary rights to alter regulations
-
-Security design should assume that partners and devices are independently operated and upgraded systems within the larger ([system of systems](system-of-systems.md)).
-
-### Operational security responsibilities
-
-Ongoing duties typically include access reviews, key ceremony and HSM practices where used, logging and non-repudiation, incident response for credential compromise, and alignment with regional cybersecurity profiles. Auditing must preserve enough history to reconstruct what was published, by whom, under which authority, and when.
-
 ## Responsibilities of Jurisdictional Management
 
 In the METR context, jurisdictional managers are generally responsible for:
 
 1. **Hosting and sustaining** the chosen back-office components at an acceptable availability and security level
 2. **Rule-maker governance** — recognition, scoping, credentials, training expectations, and revocation
-3. **Policy choices** that the platform must implement — signing regulations, freshness periods, regulation-category priorities, optional features such as discovery or discrepancy linkage ([regulation system prerequisites](regulation-system-perspective.md#prerequisites-for-deploying-a-metr-regulation-system))
+3. **Policy choices** that the platform must implement — signing regulations, freshness periods, regulation-category priorities, optional features such as discovery or discrepancy linkage ([regulation system prerequisites](regulation-system-perspective.md#policies-to-settle-before-deployment))
 4. **Interface commitments** to parent, peer, and distribution systems required by regional interoperability policy
 5. **Completeness signalling** — ensuring defined areas correctly advertise which electronic regulation categories are trustworthy
 6. **Discrepancy closure** — ensuring confirmed issues reach the responsible rule maker or field organization and that electronic or physical corrections are completed
@@ -171,7 +69,7 @@ Several issues are easy to underestimate:
 - **Uneven maturity** — some rule makers digitize quickly; others lag, affecting completeness claims for shared corridors
 - **Cross-border trips** — collection relationships with neighbouring jurisdictions so users are not left with gaps at boundaries
 - **Emergent regulations** — rapid authorization paths that remain auditable under emergency or work-zone conditions
-- **Shared liability perceptions** — hosting another entity’s regulations does not erase the need for clear provenance of legal responsibility
+- **Shared liability perceptions** — hosting another entity's regulations does not erase the need for clear provenance of legal responsibility
 
 ## Relationship to Other Perspectives
 

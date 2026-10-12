@@ -23,6 +23,16 @@ This page serves as a guide for deploying and managing a Management of Electroni
 
 This page is intended for system administrators, IT professionals, transportation regulators, and other stakeholders responsible for deploying and operating METR discrepancy handling systems. It is also relevant for rule makers, policy makers, and legal experts who oversee transportation regulations and need to ensure the system's reliability and accuracy. Additionally, consultants and service providers working with transportation agencies will find this guide valuable for supporting their clients’ needs in managing regulatory discrepancies.
 
+### Discrepancy and collection credentials
+
+If the jurisdiction also hosts discrepancy handling or collection:
+
+- consumer systems and partner distributors need authenticated channels to submit reports or retrieve catalogues
+- peer regulation systems need mutual authentication for collection and hand-off
+- operators need credentials to investigate reports without gaining unnecessary rights to alter regulations
+
+Security design should assume that partners and devices are independently operated and upgraded systems within the larger ([system of systems](system-of-systems.md)).
+
 ## What Are the Prerequisites for Deploying a METR Discrepancy Handling System?
 
 Deploying a METR discrepancy handling system requires several prerequisites to ensure successful implementation. These include establishing a reliable infrastructure for real-time data collection and processing, ensuring secure connections between the discrepancy handling system and other METR systems, and defining the necessary policies for identifying, validating, and reporting discrepancies. Additionally, the system must integrate with regulation systems and be able to handle data from various sources, including users, road infrastructure, and external systems.
