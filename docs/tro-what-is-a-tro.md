@@ -5,14 +5,19 @@ Most jurisdictions have established legislation that control, guide, and organiz
 !!! note
     Some jurisdictions use other names for this legislation (e.g., vehicle code). Small entities (e.g., mom and pop shops) might not have a formal highway code document, relying instead upon the rules of the parent jurisdiction.
 
-The highway code generally identifies the rule makers that are authorized to issue various types of **traffic regulation orders** TROs under specific conditions. A **Traffic Regulation Order (TRO)** is a legally recognized document that officially specifies one or more **traffic regulations** (which can include any combination of mandatory, advisory, or guidance regulations). Rule makers that issue TROs are called **regulators**.
+The highway code generally identifies the **rule makers** that are authorized to issue various types of **traffic regulation orders** (TROs) under specific conditions. A traffic regulation order is a legally recognized document that officially specifies one or more **traffic regulations** (which can include any combination of mandatory, advisory, or guidance regulations). Rule makers that issue TROs are called **regulators**.
 
-For example, the highway code can designate the road authority as a regulator for who can issue TROs regarding stop signs, speed limits, and other traffic regulations. It can also designate emergency response organizations as regulators who can issue a more limited set of temporary TROs regarding traffic control during an incident. 
+For example, the highway code can designate the road authority as a regulator for who can issue TROs regarding stop signs, speed limits, and other traffic regulations. It can also designate emergency response organizations as regulators who can issue a more limited set of temporary TROs regarding traffic control during an incident.
 
-!!! note "Terminology"
-    On this website, the term **traffic rule** means a legislative provision defining transport behaviour (for example, part of the **rules of the road** as defined in the highway code). The term **traffic regulation** means a transport provision established by a regulator, who is authorized to do so by the highway code. Together they form the **rules and regulations (R&amp;Rs)** that can be stored and distributed by METR. This section of the website focuses on traffic regulations. While most of this discussion also applies to traffic rules, the process to establish traffic rules is outside the scope of this website.
-    
-    The distinction between traffic rules and traffic regulations is largely irrelevant to the end METR user (i.e., they must comply with both) and the content of both can be represented in a single electronic format. Therefore, to simplify the text of this website, the term **electronic regulation** is used to refer to the electronic versions of both R&amp;Rs while the term **electronic TRO** is used to refer to the electronic representation of the containing legal package (i.e., either a portion of a legislative document or a specific regulatory document). For information about prioritising the digitizing of R&R, see ==Prioritisation of electronic regulation (add link)==.
+<div class="diagram-light-bg" markdown="0">
+--8<-- "images/rr-terms.svg"
+</div>
+
+!!! note
+    This website uses the [\"latest\" terminology](https://isotc204.org/iso24315-vocab/latest/), which varies slightly from ISO 24315-1:2025. For example, in ISO 24315-1:2025, the term \"rule\" was used to reference rules and regulations. On this website,  the term has been refined to only refer to provisions within the rules of the road while a new term (\"rules and regulations\") is used to refer to the combination of the two. Other refinements have been made as well. All of these refinements are expected to be reflected in the next edition of ISO 24315-1.
+
+!!! note
+    The distinction between traffic rules and traffic regulations is important to rule makers but largely irrelevant to the end METR user (i.e., they must comply with both) and the content of both can be represented in a single electronic format. Therefore, to simplify the text, the term **electronic regulation** is used to refer to the electronic versions of both R&amp;Rs while the term **electronic TRO** is used to refer to the electronic representation of the containing legal package (i.e., either a portion of a legislative document or a specific regulatory document). For information about prioritising the digitizing of R&R, see ==Prioritisation of electronic regulation (add link)==.
 
 ## What a TRO can contain
 
@@ -25,6 +30,9 @@ A TRO can include one or more traffic regulations. Each traffic regulation shoul
 - a defined location
 - conditions that apply
 - any permitted exemptions
+
+!!! note
+    The legal contents of a TRO can vary by jurisdiction (e.g. region, country, state, city) as directed by overarching legislation within the jurisdiction. This is beyond the scope of this website.
 
 !!! example "Examples of traffic regulations"
 

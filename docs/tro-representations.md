@@ -1,6 +1,6 @@
 # Regulation and TRO Representations
 
-The same regulation (and the same TRO) can exist in several representations. Rule makers must keep them equivalent — especially legal and electronic forms — because both can underpin enforcement and automated compliance.
+The same regulation (and the same TRO) can exist in several representations, as shown in the table below. Rule makers must keep them equivalent.
 
 ## Regulation representations
 
@@ -13,7 +13,7 @@ The same regulation (and the same TRO) can exist in several representations. Rul
 
 ![Physical regulations appear as TCDs in the field](images/tro/tro-example-speed-guidance.png)
 
-Because legal and electronic representations can both support enforcement, they must be verified as equivalent. That is a primary reason jurisdictions are encouraged to adopt electronic formats early in the regulation-making process rather than treating digitization as an afterthought.
+Physical signage, the electronic representation, and the legal document underlying the regulation must be synchronized to properly enforce the regulation. The complexity of maintaining synchronization between the electronic representation and the legal regulation can be reduced or even eliminated by adopting electronic formats early in the regulation-making process (i.e., enacting the electronic regulation as the legal regulation) rather than treating digitization as an afterthought.
 
 ## TRO representations
 

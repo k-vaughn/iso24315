@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 1280 520" width="1280" height="520" role="img"
+     aria-labelledby="title desc">
+  <title id="title">R&amp;Rs organization diagram</title>
+  <desc id="desc">Organization diagram with R&amp;Rs at the top, rule (of the road) and regulation beneath it, and regulatory, advisory, and guidance beneath regulation. Highway code sits beside rule; traffic regulation order sits beside regulation.</desc>
+  <style>
+    .box { cursor: pointer; }
+    .box rect { stroke-width: 1.5; }
+    .box:hover rect { filter: brightness(1.14); }
+    .box:focus { outline: none; }
+    .box:focus rect { stroke: #e2b33c; stroke-width: 3; }
+    .label {
+      font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      fill: #ffffff;
+      pointer-events: none;
+    }
+    .label-sm {
+      font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      fill: #ffffff;
+      pointer-events: none;
+    }
+    .hier { fill: none; stroke: #6a7f8e; stroke-width: 2; stroke-linecap: square; }
+    .assoc { fill: none; stroke: #8a6a32; stroke-width: 1.75; stroke-dasharray: 5 4; }
+    .edge-label {
+      font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+      font-size: 11px;
+      fill: #5c4818;
+      pointer-events: none;
+    }
+  </style>
+
+  <rect width="1280" height="520" fill="#f4f7f9"/>
+
+  <!-- R&Rs to rule (of the road) and regulation -->
+  <path class="hier" d="M620 100 V148 H430 V176"/>
+  <path class="hier" d="M620 148 H800 V176"/>
+
+  <!-- regulation to regulatory, advisory, and guidance -->
+  <path class="hier" d="M800 234 V278 H560 V306"/>
+  <path class="hier" d="M800 278 V306"/>
+  <path class="hier" d="M800 278 H1040 V306"/>
+
+  <!-- rules are part of the highway code -->
+  <path class="assoc" d="M178 205 H268"/>
+  <text class="edge-label" x="223" y="196" text-anchor="middle">rules are part of</text>
+  <text class="edge-label" x="223" y="226" text-anchor="middle">the highway code</text>
+
+  <!-- regulations are part of a TRO -->
+  <path class="assoc" d="M910 205 H1004"/>
+  <text class="edge-label" x="957" y="196" text-anchor="middle">regulations are</text>
+  <text class="edge-label" x="957" y="226" text-anchor="middle">part of a TRO</text>
+
+  <a class="box" href="https://isotc204.org/iso24315-vocab/latest/terms/rule%20or%20regulation/"
+     xlink:href="https://isotc204.org/iso24315-vocab/latest/terms/rule%20or%20regulation/" target="_blank">
+    <title>R&amp;Rs</title>
+    <rect x="510" y="40" width="220" height="60" rx="8" fill="#0b3a5b" stroke="#082c46"/>
+    <text class="label" x="620" y="76" text-anchor="middle">R&amp;Rs</text>
+  </a>
+
+  <a class="box" href="https://isotc204.org/iso24315-vocab/latest/terms/highway%20code/"
+     xlink:href="https://isotc204.org/iso24315-vocab/latest/terms/highway%20code/" target="_blank">
+    <title>highway code</title>
+    <rect x="16" y="176" width="162" height="58" rx="8" fill="#8a6a32" stroke="#6e5424"/>
+    <text class="label-sm" x="97" y="210" text-anchor="middle">highway code</text>
+  </a>
+
+  <a class="box" href="https://isotc204.org/iso24315-vocab/latest/terms/rule/"
+     xlink:href="https://isotc204.org/iso24315-vocab/latest/terms/rule/" target="_blank">
+    <title>rule (of the road)</title>
+    <rect x="268" y="176" width="324" height="58" rx="8" fill="#1f6f8b" stroke="#18596f"/>
+    <text class="label" x="430" y="210" text-anchor="middle">rule (of the road)</text>
+  </a>
+
+  <a class="box" href="https://isotc204.org/iso24315-vocab/latest/terms/regulation/"
+     xlink:href="https://isotc204.org/iso24315-vocab/latest/terms/regulation/" target="_blank">
+    <title>regulation</title>
+    <rect x="690" y="176" width="220" height="58" rx="8" fill="#1f6f8b" stroke="#18596f"/>
+    <text class="label" x="800" y="210" text-anchor="middle">regulation</text>
+  </a>
+
+  <a class="box" href="https://isotc204.org/iso24315-vocab/latest/terms/traffic%20regulation%20order/"
+     xlink:href="https://isotc204.org/iso24315-vocab/latest/terms/traffic%20regulation%20order/" target="_blank">
+    <title>traffic regulation order</title>
+    <rect x="1004" y="176" width="250" height="58" rx="8" fill="#8a6a32" stroke="#6e5424"/>
+    <text class="label-sm" x="1129" y="210" text-anchor="middle">traffic regulation order</text>
+  </a>
+
+  <a class="box" href="https://isotc204.org/iso24315-vocab/latest/terms/regulatory/"
+     xlink:href="https://isotc204.org/iso24315-vocab/latest/terms/regulatory/" target="_blank">
+    <title>regulatory</title>
+    <rect x="470" y="306" width="180" height="58" rx="8" fill="#2f6f62" stroke="#24574d"/>
+    <text class="label" x="560" y="340" text-anchor="middle">regulatory</text>
+  </a>
+
+  <a class="box" href="https://isotc204.org/iso24315-vocab/latest/terms/advisory/"
+     xlink:href="https://isotc204.org/iso24315-vocab/latest/terms/advisory/" target="_blank">
+    <title>advisory</title>
+    <rect x="710" y="306" width="180" height="58" rx="8" fill="#3d6f8b" stroke="#2f5770"/>
+    <text class="label" x="800" y="340" text-anchor="middle">advisory</text>
+  </a>
+
+  <a class="box" href="https://isotc204.org/iso24315-vocab/latest/terms/guidance/"
+     xlink:href="https://isotc204.org/iso24315-vocab/latest/terms/guidance/" target="_blank">
+    <title>guidance</title>
+    <rect x="950" y="306" width="180" height="58" rx="8" fill="#4a6280" stroke="#394d66"/>
+    <text class="label" x="1040" y="340" text-anchor="middle">guidance</text>
+  </a>
+</svg>
