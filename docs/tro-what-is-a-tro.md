@@ -16,6 +16,9 @@ For example, the highway code can designate the road authority as a regulator fo
 
 ## What a TRO can contain
 
+!!! question
+    ==It seems as if a TRO should contain one or more groups of traffic regulations. For example, a TRO might contain a group of traffic regulations for operation of a reversible flow lane in one direction of a road, a second group for operation of the same lane in the other direction, and a third group for a closed reversible flow lane. Likewise, a TRO for road works might contain multiple groups of traffic regulations for different phases of the road works.==
+
 A TRO can include one or more traffic regulations. Each traffic regulation should have:
 
 - a clear mandatory, advisory, or guidance requirement
@@ -74,14 +77,22 @@ Traffic rules (i.e., defined in the highway code) are documented in legislation,
 
 ## Example TROs
 
-**School-zone or residential speed limit.** A TRO may locate each speed-limit and end-of-limit sign with coordinates and optional time-based conditions (for example, 07:00–18:00 on school days).
+!!! example "Example TRO: School-zone or residential speed limit"
 
-![Simplified TRO example for a school-zone speed limit](images/tro/tro-example-school-zone.png)
+    A TRO may locate each speed-limit and end-of-limit sign with coordinates and optional time-based conditions (for example, 07:00–18:00 on school days).
 
-**Work zone.** A TRO may specify the traffic control devices needed to protect workers and manage vehicles, pedestrians, and micromobility through the site, including transition plans for the order in which devices are deployed.
+    ![Simplified TRO example for a school-zone speed limit](images/tro/tro-example-school-zone.png)
 
-![Example work-zone layout that a TRO may specify](images/tro/tro-example-work-zone.png)
+!!! example "Example TRO: Work zone"
 
-**Parking plan.** A TRO for parking restrictions in part of a city centre or residential area may show required signs and markings for many spaces across multiple streets, each with its own time restrictions.
+    A TRO may specify the traffic control devices needed to protect workers and manage vehicles, pedestrians, and micromobility through the site, including transition plans for the order in which devices are deployed.
 
-**Emergent incident.** A digitally completed and signed TRO (or activation of a dormant TRO) may temporarily reduce speed and close lanes after a collision, often issued from a traffic management centre or by authorized field personnel.
+    ![Example work-zone layout that a TRO may specify](images/tro/tro-example-work-zone.png)
+
+!!! example "Example TRO: Parking plan"
+
+    A TRO for parking restrictions in part of a city centre or residential area may show required signs and markings for many spaces across multiple streets, each with its own time restrictions.
+
+!!! example "Example TRO: Emergent incident"
+
+    A digitally completed and signed TRO (or activation of a dormant TRO) may temporarily reduce speed and close lanes after a collision, often issued from a traffic management centre or by authorized field personnel.

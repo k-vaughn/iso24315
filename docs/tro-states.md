@@ -1,9 +1,15 @@
 # TRO States
 
-A TRO also has a lifecycle. Because one TRO can contain many regulations, TRO state and regulation state are related but not identical: an order can be in operation while individual regulations inside it flip between active, inactive, and overridden.
+A TRO also has a lifecycle. Because one TRO can contain many traffic regulations, TRO state and regulation state are related but not identical: an order can be in operation while individual traffic regulations inside can be in any state.
 
-!!! note
-    Draft ISO/TR 24315-5 extends and revises some TRO state definitions relative to ISO 24315-1:2025; future editions are expected to harmonize the vocabulary.
+!!! question
+    ==I was under the impression that a single TRO could cover multiple phases of road works, evacuation, etc. If that is true, then some traffic regulations within a TRO might be active while others might not be implemented - and the discussion on this page is overly simplified and should be updated.==
+
+!!! question
+    ==Do electronic regulations need to be defined in an electronic TRO? Does an electronic TRO need to be complete? METR needs to be able to provide a complete set of regulations of a particular type (e.g., speed limits); but TROs containing speed limits can include other traffic regulations. Requiring all traffic regulations to be contained in a TRO and requiring the TRO to contain all defined traffic regulations would be counter-productive to getting METR up and running for core information as quickly as possible. I am inclined to say that for the purposes of METR, traffic regulations do not need to be in a TRO and that TROs do not need to be complete (i.e., the METR user device only cares about the traffic regulations not the TRO - the TRO seems to be for the regulator from a legal context). If this is true, it would then be up to the regional body and/or local jurisdictions to define the importance of defining TROs. Perhaps the one exception to this is when a group of traffic regulations are always enacted (moved into operation) as a group, such as a phase of an emergency response plan.==
+
+!!! question
+    ==Would a TRO that defines the operation of a reversible flow lane according to a standard schedule be considered dormant when not active - what if multiple phases are defined in one TRO?==
 
 ## TRO state summary
 
