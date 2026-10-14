@@ -1,8 +1,10 @@
 # Need for Trustworthiness
 
+<div class="draft-watermark" aria-hidden="true"></div>
+
 ## Need for Trustworthiness
 
-Trustworthiness is fundamental to METR working across each tier and system inherent in METR’s design. METR is intended to provide machine-interpretable rules that vehicles, travelers, transportation operators, and navigation service providers can rely on to distribute authentic, accurate, and timely information. For this to work, a user must be able to determine that a rule is legitimate, has been represented correctly, remains current, and applies to the relevant location, time, and road user or vehicle. Trustworthiness is a multi-dimensional construct (see figure below) that requires several factors to be trustworthy simultaneously. What’s more, this trustworthiness extends across the complete METR lifecycle—from the creation and encoding of a regulation, through verification and distribution, to its receipt, interpretation, use, and subsequent updates or corrections.
+Trustworthiness is fundamental to METR working across each tier and system inherent in METR's design. METR is intended to provide machine-interpretable rules that vehicles, travelers, transportation operators, and navigation service providers can rely on to distribute authentic, accurate, and timely information. For this to work, a user must be able to determine that a rule is legitimate, has been represented correctly, remains current, and applies to the relevant location, time, and road user or vehicle. Trustworthiness is a multi-dimensional construct (see figure below) that requires several factors to be trustworthy simultaneously. What's more, this trustworthiness extends across the complete METR lifecycle—from the creation and encoding of a regulation, through verification and distribution, to its receipt, interpretation, use, and subsequent updates or corrections.
 
 The term **trustworthy** encompasses a set of attributes that are often separately analysed and grouped in different ways. As shown in the figure below, METR groups the trustworthiness attributes under `information security`, `safety`, and `reliability`.
 

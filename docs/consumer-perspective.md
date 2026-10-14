@@ -1,5 +1,8 @@
 # METR User Device Developer Perspective
 
+<div class="stub-watermark" aria-hidden="true"></div>
+
+
 !!! note
     Audience: Deployer of METR consumer system (e.g., consumer system developers for vehicle, smartphone app, navigation app, etc.)
 
@@ -21,7 +24,7 @@ This page provides guidance for deploying and managing a Management of Electroni
 
 ### Audience
 
-This page is intended for system developers, IT professionals, transportation operators, and other stakeholders responsible for deploying or managing systems that consume METR data. It is also relevant for navigation system developers, vehicle manufacturers, public transportation agencies, and infrastructure managers who need to integrate electronic rules and regulations into their systems. Consultants, service providers, and legal experts involved in regulatory compliance and system design will also find this guide useful for supporting their clients' and stakeholders’ needs.
+This page is intended for system developers, IT professionals, transportation operators, and other stakeholders responsible for deploying or managing systems that consume METR data. It is also relevant for navigation system developers, vehicle manufacturers, public transportation agencies, and infrastructure managers who need to integrate electronic rules and regulations into their systems. Consultants, service providers, and legal experts involved in regulatory compliance and system design will also find this guide useful for supporting their clients' and stakeholders' needs.
 
 ## What Are the Prerequisites for Deploying a METR Consumer System?
 
@@ -29,7 +32,7 @@ Before deploying a METR consumer system, several prerequisites must be met. Thes
 
 ## What Types of Electronic Regulations Do I Need?
 
-The types of electronic regulations required for a METR consumer system depend on the specific use case. Common types include speed limits, right-of-way regulations, parking restrictions, lane usage regulations, and temporary traffic controls (e.g., road closures, detours). Additionally, systems may need access to vehicle-specific regulations, such as those governing the use of autonomous vehicles or electric vehicle charging stations. Understanding the needs of the system’s users will help determine which categories of electronic regulations are essential.
+The types of electronic regulations required for a METR consumer system depend on the specific use case. Common types include speed limits, right-of-way regulations, parking restrictions, lane usage regulations, and temporary traffic controls (e.g., road closures, detours). Additionally, systems may need access to vehicle-specific regulations, such as those governing the use of autonomous vehicles or electric vehicle charging stations. Understanding the needs of the system's users will help determine which categories of electronic regulations are essential.
 
 ## How Do I Determine If the Electronic Regulations That I Need Are Available Within an Area?
 
@@ -53,7 +56,7 @@ Including optional features such as automatic regulation updates, discrepancy re
 
 ## What Is Involved with Using the Data?
 
-Using METR data involves receiving, processing, and interpreting electronic regulations in real-time or near real-time. Systems must be capable of correctly parsing regulation data, ensuring that it is relevant to the user’s location, and applying it in accordance with the current conditions (e.g., weather, time of day, traffic). Additionally, systems need to store or cache certain regulation data to ensure continuity in the event of connectivity issues and ensure that users can access the most recent information.
+Using METR data involves receiving, processing, and interpreting electronic regulations in real-time or near real-time. Systems must be capable of correctly parsing regulation data, ensuring that it is relevant to the user's location, and applying it in accordance with the current conditions (e.g., weather, time of day, traffic). Additionally, systems need to store or cache certain regulation data to ensure continuity in the event of connectivity issues and ensure that users can access the most recent information.
 
 ### What Are the Responsibilities for Managing Multiple Sources of Data?
 
@@ -71,7 +74,7 @@ Discrepancy reporting is a key feature that allows users to flag issues with rec
 
 #### What Steps Are Required to Validate Discrepancies Prior to Reporting Them?
 
-Before discrepancies are reported to a regulation system, they must undergo a validation process. This includes verifying the data’s accuracy, ensuring that the discrepancy is legitimate, and confirming that it has not already been addressed by the system. Validation may involve automated checks as well as manual review by system operators. Once validated, the discrepancy is submitted to the relevant regulation system for resolution.
+Before discrepancies are reported to a regulation system, they must undergo a validation process. This includes verifying the data's accuracy, ensuring that the discrepancy is legitimate, and confirming that it has not already been addressed by the system. Validation may involve automated checks as well as manual review by system operators. Once validated, the discrepancy is submitted to the relevant regulation system for resolution.
 
 #### What Are the Time Requirements for Processing Reported Discrepancies? What Happens If There Is No Connectivity?
 
@@ -87,7 +90,7 @@ To maintain transparency and accountability, METR consumer systems must capture 
 
 ## Migration from Existing Systems
 
-Migrating from existing systems to a METR consumer system requires careful planning to ensure data continuity and minimal disruption to users. Migration steps include data mapping, integration with existing regulation systems, and training personnel on the new system’s features. Operators must also ensure that all relevant regulation data from legacy systems is accurately transferred to the new system and that any discrepancies during the migration are promptly addressed.
+Migrating from existing systems to a METR consumer system requires careful planning to ensure data continuity and minimal disruption to users. Migration steps include data mapping, integration with existing regulation systems, and training personnel on the new system's features. Operators must also ensure that all relevant regulation data from legacy systems is accurately transferred to the new system and that any discrepancies during the migration are promptly addressed.
 
 ## Deployment Example with Project-Level Architecture
 

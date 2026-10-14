@@ -42,7 +42,7 @@ Before claiming that a regulation category is fully represented and trustworthy 
 
 ## Evolution of Regulation Sets
 
-As new regulations are created or existing regulations change, it’s essential to have processes in place to manage this evolution. This section discusses how METR systems can accommodate new regulations, such as the installation of new stop signs, temporary regulations like planned parking restrictions, and emergent regulations such as rolling lane closures. By planning for these scenarios, rule makers can ensure that their systems remain up-to-date and responsive to changing conditions, maintaining the integrity and effectiveness of the METR system.
+As new regulations are created or existing regulations change, it's essential to have processes in place to manage this evolution. This section discusses how METR systems can accommodate new regulations, such as the installation of new stop signs, temporary regulations like planned parking restrictions, and emergent regulations such as rolling lane closures. By planning for these scenarios, rule makers can ensure that their systems remain up-to-date and responsive to changing conditions, maintaining the integrity and effectiveness of the METR system.
 
 ## Planning for Evolution of the METR Standards
 

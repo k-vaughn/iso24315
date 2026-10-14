@@ -1,5 +1,7 @@
 # Frequently Asked Questions
 
+<div class="draft-watermark" aria-hidden="true"></div>
+
 ## What are the benefits of making electronic regulations available?
 
 The implementation of METR offers significant benefits across multiple stakeholder groups:

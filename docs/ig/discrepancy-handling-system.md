@@ -21,7 +21,7 @@ This document serves as a guide for deploying and managing a Management of Elect
 
 ### Audience
 
-This document is intended for system administrators, IT professionals, transportation regulators, and other stakeholders responsible for deploying and operating METR discrepancy handling systems. It is also relevant for rule makers, policy makers, and legal experts who oversee transportation regulations and need to ensure the system's reliability and accuracy. Additionally, consultants and service providers working with transportation agencies will find this guide valuable for supporting their clients’ needs in managing regulatory discrepancies.
+This document is intended for system administrators, IT professionals, transportation regulators, and other stakeholders responsible for deploying and operating METR discrepancy handling systems. It is also relevant for rule makers, policy makers, and legal experts who oversee transportation regulations and need to ensure the system's reliability and accuracy. Additionally, consultants and service providers working with transportation agencies will find this guide valuable for supporting their clients' needs in managing regulatory discrepancies.
 
 ## What Are the Prerequisites for Deploying a METR Discrepancy Handling System?
 
@@ -73,4 +73,4 @@ This section provides a practical deployment example that demonstrates the inter
 
 ## How to Tailor the Guide and the Standards
 
-While this guide provides a general framework for deploying a METR discrepancy handling system, it is important for operators to tailor the guidance and standards to their specific operational environment. Tailoring may involve adjusting the system’s architecture, prioritizing certain types of discrepancies, or implementing additional security measures. This section highlights key areas where customization may be needed to ensure that the system meets the unique requirements of each deployment site. By adapting the guide to local conditions, operators can create a discrepancy handling system that is both effective and sustainable, ensuring reliable regulation management across the METR ecosystem.
+While this guide provides a general framework for deploying a METR discrepancy handling system, it is important for operators to tailor the guidance and standards to their specific operational environment. Tailoring may involve adjusting the system's architecture, prioritizing certain types of discrepancies, or implementing additional security measures. This section highlights key areas where customization may be needed to ensure that the system meets the unique requirements of each deployment site. By adapting the guide to local conditions, operators can create a discrepancy handling system that is both effective and sustainable, ensuring reliable regulation management across the METR ecosystem.

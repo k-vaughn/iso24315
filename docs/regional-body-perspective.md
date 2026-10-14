@@ -1,5 +1,7 @@
 # Regional Guidance
 
+<div class="draft-watermark" aria-hidden="true"></div>
+
 ==## Introduction==
 
 ==### Purpose of Page==
@@ -18,9 +20,7 @@ As METR systems become more widespread, regional implementation guides are essen
 
 Without clear regional guidance, there is a risk of fragmented or incompatible systems that could undermine the effectiveness of METR, leading to potential safety issues, inefficiencies, and challenges in regulation enforcement.
 
-## Example Deployment Architectures
-
-### Overview
+## Key Points for Regional Guidance
 
 A reference architecture provides a generic representation of how systems could be designed so that key interfaces can be identified and interoperability standards developed. However, each deployment will likely vary from the more theoretical reference architecture. 
 
@@ -36,7 +36,9 @@ For example, the regional body should consider providing **guidance** on:
 - Whether any discrepancy handling systems are expected to be deployed, their respective scopes, any expected hierarchy arrangements, and how to establish information sharing agreements. For example, within the region, is it acceptable for a vehicle manufacturer to report all detected discrepancies to an OEM discrepancy handling system? Is there any requirement for this information to be provided to public agencies (e.g., regulators) to alert them of problems with the public infrastructure or issues with the OEM software in potentially misinterpreting regulations? 
 - Any formal policies or legal requirements imposed on any METR stakeholders. For example, some regions may require that all regulation systems provide certain types of regulations by a certain date, that regulation systems and distribution systems be certified by a regional body, or that all regulation systems and distribution systems conform to defined interface standards to ensure interoperability with a regional body's system. Conversely, a region could impose requirements on METR user devices to obtain METR regulations if they are to operate in automated driving mode.
 
- Factors that impact the regional body decisions on how to deploy METR systems include:
+## Factors that Impact Decisions
+
+Factors that impact the regional body decisions on how to deploy METR systems include:
 
 - Jurisdictional complexity: If all regulations are issued by a single or small number of authorities, a single regulation system can more readily perform the collection role for the entire region (e.g., the region might be an island consisting of a single jurisdictional entity with no significant cross-border traffic) and may even be able to act as a distribution system. By comparison, complex regions with multiple levels of jurisdictional hierarchy and multiple rule makers within each jurisdictional level will likely need to keep regulations distinctly separate from the collection and distribution of regulations.
 - Cross-border coordination: Jurisdictions that deal with heavy cross-border traffic (e.g., Europe) ideally will adopt regional policies and standards so that vehicles can seamlessly interoperate throughout the region. In this case, the different jurisdictions can more readily share system components (e.g., multiple jurisdictions can share a common regulation system).
@@ -45,6 +47,8 @@ For example, the regional body should consider providing **guidance** on:
 - Breadth of regulations: Early deployments are likely to focus on limited regulation sets (e.g., speed limits), but as the content of the METR system of systems expands, the number of regulations will increase. The regional body can provide guidance on which regulations should be digitized and whether different distribution schemes are envisioned for different types of regulations.
 - Geographic extent: The number of regulations within a deployment will scale with geographic and population size, but most end-user systems will only need relevant regulations at any point in time. However, maintaining a limited set of regulations within a METR user device can result in the device not being able to provide the most relevant regulations to the user, especially if the user changes his route without prior notice to the navigation engine. The regional body can provide guidance on the expected breadth of regulations to be held within a METR user device, especially automated devices.
 - Funding for distribution: The distribution of regulations could be seen as providing an important public benefit, and funded by a public agency, or could be perceived to be more of an advanced feature for higher-end vehicles and left to the private sector. The boundary between public and private sector involvement can impact boundaries between systems and impact the decisions made by various stakeholders. Importantly, the lack of advice in this areas can delay or result in inefficient deployment of METR systems as various stakeholders wait for others to make decisions.
+
+## Example Deployment Architectures
 
 These factors can influence the deployment architecture for a region. Example deployment architectures can include any of the following or some sort of hybrid among them:
 

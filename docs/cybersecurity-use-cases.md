@@ -1,5 +1,7 @@
 # Cybersecurity Use Cases
 
+<div class="draft-watermark" aria-hidden="true"></div>
+
 ## METR Cyber Security Use Cases
 
 METR cybersecurity use cases describe how security capabilities are applied across the METR lifecycle to establish and maintain trusted METR operations. The use cases are organized into three groups: preparation of the trusted METR environment, protection of trusted METR operations, and ongoing monitoring of METR security.

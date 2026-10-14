@@ -1,5 +1,7 @@
 # TRO Installation and Implementation
 
+<div class="draft-watermark" aria-hidden="true"></div>
+
 After approval, most TROs are installed and implemented. In TRO language these words are distinct:
 
 - **Installed** — physical measures described in the TRO are put in place (signs erected, markings applied, barriers set, signals configured).

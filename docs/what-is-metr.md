@@ -1,5 +1,7 @@
 # What is METR?
 
+<div class="draft-watermark" aria-hidden="true"></div>
+
 METR is a [system of systems](system-of-systems.md) that ensures digital rules and regulations are communicated dynamically across systems, infrastructure, and end users. Importantly, METR authenticates and secures these communications in real time. This facilitates interoperability that is trustworthy, safe and effective. As an international standard, METR has to be flexible enough to support a range of environments. As such, METR is built on the three-tiered model depicted below. This allows for further refinements at the regional (multi-national), national, and local levels to support a connected, interoperable, and safe global transportation ecosystem.
 
 ![Three-tiered model of METR](images/three-tiered-approach.png)
@@ -14,7 +16,7 @@ This website uses the following conventions:
 | --- | --- |
 | **[rule](https://isotc204.org/iso24315-vocab/latest/terms/rule/)** | Legislative provisions (for example, highway/road-code **[rules of the road](https://isotc204.org/iso24315-vocab/latest/terms/rules%20of%20the%20road/)**) |
 | **[regulation](https://isotc204.org/iso24315-vocab/latest/terms/regulation/)** | Provisions established by a regulator, whether mandatory, advisory, or guidance |
-| **[rules and regulations](https://isotc204.org/iso24315-vocab/latest/terms/rule%20or%20regulation/)** or **R&amp;Rs** | The combined set of both |
+| **[rules and regulations](https://isotc204.org/iso24315-vocab/latest/terms/rule%20or%20regulation/)** (**R&amp;Rs**) | The combined set of both |
 
 !!! note
     The ISO 24315-1:2025 Vocabulary used the term *rule* to refer to both rules and regulations. Based on feedback, materials are being updated to distinguish between legislatively defined rules and regulations defined by regulators.

@@ -1,5 +1,7 @@
 ### METR Trust Management Use Cases
 
+<div class="draft-watermark" aria-hidden="true"></div>
+
 Trusted METR domain preparation use cases define the security activities required to establish a METR environment in which trusted operations can occur. They address the establishment and maintenance of trust relationships, security policy, identities and credentials, authorization privileges and scopes, security audit requirements, and secure METR services. Figure X illustrates the principal actors and use cases involved in preparing the METR domain for trusted operation. The subsections that follow define each of these security use cases and identify the security controls applied to support them.
 
 ![METR Trust Management Use Cases](images\metr-trust-management-uc.jpg)
@@ -30,7 +32,7 @@ The METR Policy Authority shall publish and maintain the approved domain securit
 
 METR system components shall be configured to operate in accordance with the applicable METR security policy.
 
-Third-party service providers and Trust Bridges that participate in the METR domain shall be evaluated against the applicable METR security policy before being relied upon. The evaluation shall determine whether the provider’s policies, practices, security mechanisms, and trust relationships are compatible with the METR domain policy and whether any additional constraints or trust conditions are required.
+Third-party service providers and Trust Bridges that participate in the METR domain shall be evaluated against the applicable METR security policy before being relied upon. The evaluation shall determine whether the provider's policies, practices, security mechanisms, and trust relationships are compatible with the METR domain policy and whether any additional constraints or trust conditions are required.
 
 Changes to the METR security policy shall be controlled and maintained so that the policy applicable to a METR operation or security decision can be determined.
 
@@ -68,7 +70,7 @@ Before credentials asserting those privileges are issued or updated, the Credent
 
 Authorization privileges shall remain associated with the identity to which they apply and shall be represented in a form that METR components can evaluate during trusted operations. The authorization information may be carried within a credential or maintained separately, provided that the relationship between the authenticated identity and its approved privileges can be reliably established.
 
-Changes to an actor’s role, jurisdiction, organizational authority, or permitted scope shall result in the applicable authorization information and, where necessary, associated credentials being updated, replaced, suspended, or revoked.
+Changes to an actor's role, jurisdiction, organizational authority, or permitted scope shall result in the applicable authorization information and, where necessary, associated credentials being updated, replaced, suspended, or revoked.
 
  ![Manage METR Roles and Permissions](images\manage-metr-roles-and-permissions.jpg)
 

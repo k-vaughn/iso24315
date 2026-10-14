@@ -1,5 +1,7 @@
 # Sample Regional Implementation Policy Framework
 
+<div class="draft-watermark" aria-hidden="true"></div>
+
 ==## Introduction==
 
 ==### Purpose of Page==

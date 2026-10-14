@@ -1,5 +1,7 @@
 # Physical View
 
+<div class="draft-watermark" aria-hidden="true"></div>
+
 <div class="diagram-light-bg" markdown="0">
 --8<-- "images/physical-view.svg"
 </div>

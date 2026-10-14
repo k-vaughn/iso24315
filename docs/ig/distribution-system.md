@@ -25,11 +25,11 @@ This document is designed for a broad audience, including system administrators,
 
 ## What Are the Prerequisites for Deploying a METR Distribution System?
 
-Deploying a METR distribution system requires meeting several prerequisites to ensure successful implementation. These include establishing the necessary infrastructure, such as reliable network connectivity and secure data storage solutions. Additionally, operators must ensure that their system is compatible with the existing METR regulation systems and that it can handle the specific types of regulations and vehicles that will be supported. Understanding the target market and the types of users who will rely on the distribution system is also critical, as it influences the system’s design and functionality.
+Deploying a METR distribution system requires meeting several prerequisites to ensure successful implementation. These include establishing the necessary infrastructure, such as reliable network connectivity and secure data storage solutions. Additionally, operators must ensure that their system is compatible with the existing METR regulation systems and that it can handle the specific types of regulations and vehicles that will be supported. Understanding the target market and the types of users who will rely on the distribution system is also critical, as it influences the system's design and functionality.
 
 ## How Much Maintenance Is Likely to Be Required for a METR Distribution System?
 
-Maintaining a METR distribution system involves both software and hardware upkeep. Regular updates to the system’s codebase are necessary to address security vulnerabilities, improve performance, and add new features. Hardware maintenance, including server upkeep, network management, and hardware replacements, is also required to ensure continuous and reliable operation. Operators should plan for routine maintenance activities, such as system monitoring, backups, and patch management, as well as occasional major upgrades that may be needed to support new METR standards or functionalities.
+Maintaining a METR distribution system involves both software and hardware upkeep. Regular updates to the system's codebase are necessary to address security vulnerabilities, improve performance, and add new features. Hardware maintenance, including server upkeep, network management, and hardware replacements, is also required to ensure continuous and reliable operation. Operators should plan for routine maintenance activities, such as system monitoring, backups, and patch management, as well as occasional major upgrades that may be needed to support new METR standards or functionalities.
 
 ## What Are the Minimal Requirements for Interoperability?
 

@@ -1,8 +1,10 @@
 # Jurisdictional Management Perspective
 
+<div class="draft-watermark" aria-hidden="true"></div>
+
 The jurisdictional management perspective represents the point of view of an entity that hosts — and is accountable for — one or more of the back-office METR component systems that make electronic regulations available within a geographic area. In practice, that often means operating a **regulation system**, a **discrepancy handling system**, all or part of a **distribution system** (e.g., it might just perform the **collection function** and serve as a link between multiple regulation systems and multiple distribution systems), or a combination of these.
 
-This role is more than ownership of an ICT system. The jurisdictional manager defines who may act as a rule maker on the hosted platform, how far each rule maker's authority extends, how credentials and signing rights are issued and revoked, and how the hosted systems stay aligned with regional interoperability policies. Smaller jurisdictions — including towns, toll road operators and campuses, such as universities, hospitals, ports, business parks, shopping centres, and even mom-and-pop stores with a small car park — typically will not run their own METR platforms. They become recognized rule makers on a parent jurisdiction’s system instead.
+This role is more than ownership of an ICT system. The jurisdictional manager defines who may act as a rule maker on the hosted platform, how far each rule maker's authority extends, how credentials and signing rights are issued and revoked, and how the hosted systems stay aligned with regional interoperability policies. Smaller jurisdictions — including towns, toll road operators and campuses, such as universities, hospitals, ports, business parks, shopping centres, and even mom-and-pop stores with a small car park — typically will not run their own METR platforms. They become recognized rule makers on a parent jurisdiction's system instead.
 
 For the technical deployment details of each component, see the [regulation system](regulation-system-perspective.md), [discrepancy handling](discrepancy-handling-perspective.md), and [distribution system](distribution-perspective.md) guides. This page focuses on the governance and operational perspective of the host.
 
@@ -39,7 +41,7 @@ A jurisdictional manager may host one component or several. Common patterns incl
 
 | Hosted capability | Typical purpose |
 | --- | --- |
-| **Regulation system** | Store, verify, sign, version, and publish electronic regulations for the manager’s own regulations and for recognized subordinate rule makers |
+| **Regulation system** | Store, verify, sign, version, and publish electronic regulations for the manager's own regulations and for recognized subordinate rule makers |
 | **Collection (distribution)** | Gather regulations from the local regulation system and, where required, from peer or parent systems so downstream distributors or users can obtain a more complete set of regulations in an efficient manner |
 | **Discrepancy handling** | Receive field and system reports, consolidate and validate them, and route confirmed issues to the responsible regulation system or rule maker |
 | **Combined platform** | Operate regulation + discrepancy handling, or regulation + collection, under one organizational umbrella with shared identity and security controls |
@@ -52,7 +54,7 @@ In the METR context, jurisdictional managers are generally responsible for:
 
 1. **Hosting and sustaining** the chosen back-office components at an acceptable availability and security level
 2. **Rule-maker governance** — recognition, scoping, credentials, training expectations, and revocation
-3. **Policy choices** that the platform must implement — signing regulations, freshness periods, regulation-category priorities, optional features such as discovery or discrepancy linkage ([regulation system prerequisites](regulation-system-perspective.md#policies-to-settle-before-deployment))
+3. **Policy choices** that the platform must implement — signing regulations, freshness periods, regulation-category priorities, optional features such as discovery or discrepancy linkage
 4. **Interface commitments** to parent, peer, and distribution systems required by regional interoperability policy
 5. **Completeness signalling** — ensuring defined areas correctly advertise which electronic regulation categories are trustworthy
 6. **Discrepancy closure** — ensuring confirmed issues reach the responsible rule maker or field organization and that electronic or physical corrections are completed

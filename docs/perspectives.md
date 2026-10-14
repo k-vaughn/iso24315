@@ -1,5 +1,7 @@
 # Perspectives and Guidance
 
+<div class="draft-watermark" aria-hidden="true"></div>
+
 This portion of the METR website provide guidance to various stakeholders that share different perspectives of the METR system.
 
 - **[Regional Body Perspective](regional-body-perspective.md)**: In the METR context, a region is defined as a set of jurisdictional areas where users would expect to be able to cross jurisdictional boundaries while maintaining seamless interoperable operation. This section considers the perspective of the entities that establish regional policies and guidelines to ensure interoperability and consistency across the region. It also explains how the international METR standards need to be refined into regional standards, policies, and guidelines and then further refined to identify local details (e.g., identifying responsible agencies for each component system).

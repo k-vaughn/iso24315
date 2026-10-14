@@ -21,7 +21,7 @@ This document is designed to provide comprehensive guidance for state and local 
 
 ### Audience
 
-This document is intended for state and local government officials, transportation regulators, IT professionals, and other stakeholders involved in the deployment and operation of METR systems. It is particularly relevant for those responsible for the oversight and management of electronic traffic regulations, including infrastructure owners and operators (IOOs), policy makers, and technical staff who ensure the system’s integrity and compliance. Additionally, this guide will be useful for consultants and service providers who support sub-national entities in implementing METR systems.
+This document is intended for state and local government officials, transportation regulators, IT professionals, and other stakeholders involved in the deployment and operation of METR systems. It is particularly relevant for those responsible for the oversight and management of electronic traffic regulations, including infrastructure owners and operators (IOOs), policy makers, and technical staff who ensure the system's integrity and compliance. Additionally, this guide will be useful for consultants and service providers who support sub-national entities in implementing METR systems.
 
 ## Prerequisites for Deploying a METR Regulation System
 
@@ -71,7 +71,7 @@ This section explores the benefits and challenges of implementing optional METR 
 
 ## Data Collection
 
-The METR regulation system can be utilized by multiple rule makers within a jurisdiction, such as campuses that input data into the parent jurisdiction’s system. This section also emphasizes the importance of data accuracy and the need to indicate confidence levels within the metadata of each regulation. By following the guidelines provided in the Rule Maker Guide, operators can ensure that all data entered into the system meets the required standards of accuracy and reliability.
+The METR regulation system can be utilized by multiple rule makers within a jurisdiction, such as campuses that input data into the parent jurisdiction's system. This section also emphasizes the importance of data accuracy and the need to indicate confidence levels within the metadata of each regulation. By following the guidelines provided in the Rule Maker Guide, operators can ensure that all data entered into the system meets the required standards of accuracy and reliability.
 
 ## Auditing Capabilities
 

@@ -1,5 +1,7 @@
 # METR Environment
 
+<div class="draft-watermark" aria-hidden="true"></div>
+
 This section describes the environments in which METR operates — regulatory, roadway, distribution, communications, and regional — and why trustworthiness is central to making **[electronic regulations](https://isotc204.org/iso24315-vocab/latest/terms/electronic%20regulation/)** usable at scale.
 
 METR is designed to operate within the following environmental constraints:

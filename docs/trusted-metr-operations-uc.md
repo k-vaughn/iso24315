@@ -1,5 +1,7 @@
 ### Trusted METR Operations
 
+<div class="draft-watermark" aria-hidden="true"></div>
+
 Trusted METR operation use cases specify the cybersecurity activities applicable to METR information and associated transactions during operational use. These use cases define the security requirements necessary to maintain the authenticity, integrity, authorization, provenance, confidentiality, non-repudiation, accountability, availability, and trustworthiness of METR information as it is created, approved, transformed, distributed, received, verified, and used.
 
 The use cases define, as applicable, requirements for entity authentication, credential and trust validation, authorization, cryptographic protection, validation of security evidence, preservation of provenance, protected communications, generation and retention of non-repudiation evidence, and recording of security-relevant events.
@@ -26,7 +28,7 @@ The verification shall determine whether the Rule Maker has authority applicable
 
 The METR Regulation System shall record the Rule Maker identity, the applicable authorization evidence, and the results of the role and scope authorization decisions.
 
-The authentication and verification process is region-specific and may be performed manually or electronically. If the Rule Maker’s identity or authority cannot be verified, the Legal Rule shall not proceed to digitization.
+The authentication and verification process is region-specific and may be performed manually or electronically. If the Rule Maker's identity or authority cannot be verified, the Legal Rule shall not proceed to digitization.
 
  ![Verify Legal Rule](images\verify-legal-rule.png)
 
@@ -254,7 +256,7 @@ The output of this process is an authenticated and authorized discrepancy report
 
 #### Evaluate METR Rule Provenance
 
-This use case describes the activities performed by a METR Component to evaluate the provenance of a METR Rule and determine whether the rule’s recorded origin and history can be relied upon.
+This use case describes the activities performed by a METR Component to evaluate the provenance of a METR Rule and determine whether the rule's recorded origin and history can be relied upon.
 
 The METR Component shall retrieve the provenance information associated with the METR Rule and electronically evaluate the recorded history of the rule from its current form back to the originating Rule Maker or other authoritative source.
 
@@ -268,6 +270,6 @@ The METR Component shall evaluate whether the recorded actors, systems, and tran
 
 If provenance information is incomplete, inconsistent, cannot be fully associated with the evaluated rule, cannot be fully validated, or indicates a gap or uncertainty in the recorded history, the METR Component shall determine that the provenance cannot be established with full confidence. In such cases, the component shall assign a reduced-confidence or indeterminate provenance determination in accordance with applicable METR policy. The METR Component shall record the provenance evaluation result and the basis for the determination.
 
-The output of this use case is a determination that the METR Rule provenance is established, established with reduced confidence, or indeterminate, based on electronic evaluation of the rule’s metadata, recorded history, and associated security evidence back to its authoritative origin.
+The output of this use case is a determination that the METR Rule provenance is established, established with reduced confidence, or indeterminate, based on electronic evaluation of the rule's metadata, recorded history, and associated security evidence back to its authoritative origin.
 
  ![Evaluate METR Rule Provenance](images\evaluate-metr-rule-provenance.jpg)

@@ -1,5 +1,7 @@
 # Possible METR Deployment Scenarios
 
+<div class="draft-watermark" aria-hidden="true"></div>
+
 METR can be deployed incrementally. A jurisdiction does not need to implement the entire METR ecosystem or distribute regulations to external users to gain value. This page explains possible deployment scenarios for METR.
 
 ## Digitization of Traffic Regulations

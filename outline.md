@@ -56,7 +56,7 @@ Outline of published pages, headings, and section summaries.
     - **Provision of emergent regulations to vehicles:** Section reserved; content not yet written.
     - **Regulations for trip planning:** Section reserved; content not yet written.
     - **As-built refinement of database:** Section reserved; content not yet written.
-- **Regional Framework:** Describes METR’s three-tier model—global ISO standards, regional refinements for major travel regions, and national/local policy choices—to scale deployment across jurisdictional differences.
+- **Regional Framework:** Describes METR's three-tier model—global ISO standards, regional refinements for major travel regions, and national/local policy choices—to scale deployment across jurisdictional differences.
     - **Benefits to Various Stakeholders:** States that METR delivers ecosystem value that facilitates AV deployment, mobility efficiency, and safer roadways by bridging regulatory gaps digitally.
 - **Sample Regional Implementation Policy Framework:** Introduces prerequisites, regional reference architecture choices, regulation-verification policies, and deployment policy trade-offs for a regional METR rollout.
     - **Prerequisites for Starting a Regional METR Deployment:** Regions need governance, funding, needs assessment, technical infrastructure, adapted legal frameworks, and stakeholder engagement before starting deployment.

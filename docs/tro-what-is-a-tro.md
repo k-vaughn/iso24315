@@ -1,5 +1,7 @@
 # What is a Traffic Regulation Order?
 
+<div class="draft-watermark" aria-hidden="true"></div>
+
 Most jurisdictions have established legislation that control, guide, and organize road traffic for safety, efficiency, and order. This legislation includes designating responsible authorities (e.g., designating road operators and their responsibilities), the requirements for using the road (e.g., licensing requirements for drivers and vehicles), general behaviour while operating a vehicle (e.g., requirements to drive on a specific side of the road) among other details. Within METR, this legislation is called the **highway code** and is part of the reference environment within which METR operates. The portion of the highway code that defines the general behaviour while operating a vehicle is known as the **rules of the road**.
 
 !!! note

@@ -1,57 +1,54 @@
 # Guidance for METR Discrepancy Handling System
 
+<div class="draft-watermark" aria-hidden="true"></div>
+
 !!! note
-    Audience: Deployer of METR discrepancy handling system (e.g., larger jurisdictions, OEMs, map providers)
+    ==Audience: Deployer of METR discrepancy handling system (e.g., larger jurisdictions, OEMs, map providers)==
 
-    Purpose: Guidance for implementation, deployment, maintenance, and operation, including legal and cybersecurity responsibilities
+    ==Purpose: Guidance for implementation, deployment, maintenance, and operation, including legal and cybersecurity responsibilities==
 
-    Scope: Guidance on:
+    ==Scope: Guidance on:
     - Prerequisites and policies that need to be established/considered
     - Account management & relationships that may need to be created
     - Resources & capabilities needed
     - Data quality & consistency, certification, certificate management
     - Responsibilities of owner/operator (including any legal responsibilities)
-    - Sample project-level architecture, existing systems with similar or related capabilities
+    - Sample project-level architecture, existing systems with similar or related capabilities==
 
-## Introduction
+## ==Introduction==
 
-### Purpose of Page
+### ==Purpose of Page==
 
-This page serves as a guide for deploying and managing a Management of Electronic Traffic Regulations (METR) discrepancy handling system. It provides essential information for entities responsible for identifying, reporting, and resolving discrepancies in transportation regulations within the METR framework. The page outlines key prerequisites, maintenance requirements, data management, and policies to ensure the effective operation of the system. By focusing on these areas, the guide helps stakeholders build robust, interoperable systems that support the accurate implementation and enforcement of rules and regulations.
+==This page serves as a guide for deploying and managing a Management of Electronic Traffic Regulations (METR) discrepancy handling system. It provides essential information for entities responsible for identifying, reporting, and resolving discrepancies in transportation regulations within the METR framework. The page outlines key prerequisites, maintenance requirements, data management, and policies to ensure the effective operation of the system. By focusing on these areas, the guide helps stakeholders build robust, interoperable systems that support the accurate implementation and enforcement of rules and regulations.==
 
-### Audience
+### ==Audience==
 
-This page is intended for system administrators, IT professionals, transportation regulators, and other stakeholders responsible for deploying and operating METR discrepancy handling systems. It is also relevant for rule makers, policy makers, and legal experts who oversee transportation regulations and need to ensure the system's reliability and accuracy. Additionally, consultants and service providers working with transportation agencies will find this guide valuable for supporting their clients’ needs in managing regulatory discrepancies.
-
-### Discrepancy and collection credentials
-
-If the jurisdiction also hosts discrepancy handling or collection:
-
-- consumer systems and partner distributors need authenticated channels to submit reports or retrieve catalogues
-- peer regulation systems need mutual authentication for collection and hand-off
-- operators need credentials to investigate reports without gaining unnecessary rights to alter regulations
-
-Security design should assume that partners and devices are independently operated and upgraded systems within the larger ([system of systems](system-of-systems.md)).
+==This page is intended for system administrators, IT professionals, transportation regulators, and other stakeholders responsible for deploying and operating METR discrepancy handling systems. It is also relevant for rule makers, policy makers, and legal experts who oversee transportation regulations and need to ensure the system's reliability and accuracy. Additionally, consultants and service providers working with transportation agencies will find this guide valuable for supporting their clients' needs in managing regulatory discrepancies.==
 
 ## What Are the Prerequisites for Deploying a METR Discrepancy Handling System?
 
-Deploying a METR discrepancy handling system requires several prerequisites to ensure successful implementation. These include establishing a reliable infrastructure for real-time data collection and processing, ensuring secure connections between the discrepancy handling system and other METR systems, and defining the necessary policies for identifying, validating, and reporting discrepancies. Additionally, the system must integrate with regulation systems and be able to handle data from various sources, including users, road infrastructure, and external systems.
+Deploying a METR discrepancy handling system requires meeting several prerequisites to ensure successful implementation. These include all of the prerequisites identified for the **[system management perspective](system-management-perspective.md)**, and the following:
 
-## How Much Maintenance Is Likely to Be Required for a METR Discrepancy Handling System?
+1. Identify the geographic area(s) that the discrepancy handling system will serve.
+1. Identify the types of discrepancies that will be supported.
+1. Identify the interoperability standards that will be required.
+1. Identify the certification and certificate management requirements as established by the **[regional body](regional-body-perspective.md)**.
+1. Become aware of the legal responsibilities of the owner/operator as established by the **[regional body](regional-body-perspective.md)**.
+1. Identify the regulation system(s) that the discrepancy handling system will need to connect to.
+1. Establish policies regarding the verification steps that will be required to validate the discrepancies, the time commitments required for verification, and the conditions that must be met for the discrepancy to be verified and delivered to the regulation system.
+1. Establish agreements with the regulation system(s) to exchange the necessary data.
+1. Define the deployment architecture.
+1. Implement the discrepancy handling system in accordance with the **[regional body policies and guidelines](regional-body-perspective.md)**.
 
-Maintaining a METR discrepancy handling system involves both software and hardware upkeep. Routine maintenance includes regular software updates, patches to address security vulnerabilities, and hardware maintenance for servers and network components. The system will also require monitoring to ensure it remains functional and responsive, with regular testing to identify potential issues before they affect system performance. Depending on the complexity of the system, operators should plan for periodic hardware upgrades to handle growing data volumes and processing needs.
+## Discrepancy and collection credentials
 
-## What Are the Minimal Requirements for Interoperability?
+When a jurisdiction hosts a discrepancy handling system, it needs to ensure that a framework exists for establishing credentials for the following:
 
-Interoperability is essential for a discrepancy handling system, as it must seamlessly communicate with other METR components, such as regulation systems and other discrepancy handling systems. The minimal requirements include adherence to standardized data formats, communication protocols, and APIs that enable smooth data exchange between systems. Ensuring interoperability allows discrepancies to be reported and addressed across different systems and jurisdictions, which is critical for maintaining consistent regulation enforcement and regulatory compliance.
-
-### What Are the Benefits of Including Optional Features?
-
-Including optional features in a METR discrepancy handling system can enhance its functionality and improve its value for different user groups. Features such as automated discrepancy detection, real-time notifications, and enhanced reporting tools can streamline the process of identifying and resolving issues. These optional features can reduce manual labour, improve response times, and increase overall system accuracy. The target market for a distribution system with these features includes transportation operators, regulatory bodies, and service providers who need to quickly address discrepancies and ensure compliance with METR regulations.
+- consumer systems need authenticated channels to provide reports;
+- regulation systems and peer discrepancy handling systems need mutual authentication for exchanging reports;
+- operators need credentials to investigate reports without gaining unnecessary rights to alter reports or regulations.
 
 ## What Is Involved with Managing the Data?
-
-Data management in a METR discrepancy handling system involves collecting, validating, storing, and processing discrepancy reports from various sources. Operators must implement data quality controls to ensure the accuracy and reliability of incoming data. Proper data governance policies are essential to managing discrepancies and ensuring they are correctly addressed by the appropriate authorities. Operators must also maintain data privacy and security measures to protect sensitive information, particularly when dealing with personally identifiable information (PII) or regulatory data.
 
 ### What Are the Policies for Handling Received Discrepancies?
 
@@ -59,28 +56,24 @@ Handling received discrepancies requires clear policies that define how discrepa
 
 ### What Steps Are Required to Validate the Discrepancies Prior to Reporting Them to a Regulation System?
 
-Before discrepancies can be reported to a regulation system, they must undergo a validation process. This includes verifying the accuracy of the data, ensuring that the discrepancy is relevant to the regulation system, and confirming that it has not already been addressed. Validation may involve automated checks as well as manual reviews by system operators. Once validated, the discrepancy is ready to be submitted to the appropriate regulation system for resolution or further investigation.
+Before discrepancies can be reported to a regulation system, they must undergo a validation process. This process should be defined by the jurisdiction and can include:
+
+1. waiting for multiple reports to be received;
+1. verifying the accuracy of the data;
+1. ensuring that the discrepancy is relevant to the regulation system;
+1. confirming that it has not already been addressed; or
+1. a combination of the above.
+
+Verification can involve automated checks as well as manual reviews by system operators.
 
 ### What Are the Time Requirements for Processing Reported Discrepancies?
 
-Time requirements for processing discrepancies will vary depending on the severity and type of the issue. Critical discrepancies, such as those affecting public safety or causing significant regulatory violations, must be processed as quickly as possible—often within hours. Less urgent discrepancies may have longer time frames, allowing for more detailed review and validation. It is important to establish clear timelines for processing discrepancies to ensure that they are resolved in a timely manner and do not negatively impact the overall regulation system.
-
-### Is There a Difference When Reporting to Another Discrepancy Handling System?
-
-When reporting discrepancies to another discrepancy handling system, the process may involve additional steps to ensure compatibility and consistency between systems. These steps could include reformatting data, adhering to different communication protocols, or ensuring compliance with specific reporting standards used by the other system. Additionally, discrepancies that span multiple jurisdictions or regulation systems may require coordinated efforts between different entities to resolve effectively.
+Time requirements for processing discrepancies will vary depending on the severity and type of the issue. Critical discrepancies, such as those affecting public safety or causing significant regulatory violations, must be processed as quickly as possible—often within hours. Less urgent discrepancies may have longer time frames, allowing for more detailed review and validation. It is important to establish clear timelines for processing discrepancies to ensure that they are resolved in a timely manner and do not negatively impact the overall regulation system. The jurisdiction should establish policies for the time requirements for processing discrepancies and communicate them to the regulation system(s) and the discrepancy handling system(s).
 
 ## What Auditing Information Needs to Be Captured?
 
 To ensure transparency and accountability, a METR discrepancy handling system must capture comprehensive auditing information. This includes tracking when discrepancies are reported, how they are processed, and when they are resolved. Auditing data should also include information on the individuals or systems responsible for handling discrepancies, as well as any changes made to the data throughout the process. Proper auditing ensures compliance with regulatory standards and allows for ongoing monitoring and improvement of the system.
 
-## Migration from Existing Systems
-
-Migrating from existing discrepancy handling systems to a METR-based system requires careful planning to ensure data continuity and system compatibility. The migration process involves transferring existing data to the new system, integrating with current regulation systems, and training personnel on the new tools and processes. It is important to ensure that data from the legacy system is accurately mapped and that there are no disruptions in discrepancy management during the transition.
-
-## Deployment Example with Project-Level Architecture
-
-This section provides a practical deployment example that demonstrates the interactions between multiple regulation centers, another discrepancy handling system, and multiple users. The project-level architecture outlines how the systems communicate, exchange data, and manage discrepancies across different jurisdictions or operational domains. The example highlights key considerations for designing a system that is scalable, interoperable, and efficient, ensuring that discrepancies are managed in a timely and coordinated manner.
-
 ## How to Tailor the Guide and the Standards
 
-While this guide provides a general framework for deploying a METR discrepancy handling system, it is important for operators to tailor the guidance and standards to their specific operational environment. Tailoring may involve adjusting the system’s architecture, prioritizing certain types of discrepancies, or implementing additional security measures. This section highlights key areas where customization may be needed to ensure that the system meets the unique requirements of each deployment site. By adapting the guide to local conditions, operators can create a discrepancy handling system that is both effective and sustainable, ensuring reliable regulation management across the METR ecosystem.
+While this guide provides a general framework for deploying a METR discrepancy handling system, it is important for regional bodies and operators to tailor the guidance and standards to their specific operational environment. Tailoring may involve adjusting the system's architecture, prioritizing certain types of discrepancies, or implementing additional security measures. By adapting the guide to local conditions, operators can create a discrepancy handling system that is both effective and sustainable, ensuring reliable regulation management across the METR ecosystem.

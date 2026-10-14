@@ -1,5 +1,7 @@
 # Cybersecurity
 
+<div class="draft-watermark" aria-hidden="true"></div>
+
 METR systems depend on the trusted creation, management, distribution, and use of electronic traffic regulations across multiple systems, organizations, and jurisdictions. Cybersecurity controls protect the authenticity, integrity and availability of METR information throughout its lifecycle.
 
 METR cybersecurity engineering work currently includes:

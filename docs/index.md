@@ -1,5 +1,7 @@
 # Management of Electronic Traffic Regulations (METR)
 
+<div class="draft-watermark" aria-hidden="true"></div>
+
 !!! note
     ==This is a draft website for ISO TC 204 WG 19 (and other invited experts) to review via HuddleKit. Items that are highlighted in yellow will be removed before the final version is published.==
 
@@ -14,7 +16,7 @@
     ==What style rules do we want to use for this website? For example, do we use all aspects of ISO (sentence case titles, numbered clauses, no hanging paragraphs, ISO spelling, etc.) or do we use a more relaxed style?==
 
 !!! abstract ""
-    METR provides users with geo-specific, trustworthy, timely, authoritative, machine-interpretable **[rules](https://isotc204.org/iso24315-vocab/latest/terms/rule/) and [regulations](https://isotc204.org/iso24315-vocab/latest/terms/regulation/) (R&amp;Rs)** established by jurisdictional entities+
+    METR provides users with geo-specific, trustworthy, timely, authoritative, machine-interpretable **<u>[rules](https://isotc204.org/iso24315-vocab/latest/terms/rule/)</u> and <u>[regulations](https://isotc204.org/iso24315-vocab/latest/terms/regulation/)</u> (R&amp;Rs)** established by jurisdictional entities
 
 !!! note
     This website uses the [METR vocabulary](https://isotc204.org/iso24315-vocab/latest/terms/) to define key terms. This website includes updates to ISO 24315-1:2025 that are not yet approved by ISO, but will be submitted for consideration for teh next edition of the standard.

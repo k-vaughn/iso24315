@@ -1,5 +1,7 @@
 # Regulatory Environment
 
+<div class="draft-watermark" aria-hidden="true"></div>
+
 METR publishes electronic **rules and regulations (R&amp;Rs)** that already exist in law. Those R&amp;Rs are created by authorized actors, through required processes, inside a stack of overlapping governments. The regulatory environment is the set of constraints that stack imposes on what can be published, by whom, for where, and when it is in force.
 
 A deployment that ignores those constraints can distribute data that is complete as a file and still wrong as law: issued by the wrong body, ahead of approval, or in conflict with a higher-level instrument that still applies.

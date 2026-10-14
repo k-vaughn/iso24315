@@ -1,5 +1,7 @@
 # TRO States
 
+<div class="draft-watermark" aria-hidden="true"></div>
+
 A TRO also has a lifecycle. Because one TRO can contain many traffic regulations, TRO state and regulation state are related but not identical: an order can be in operation while individual traffic regulations inside can be in any state.
 
 !!! question
@@ -30,7 +32,7 @@ A TRO also has a lifecycle. Because one TRO can contain many traffic regulations
 
 ## Rule-maker checklist
 
-When you change a TRO’s state, confirm:
+When you change a TRO's state, confirm:
 
 1. which contained regulations change state with it
 2. whether physical TCDs must be installed, uncovered, covered, or removed

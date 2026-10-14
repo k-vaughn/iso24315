@@ -29,7 +29,7 @@ Without clear regional guidance, there is a risk of fragmented or incompatible s
 
 ## Scope of METR Systems
 
-METR represents a groundbreaking approach to managing and distributing transportation regulations, such as speed limits, lane usage regulations, parking restrictions, and moderately dynamic controls (e.g., variable speed limits or work zone regulations). The system’s primary purpose is to enable electronic dissemination of trustworthy rules and regulations, ensuring that all stakeholders, and their support systems, have access to current regulatory information. The system can also be used to support the distribution of non-regulatory information (e.g., warnings, advisories) in a trustworthy manner. Key scope elements include:
+METR represents a groundbreaking approach to managing and distributing transportation regulations, such as speed limits, lane usage regulations, parking restrictions, and moderately dynamic controls (e.g., variable speed limits or work zone regulations). The system's primary purpose is to enable electronic dissemination of trustworthy rules and regulations, ensuring that all stakeholders, and their support systems, have access to current regulatory information. The system can also be used to support the distribution of non-regulatory information (e.g., warnings, advisories) in a trustworthy manner. Key scope elements include:
 
 **Trust and Security**: Regulations are authenticated using certificates and signatures to prevent falsification.
 
@@ -113,7 +113,7 @@ Many ISO standards, including METR, use a three-tier specification model::
 
 **Global**: ISO standards provide principles, architecture, and vocabulary for universal applicability.
 
-**Regional**: Define regulations for one of the major regions of the world (i.e., regions that have significant internal cross-border traffic with significant regulatory similarities, such as North America or the European Union). Each region should refine the global standard to meet the region’s unique needs and minimize cross-border travel.
+**Regional**: Define regulations for one of the major regions of the world (i.e., regions that have significant internal cross-border traffic with significant regulatory similarities, such as North America or the European Union). Each region should refine the global standard to meet the region's unique needs and minimize cross-border travel.
 
 **National and Local**: Each jurisdiction will have its own policy, funding, and regulatory environments that can influence how various responsibilities are assigned to specific entities. As such, each national and local jurisdiction will need to determine exactly how and when it will incorporate its information into the larger system.
 

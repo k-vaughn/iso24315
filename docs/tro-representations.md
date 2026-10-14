@@ -1,5 +1,7 @@
 # Regulation and TRO Representations
 
+<div class="draft-watermark" aria-hidden="true"></div>
+
 The same regulation (and the same TRO) can exist in several representations, as shown in the table below. Rule makers must keep them equivalent.
 
 ## Regulation representations

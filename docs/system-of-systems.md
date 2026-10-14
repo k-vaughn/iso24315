@@ -1,5 +1,7 @@
 # METR as a System of Systems
 
+<div class="draft-watermark" aria-hidden="true"></div>
+
 METR is intentionally designed as a **system of systems** (SoS): a set of operationally and managerially independent systems that interoperate for a period of time to achieve a shared purpose — providing geo-specific, trustworthy, machine-interpretable rules and regulations to transport users.
 
 Arguably, almost any large system deployment can be decomposed into smaller "systems." METR uses the term in a stronger sense. The component systems are not merely modular pieces of one programme under one owner. They are planned, developed, procured, deployed, operated, upgraded, and maintained through **largely independent means**, often by organizations with different missions, funding models, legal authorities, and product cycles.
@@ -74,7 +76,7 @@ Treating METR as a true system of systems has direct consequences for planners a
 4. **Expect mixed fleets and mixed maturity** — Older consumer systems, newer distributors, and partially digitized regulation sets will coexist for a long time.
 5. **Invest in feedback loops** — Discrepancy handling and operational monitoring are especially important when no single party can observe the whole chain.
 
-In summary: METR’s system-of-systems nature is not a documentation convenience. It is a recognition that trustworthy electronic regulations must span public authority, commercial distribution, and consumer products that will never share a single upgrade calendar. Interoperability has to survive that independence — or METR cannot scale.
+In summary: METR's system-of-systems nature is not a documentation convenience. It is a recognition that trustworthy electronic regulations must span public authority, commercial distribution, and consumer products that will never share a single upgrade calendar. Interoperability has to survive that independence — or METR cannot scale.
 
 ## Related Pages
 

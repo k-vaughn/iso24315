@@ -1,5 +1,7 @@
 # Road Operator Perspective
 
+<div class="draft-watermark" aria-hidden="true"></div>
+
 METR adds a digital operational tool to existing road-management practices. It works with, rather than replaces, established processes for traffic control, signing, maintenance, construction, incident management and regulatory decision-making. For a road operator, METR serves as the digital link between the rules governing the road and the people, vehicles and systems that operate on it. The road operator helps ensure that authorized road rules are accurately represented, operationally maintained, communicated to users, and convey the relevant situation actually present on the roadway. This includes the trustworthy, machine-interpretable road rules—including both relatively static rules and dynamic rules—so that vehicles and other users can obtain authoritative information relevant to their location, time and circumstances. At the core, the road operator's METR role is to keep the digital representation of the road aligned with the authorized rules and the physical roadway—using trusted electronic rules, reliable roadside systems and a disciplined discrepancy-response process to keep road users informed. METR provides the trusted digital representation and distribution of that information.
 
 ## Road Operator Responsibilities

@@ -1,9 +1,8 @@
 # Distribution Environment
 
-==This page will describe the distribution environment for METR information: collectors and distributors, pre-announced vs emergent delivery, layering of national access points and commercial providers, and how users obtain a complete regulation set for a journey.==
+<div class="stub-watermark" aria-hidden="true"></div>
 
-!!! note
-    ==Stub — detailed content forthcoming.==
+==This page will describe the distribution environment for METR information: collectors and distributors, pre-announced vs emergent delivery, layering of national access points and commercial providers, and how users obtain a complete regulation set for a journey.==
 
 ## Related pages
 
