@@ -1,6 +1,6 @@
 # System Management Perspective
 
-<div class="stub-watermark" aria-hidden="true"></div>
+<div class="draft1-watermark" aria-hidden="true"></div>
 
 Every METR component system is hosted by an entity that plans, develops, deploys, operates, and maintains it. This page will cover cross-cutting system-management responsibilities shared across regulation, distribution, consumer, and discrepancy-handling systems — including lifecycle management, security operations, auditing, and change control in a system-of-systems setting.
 

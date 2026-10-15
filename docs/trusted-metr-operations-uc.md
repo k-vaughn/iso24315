@@ -1,6 +1,6 @@
 ### Trusted METR Operations
 
-<div class="draft-watermark" aria-hidden="true"></div>
+<div class="draft4-watermark" aria-hidden="true"></div>
 
 Trusted METR operation use cases specify the cybersecurity activities applicable to METR information and associated transactions during operational use. These use cases define the security requirements necessary to maintain the authenticity, integrity, authorization, provenance, confidentiality, non-repudiation, accountability, availability, and trustworthiness of METR information as it is created, approved, transformed, distributed, received, verified, and used.
 

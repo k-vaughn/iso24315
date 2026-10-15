@@ -1,6 +1,6 @@
 # Coordinating Physical and Digital Activation
 
-<div class="draft-watermark" aria-hidden="true"></div>
+<div class="draft4-watermark" aria-hidden="true"></div>
 
 Each regulation has an **inception time** — when it becomes implemented for non-METR users who depend on TCDs — and should preferably become available in METR form for METR users at the same logical moment. A single TRO may contain many regulations with different inception and termination times.
 

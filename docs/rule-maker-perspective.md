@@ -1,6 +1,6 @@
 # Rule Maker Perspective
 
-<div class="draft-watermark" aria-hidden="true"></div>
+<div class="draft4-watermark" aria-hidden="true"></div>
 
 !!! note
     ==Audience: Public and private entities that define regulations, primarily public agencies and large campuses==
@@ -39,7 +39,7 @@ When converting regulations to an electronic format, it's important to consider 
 
 ## Data Quality
 
-Conforming to the METR regulation system's data quality standards is critical for ensuring the reliability and effectiveness of the regulations once they are converted into an electronic format. This section explains the importance of establishing and maintaining high data quality and how the certification level of the data should be recorded alongside the data itself. By adhering to these standards, rule makers can ensure that their regulations are trusted and correctly interpreted within the METR system.
+Conforming to the METR regulation system's data quality requirements is critical for ensuring the reliability and effectiveness of the regulations once they are converted into an electronic format. This section explains the importance of establishing and maintaining high data quality and how the certification level of the data should be recorded alongside the data itself. By adhering to these requirements, rule makers can ensure that their regulations are trusted and correctly interpreted within the METR system.
 
 ### Which supporting-data providers are trusted
 
@@ -73,10 +73,6 @@ Rule makers have access to various existing data sources that can be leveraged i
 
 To achieve interoperability within METR, rule makers must adhere to specific standards and verify their proper implementation. This section identifies the key standards that need to be considered and explains the importance of working with regional authorities to ensure alignment with regional policies. By meeting these minimum requirements, rule makers can ensure that their regulations are compatible with the broader METR system, facilitating seamless integration and cooperation across different jurisdictions.
 
-## Data Quality Assurance
-
-Ensuring data quality is paramount for the success of the METR system. This section provides an overview of the options available for maintaining data quality in line with METR-defined certification levels. It highlights the importance of continuous data quality assurance and outlines the processes that rule makers can implement to maintain high standards, ensuring that their electronic regulations are accurate, reliable, and trusted by all stakeholders.
-
 ## Tailoring the Guide and the Standards
 
-While this guide provides a comprehensive framework for METR implementation, it is essential for regional bodies and rule makers to tailor the guidance and standards to their specific needs. By adapting the guide to local conditions, rule makers can ensure that their METR implementation is both effective and sustainable, meeting the unique needs of their jurisdictions.
+While this guide provides a comprehensive framework for METR implementation, it is essential for regional bodies and rule makers to tailor the guidance and standards to their specific needs. By adapting the guide to local conditions, rule makers can ensure that their METR implementation is both effective and sustainable, meeting the unique needs of their jurisdictions while safely and efficiently integrating into the broader METR ecosystem.

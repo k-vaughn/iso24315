@@ -1,6 +1,6 @@
 # Cybersecurity Use Cases
 
-<div class="draft-watermark" aria-hidden="true"></div>
+<div class="draft4-watermark" aria-hidden="true"></div>
 
 ## METR Cyber Security Use Cases
 

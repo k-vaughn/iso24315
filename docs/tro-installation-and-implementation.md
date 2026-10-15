@@ -1,6 +1,6 @@
 # TRO Installation and Implementation
 
-<div class="draft-watermark" aria-hidden="true"></div>
+<div class="draft4-watermark" aria-hidden="true"></div>
 
 After approval, most TROs are installed and implemented. In TRO language these words are distinct:
 

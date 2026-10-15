@@ -1,6 +1,6 @@
 # Roadway Environment
 
-<div class="draft-watermark" aria-hidden="true"></div>
+<div class="draft4-watermark" aria-hidden="true"></div>
 
 METR distributes trustworthy electronic rules and regulations, but those regulations still have to coexist with the physical roadway. Signs, pavement markings, signals, gates, and other traffic control devices (TCDs) remain the conventional way many regulations are publicized and enforced. The roadway environment is therefore not outside METR — it is one of the main sources of truth that electronic regulations must stay aligned with, and one of the main places where conflicts are discovered.
 
@@ -20,8 +20,8 @@ METR practice distinguishes several ways R&R can exist for users:
 
 - **Unposted rules** are publicized primarily through media outlets, recorded in the highway code, and taught as a part of driver's education (legislative **rules of the road**).
 - **Posted regulations** are publicized with conventional TCDs — signs, markings, signals, gates, and similar devices. Posted regulations can further be subdivided into:
-  - **Observable regulations** are posted and can actually be perceived by those affected.
-  - **Unobservable regulations** are posted but cannot be reliably perceived — for example because a sign is damaged, faded, covered by snow or foliage, obstructed by another vehicle, vandalized, or removed.
+    - **Observable regulations** are posted and can actually be perceived by those affected.
+    - **Unobservable regulations** are posted but cannot be reliably perceived — for example because a sign is damaged, faded, covered by snow or foliage, obstructed by another vehicle, vandalized, or removed.
 
 These distinctions matter for METR because discrepancy reports often originate from what a user system *sees* or fails to see. A blocked sign can generate a false conflict report even when the electronic regulation is correct. Conversely, an electronic record that does not match a clearly posted and observable TCD is a real discrepancy that needs investigation.
 

@@ -1,6 +1,6 @@
 # Regional Environment
 
-<div class="draft-watermark" aria-hidden="true"></div>
+<div class="draft4-watermark" aria-hidden="true"></div>
 
 ==This page will describe the regional environment for METR: how international standards are refined into regional frameworks and local policy, cross-border interoperability expectations, and why fragmented regional choices undermine trustworthiness.==
 

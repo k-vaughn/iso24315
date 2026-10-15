@@ -1,6 +1,6 @@
 # METR User Device Developer Perspective
 
-<div class="stub-watermark" aria-hidden="true"></div>
+<div class="draft1-watermark" aria-hidden="true"></div>
 
 !!! note
     ==Audience: Deployer of METR consumer system (e.g., consumer system developers for vehicle, smartphone app, navigation app, etc.)==

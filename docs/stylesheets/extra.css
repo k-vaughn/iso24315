@@ -231,20 +231,75 @@ html {
   font-weight: 700;
 }
 
-.draft-watermark {
+/* Raise the digit to move a page forward. The stamp text comes from the class.
+   draft1 NOT READY / FOR REVIEW
+   draft2 PRE-DRAFT / STRUCTURE
+   draft3 PRE-DRAFT / CONTENT
+   draft4 DRAFT
+   draft5 FINAL DRAFT
+   <div class="draft4-watermark" aria-hidden="true"></div> */
+.draft1-watermark,
+.draft2-watermark,
+.draft3-watermark,
+.draft4-watermark,
+.draft5-watermark {
   position: fixed;
   inset: 0;
-  background: url("../images/draft-watermark.png") center / 28rem no-repeat;
-  opacity: 0.22;
-  pointer-events: none;
   z-index: 1;
+  display: grid;
+  place-items: center;
+  margin: 0;
+  color: #d32f2f;
+  font-family: "Arial Black", Impact, "Segoe UI", sans-serif;
+  font-size: clamp(2.15rem, 7vw, 3.4rem);
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  line-height: 1.08;
+  text-align: center;
+  white-space: pre;
+  pointer-events: none;
+  user-select: none;
+  opacity: 0.28;
+  transform: rotate(-18deg);
 }
 
-.stub-watermark {
-  position: fixed;
-  inset: 0;
-  background: url("../images/not-for-review.svg") center / 36rem no-repeat;
-  opacity: 0.28;
-  pointer-events: none;
-  z-index: 1;
+.draft1-watermark::before,
+.draft2-watermark::before,
+.draft3-watermark::before,
+.draft4-watermark::before,
+.draft5-watermark::before {
+  white-space: pre;
+}
+
+.draft1-watermark::before {
+  content: "NOT READY\A FOR REVIEW";
+}
+
+.draft2-watermark {
+    font-size: clamp(2.65rem, 9vw, 4.8rem);
+  }
+  
+.draft2-watermark::before {
+  content: "PRE-DRAFT";
+}
+
+.draft3-watermark {
+    font-size: clamp(2.65rem, 9vw, 4.8rem);
+  }
+  
+.draft3-watermark::before {
+  content: "PRE-DRAFT";
+}
+
+.draft4-watermark {
+  font-size: clamp(3.25rem, 12vw, 6.25rem);
+  opacity: 0.22;
+}
+
+.draft4-watermark::before {
+  content: "DRAFT";
+}
+
+.draft5-watermark::before {
+  content: "FINAL DRAFT";
 }

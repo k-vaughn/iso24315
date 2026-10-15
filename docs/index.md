@@ -1,6 +1,6 @@
 # Management of Electronic Traffic Regulations (METR)
 
-<div class="draft-watermark" aria-hidden="true"></div>
+<div class="draft4-watermark" aria-hidden="true"></div>
 
 !!! note
     ==This is a draft website for ISO TC 204 WG 19 (and other invited experts) to review via HuddleKit. Items that are highlighted in yellow will be removed before the final version is published.==

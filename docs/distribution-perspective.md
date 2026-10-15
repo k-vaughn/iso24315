@@ -1,6 +1,6 @@
 # Guidance for METR Distribution System
 
-<div class="draft-watermark" aria-hidden="true"></div>
+<div class="draft4-watermark" aria-hidden="true"></div>
 
 !!! note
     ==Audience: Deployer of METR distribution system (e.g., OEMs, navigation systems, NAPs)==
@@ -33,7 +33,7 @@
 
 ## Position within the reference architecture
 
-The distribution system is the delivery system. It receives the electronic regulations from the regulation system(s) and delivers them to the METR user systems. 
+The distribution system is the delivery system. It receives the electronic regulations from the regulation system(s) and delivers them to the METR user systems.
 
 ![The METR distribution system between regulation systems and users](images/concept-arch.png)
 
@@ -61,13 +61,13 @@ Interoperability is a key factor in the success of a METR distribution system. T
 
 ### Who Is the Target Market for the Distribution System?
 
-The reference architecture for the regional body will likely provide guidance on the target market for a METR distribution system within the region. For example, the region can provide provide guidance that distribution systems are assumed to be private third parties, such as navigation systems and OEMs. In this case, the interface between the distribution system and the user device is more likely to be proprietary. Whereas if the regional guidance is that government agencies should provide the regulations directly to METR users, the interface will need to be fully standardized to ensure that it is readily accessible. 
+The reference architecture for the regional body will likely provide guidance on the target market for a METR distribution system within the region. For example, the region can provide provide guidance that distribution systems are assumed to be private third parties, such as navigation systems and OEMs. In this case, the interface between the distribution system and the user device is more likely to be proprietary. Whereas if the regional guidance is that government agencies should provide the regulations directly to METR users, the interface will need to be fully standardized to ensure that it is readily accessible.
 
 The needs of each user group can vary. For example, in-vehicle navigation systems may require real-time access to regulation updates and emergent regulations, while pre-trip planning services are primarily concerned about pre-announced regulations. Understanding the needs of these different user groups is essential for designing a system that meets their expectations and supports their operations.
 
 ### Regulation Packaging
 
-In most cases, the distribution system will need to be able to repackage the electronic regulations provided by the regulation system(s) into a structure that is more appropriate for the user device. 
+In most cases, the distribution system will need to be able to repackage the electronic regulations provided by the regulation system(s) into a structure that is more appropriate for the user device.
 
 The regulation system will likely package and sign the regulations into a electronic **[traffic regulation order](tro-what-is-a-tro.md)**, which is an electronic representation of the legal document that establishes one ore more traffic regulations. However, TROs group regulations from a traffic operations perspective rather than a user need-to-know perspective. For example, a single TRO for a road works project can contain regulations for lane shifts (including the positioning of traffic cones), speed limits, parking restrictions, and other regulations for both directions on multiple roads over multiple phases of a project. By comparison, a user device may only need to know about the speed limit and lane shift regulations for a specific direction on a specific road at a specific time. Distributing the entire TRO is not necessary, wasteful of bandwidth, processing, and memory resources, and can delay the delivery of other (e.g., emergent) regulations to the user device that could be safety relevant.
 
@@ -91,4 +91,4 @@ Pre-announced regulations are planned and communicated well in advance of their 
 
 ## How to Tailor the Guide and the Standards
 
-While this guide provides a comprehensive framework for deploying a METR distribution system, it is important for regional bodies and operators to tailor the guidance and standards to their specific needs and contexts. 
+While this guide provides a comprehensive framework for deploying a METR distribution system, it is important for regional bodies and operators to tailor the guidance and standards to their specific needs and contexts.

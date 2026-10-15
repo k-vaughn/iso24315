@@ -1,6 +1,6 @@
 ### METR Trust Management Use Cases
 
-<div class="draft-watermark" aria-hidden="true"></div>
+<div class="draft4-watermark" aria-hidden="true"></div>
 
 Trusted METR domain preparation use cases define the security activities required to establish a METR environment in which trusted operations can occur. They address the establishment and maintenance of trust relationships, security policy, identities and credentials, authorization privileges and scopes, security audit requirements, and secure METR services. Figure X illustrates the principal actors and use cases involved in preparing the METR domain for trusted operation. The subsections that follow define each of these security use cases and identify the security controls applied to support them.
 

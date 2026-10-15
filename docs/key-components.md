@@ -1,6 +1,6 @@
 # Key components of the METR system of systems
 
-<div class="draft-watermark" aria-hidden="true"></div>
+<div class="draft4-watermark" aria-hidden="true"></div>
 
 The key components of the system are depicted in the following figure and explained further below.
 

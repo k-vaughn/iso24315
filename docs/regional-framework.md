@@ -1,6 +1,6 @@
 # Sample Regional Implementation Policy Framework
 
-<div class="draft-watermark" aria-hidden="true"></div>
+<div class="draft4-watermark" aria-hidden="true"></div>
 
 ==## Introduction==
 

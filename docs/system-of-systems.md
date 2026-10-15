@@ -1,6 +1,6 @@
 # METR as a System of Systems
 
-<div class="draft-watermark" aria-hidden="true"></div>
+<div class="draft4-watermark" aria-hidden="true"></div>
 
 METR is intentionally designed as a **system of systems** (SoS): a set of operationally and managerially independent systems that interoperate for a period of time to achieve a shared purpose — providing geo-specific, trustworthy, machine-interpretable rules and regulations to transport users.
 

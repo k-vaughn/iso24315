@@ -1,6 +1,6 @@
 # TRO Proposal and Approval
 
-<div class="draft-watermark" aria-hidden="true"></div>
+<div class="draft4-watermark" aria-hidden="true"></div>
 
 Bringing a TRO from idea to approved legal and electronic form is the heart of the rule-maker workflow.
 

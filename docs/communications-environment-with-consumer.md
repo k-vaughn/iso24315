@@ -1,6 +1,6 @@
 # Communications Environment with the Consumer
 
-<div class="stub-watermark" aria-hidden="true"></div>
+<div class="draft1-watermark" aria-hidden="true"></div>
 
 ==This page will describe communications between METR distribution systems and consumer systems: connectivity assumptions, resiliency when coverage fails, centre vs field vs vehicle distribution paths, and how emergent updates reach devices in time.==
 

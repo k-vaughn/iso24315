@@ -1,6 +1,6 @@
 # METR Security Management Use Cases
 
-<div class="draft-watermark" aria-hidden="true"></div>
+<div class="draft4-watermark" aria-hidden="true"></div>
 
 ![METR Security Management Use Cases](images\metr-security-management-uc.jpg)
 

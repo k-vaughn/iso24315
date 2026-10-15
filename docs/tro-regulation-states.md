@@ -1,6 +1,6 @@
 # Regulation States
 
-<div class="draft-watermark" aria-hidden="true"></div>
+<div class="draft4-watermark" aria-hidden="true"></div>
 
 Every traffic regulation moves through a lifecycle. METR defines a standardized language for referencing the various states of the lifecycle to provide a common baseline understanding of the METR documents. The actual terms used and states defined for a particular jurisdiction can vary.
 

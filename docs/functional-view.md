@@ -1,8 +1,8 @@
 # Functional View: How METR Works
 
-<div class="draft-watermark" aria-hidden="true"></div>
+<div class="draft4-watermark" aria-hidden="true"></div>
 
-METR defines how traffic laws and regulations can be transformed into geo-specific, trustworthy, machine-interpretable data that vehicles, apps, and other transport systems can rely on. The figure, from ISO/TR 24315-2, is the functional view of the METR reference architecture. Clicking on any link will jump to the segment of text that explains the specific function.
+METR defines how traffic laws and regulations can be transformed into geo-specific, trustworthy, machine-interpretable data that vehicles, apps, and other transport systems can rely on. The figure, from ISO/TR 24315-2, is the functional view of the METR reference architecture. Clicking on any circle will jump to the segment of text that explains the specific function.
 
 <div class="diagram-light-bg" markdown="0">
 --8<-- "images/functional_view.svg"
