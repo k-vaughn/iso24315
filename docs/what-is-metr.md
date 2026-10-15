@@ -6,6 +6,8 @@ METR is a [system of systems](system-of-systems.md) that ensures digital rules a
 
 ![Three-tiered model of METR](images/three-tiered-approach.png)
 
+<figure><figcaption>Three-tiered model of METR</figcaption></figure>
+
 Based on this model, the ISO documents capture globally applicable principles and requirements for the trustworthy management and distribution of electronic traffic regulations. The regions are defined as geographic areas within which transport users generally expect to be able to seamlessly travel; these are typically multi-national areas. Each regional body is responsible for refining the global, high-level requirements to promote an interoperable environment within their region. For example, regional bodies will typically want to define policies and interface standards to facilitate data sharing; this might include identifying the cybersecurity scheme, data models, and protocols to be used; which often vary by region. At the national and local level, the details need to be tailored further; for example, identifying how the roles and responsibilities of the various actors defined within the METR standards are to be fulfilled by the various entities within the locality. 
 
 ## Terminology used on this website
@@ -48,6 +50,8 @@ The ISO 24315 series title and the acronym **[METR](https://isotc204.org/iso2431
 METR is intended to support virtually any rule or regulation that needs to be conveyed to virtually any transport user. The attached graphic depicts R&R for freight vehicles, ride sharing, kerbside usage, micromobility operations, vulnerable road users (VRUs), public transport usage, lane usage, public-area mobile robots (PMRs), and road works. This information and more needs to be conveyed to all transport user systems; sample user systems include nomadic devices, PMRs, driver support systems, and ADS-equipped vehicles.
 
 ![Illustration of diverse transport regulations and user systems](images/streetscape.png)
+
+<figure><figcaption>Illustration of diverse transport regulations and user systems</figcaption></figure>
 
 As driving automation systems become more common, the importance of providing trustworthy regulations to the public is becoming more critical.
 

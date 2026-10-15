@@ -21,7 +21,7 @@ The figure below illustrates METR Transport Security Aligned with ISO 21177 and 
 
 ![ISO-21177 Transport Layer Security](images\iso2177-tls.jpg)
 
- 
+<figure><figcaption>ISO-21177 Transport Layer Security</figcaption></figure>
 
 #### 1.1.1.1     Secure Session Lifecycle and Protected Message Exchange
 
@@ -41,15 +41,13 @@ Figure 8 ALPDU Generation illustrates how application-layer content, local autho
 
 ![TLS Internal Operations](images\tls-internal-sequence.jpg)
 
-Two METR systems exchanging data operate in client and server roles. The client role is responsible for initiating a secure session with METR system acting in a server role. Both client and server implement a secure data exchange using Transport Layer Security (TLS) using ISO 21177 services.  
+<figure><figcaption>ALPDU Generation</figcaption></figure>
 
- 
+Two METR systems exchanging data operate in client and server roles. The client role is responsible for initiating a secure session with METR system acting in a server role. Both client and server implement a secure data exchange using Transport Layer Security (TLS) using ISO 21177 services.  
 
 ##### Session Initiation
 
 A METR system operating in the client role shall initiate a secure session toward the peer system operating in the server role. The client-side ISO 21177 Security Adaptor Layer shall invoke the session start primitive, which causes its Secure Session Service to initiate a TLS handshake with the remote Secure Session Service. No METR application data is exchanged at this point. 
-
- 
 
 ##### 1.1.1.1.2   Mutual TLS Authentication
 
@@ -72,6 +70,8 @@ Because authorization enforcement occurs locally within each METR system, jurisd
 When authentication and authorization have both completed successfully, an active secure session exists between the two METR systems, as illustrated in Figure 9 Active TLS Secure Session. The session provides confidentiality, integrity protection, and replay resistance for all subsequent communications. All application-layer exchanges occur within the context of this established and authorized secure channel.
 
 ![TLS Server and Client Exchange](images\tls-server-client-sequence.jpg)
+
+<figure><figcaption>TLS Server and Client Exchange</figcaption></figure>
 
 ##### Protected APDU Exchange
 

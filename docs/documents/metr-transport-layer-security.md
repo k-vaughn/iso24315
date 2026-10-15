@@ -19,5 +19,6 @@ The examples on this page are intended to clarify one implementation of the METR
 
 The figure below illustrates METR Transport Security Aligned with ISO 21177 and the conceptual interaction between the METR application, the METR security subsystem, and the ISO 21177 secure session services in both client and server roles.
 
-![](C:\Users\BrianRussell\Documents\Repos\Metr_engineering\iso24315\docs\images\iso2177-tls.jpg)
+![METR Transport Security Aligned with ISO 21177](images\iso2177-tls.jpg)
 
+<figure><figcaption>METR Transport Security Aligned with ISO 21177</figcaption></figure>

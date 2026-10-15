@@ -7,7 +7,12 @@
 
 ## Overview
 
-To facilitate input from stakeholders, ISO/TC 204/WG 19 hosted a series of [public workshops](workshops.md) in late 2021 with 47 stakeholders from 13 countries. ![Workshop participants by country](images/pie.png){ width="360" align=right}
+To facilitate input from stakeholders, ISO/TC 204/WG 19 hosted a series of [public workshops](workshops.md) in late 2021 with 47 stakeholders from 13 countries. 
+
+<figure class="figure-right">
+<img src="images/pie.png" width="360" alt="Workshop participants by country">
+<figcaption>Workshop participants by country</figcaption>
+</figure>
 
 The results of these workshops and follow-on meetings of WG 19 drove the development of Part 1: Vocabulary and Part 2: Operational Concept (ConOps). As these documents were finalized, efforts began to produce Part 3: System of System Requirements and Architecture (SoSR) and Part 4: System-level Requirements (SysR). The last document defines the requirements for each of the four major component systems within the METR system of systems, as defined by the architecture:
 

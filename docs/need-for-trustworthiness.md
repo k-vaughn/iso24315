@@ -10,6 +10,8 @@ The term **trustworthy** encompasses a set of attributes that are often separate
 
 ![Trustworthiness is a multi-dimensional construct](images/trustworthiness.png)
 
+<figure><figcaption>Trustworthiness is a multi-dimensional construct</figcaption></figure>
+
 ## Information Security
 
 Information security deals with those characteristics related to ensuring that the information is secure and protected from unauthorized access, modification, or disclosure. The implementation approach should address relevant cybersecurity controls, including **authentication, authorization and access control, integrity protection, confidentiality where required, secure communications, cryptographic signing and verification, protection against unauthorized modification, secure storage, monitoring, vulnerability and patch management, and auditing/non-repudiation**. These controls protect the regulation and the systems that handle it from unauthorized access or alteration. As well, such controls provide evidence that the information received by a consumer can be traced to a trusted source.

@@ -31,7 +31,15 @@
 
 ==This page is designed for a broad audience, including system administrators, IT professionals, transportation planners, and regulatory authorities involved in the deployment and management of METR distribution systems. It is also valuable for consultants and service providers who support these entities, as well as policymakers who oversee transportation regulations and ensure that these systems meet legal and operational standards.==
 
-## What Are the Prerequisites for Deploying a METR Distribution System?
+## Position within the reference architecture
+
+The distribution system is the delivery system. It receives the electronic regulations from the regulation system(s) and delivers them to the METR user systems. 
+
+![The METR distribution system between regulation systems and users](images/concept-arch.png)
+
+<figure><figcaption>The METR distribution system between regulation systems and users</figcaption></figure>
+
+## Prerequisites
 
 Deploying a METR distribution system requires meeting several prerequisites to ensure successful implementation. These include all of the prerequisites identified for the **[system management perspective](system-management-perspective.md)**, and the following:
 

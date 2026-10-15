@@ -4,6 +4,8 @@
 
 ![METR Security Management Use Cases](images\metr-security-management-uc.jpg)
 
+<figure><figcaption>METR Security Management Use Cases</figcaption></figure>
+
 #### Perform Forensic Analysis
 
 This use case describes how an authorized METR Auditor obtains and examines audit information to determine whether METR component systems operated properly and to reconstruct security-relevant events following an incident, suspected compromise, dispute, or other condition requiring investigation.
@@ -44,7 +46,7 @@ The output of this process is a documented forensic analysis supported by preser
 
 ![Perform Forensic Analysis](images\perform-forensic-analysis.png)
 
-
+<figure><figcaption>Perform Forensic Analysis</figcaption></figure>
 
 #### Audit METR Operations
 
@@ -62,7 +64,7 @@ The results of the audit shall identify the records reviewed, the applicable per
 
 ![Audit METR Operations](images\audit-metr-operations.jpg)
 
-
+<figure><figcaption>Audit METR Operations</figcaption></figure>
 
 #### Prepare and Execute Contingency Plans
 
@@ -92,7 +94,7 @@ The execution of the contingency plan, including the triggering condition, affec
 
 ![Prepare and Execute Contingency Plans](images\prepare-and-execute-contingency-plans.jpg)
 
-
+<figure><figcaption>Prepare and Execute Contingency Plans</figcaption></figure>
 
 #### Manage METR Security Incidents
 
@@ -126,7 +128,7 @@ The METR Security Admin shall record the incident, affected components and infor
 
 ![Manage METR Security Incidents](images\manage-metr-security-incidents.jpg)
 
-
+<figure><figcaption>Manage METR Security Incidents</figcaption></figure>
 
 #### Manage METR Security Maintenance
 
@@ -162,7 +164,7 @@ The METR Security Admin shall record the maintenance performed, affected compone
 
 ![Manage METR Security Maintenance](images\manage-metr-security-maintenance.jpg)
 
-
+<figure><figcaption>Manage METR Security Maintenance</figcaption></figure>
 
 #### Manage METR Discrepancy Handling
 
@@ -196,5 +198,5 @@ Misbehaviour reports and associated supporting evidence shall be retained and pr
 
  ![Manage METR Discrepancy Handling](images\manage-metr-discrepancy-handling.jpg)
 
-
+<figure><figcaption>Manage METR Discrepancy Handling</figcaption></figure>
 

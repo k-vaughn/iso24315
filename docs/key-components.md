@@ -6,6 +6,8 @@ The key components of the system are depicted in the following figure and explai
 
 ![Conceptual Architecture](images/concept-arch.png)
 
+<figure><figcaption>Conceptual Architecture</figcaption></figure>
+
 The reference architecture of the METR [system of systems](system-of-systems.md) consists of four major component systems that support external users and systems, as follows:
 
 1. Regulation system: Regulators enter rules and regulations (R&Rs) into a regulation system. The R&Rs can include any rule or regulation — mandatory, advisory, or guidance — such as speed limits, advisory speeds, stop signs, warnings, parking restrictions, etc. While each regulator could have its own regulation system, it is envisioned that smaller regulators would enter their regulations into the regulation system of a large (e.g., metropolitan) area. For example, a small store might need to register that it maintains a single regulation (e.g., a specific parking space in their parking lot is legally reserved for persons with disabilities). Rather than establishing their own regulation system to store this one regulation, the store owner can follow the procedures established by the local regulation system to enter their information into the METR network. In fact, it is expected that the challenges of implementing and maintaining a regulation system will encourage even moderately sized cities to enter their regulations into the regulation system of a larger area. Regardless, the end result is a trusted and verifiable source that maintains R&Rs that are digitally-signed to capture the legal entity that issued the R&R. The [regulation system implementation guide](regulation-system-perspective.md) provides additional details on the regulation system and how it is used.

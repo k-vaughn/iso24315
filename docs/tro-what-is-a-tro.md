@@ -15,6 +15,8 @@ For example, the highway code can designate the road authority as a regulator fo
 --8<-- "images/rr-terms.svg"
 </div>
 
+<figure><figcaption>Highway code and TROs</figcaption></figure>
+
 !!! note
     This website uses the [\"latest\" terminology](https://isotc204.org/iso24315-vocab/latest/), which varies slightly from ISO 24315-1:2025. For example, in ISO 24315-1:2025, the term \"rule\" was used to reference rules and regulations. On this website,  the term has been refined to only refer to provisions within the rules of the road while a new term (\"rules and regulations\") is used to refer to the combination of the two. Other refinements have been made as well. All of these refinements are expected to be reflected in the next edition of ISO 24315-1.
 
@@ -48,6 +50,8 @@ A TRO can include one or more traffic regulations. Each traffic regulation shoul
 
     ![Mandatory turn-left sign](images/tro/ex-turn-left.png)
 
+    <figure><figcaption>Mandatory turn-left sign</figcaption></figure>
+
     </div>
 
     <div class="tro-example" markdown="1">
@@ -57,6 +61,8 @@ A TRO can include one or more traffic regulations. Each traffic regulation shoul
     Left turn forbidden
 
     ![Left-turn forbidden sign](images/tro/ex-left-turn-forbidden.png)
+
+    <figure><figcaption>Left-turn forbidden sign</figcaption></figure>
 
     </div>
 
@@ -68,6 +74,8 @@ A TRO can include one or more traffic regulations. Each traffic regulation shoul
 
     ![Advisory curve warning with a recommended speed](images/tro/ex-recommended-speed.png)
 
+    <figure><figcaption>Advisory curve warning with a recommended speed</figcaption></figure>
+
     </div>
 
     <div class="tro-example" markdown="1">
@@ -77,6 +85,8 @@ A TRO can include one or more traffic regulations. Each traffic regulation shoul
     Destinations
 
     ![Guidance sign listing destinations](images/tro/ex-destinations.png)
+
+    <figure><figcaption>Guidance sign listing destinations</figcaption></figure>
 
     </div>
 
@@ -93,11 +103,15 @@ Traffic rules (i.e., defined in the highway code) are documented in legislation,
 
     ![Simplified TRO example for a school-zone speed limit](images/tro/tro-example-school-zone.png)
 
+    <figure><figcaption>Simplified TRO example for a school-zone speed limit</figcaption></figure>
+
 !!! example "Example TRO: Work zone"
 
     A TRO may specify the traffic control devices needed to protect workers and manage vehicles, pedestrians, and micromobility through the site, including transition plans for the order in which devices are deployed.
 
     ![Example work-zone layout that a TRO may specify](images/tro/tro-example-work-zone.png)
+
+    <figure><figcaption>Example work-zone layout that a TRO may specify</figcaption></figure>
 
 !!! example "Example TRO: Parking plan"
 

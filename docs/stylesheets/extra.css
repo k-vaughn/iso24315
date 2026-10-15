@@ -1,6 +1,10 @@
 /* Shared figure, table, and breadcrumb styling from ISO TC 204 (TC204_Website).
    Header chrome comes from the classic Material theme (indigo, Roboto, tabs). */
 
+body {
+  counter-reset: figure;
+}
+
 .md-breadcrumb {
   margin: 1rem 0;
   font-size: 0.75rem;
@@ -62,9 +66,11 @@
   }
 }
 
-figcaption,
-em.figcaption {
-  font-style: italic;
+.md-typeset figcaption,
+.md-typeset em.figcaption {
+  counter-increment: figure;
+  font-style: normal;
+  font-weight: 700;
   font-size: 0.9em;
   color: #666;
   text-align: center;
@@ -80,6 +86,25 @@ figure {
   text-align: center;
 }
 
+.md-typeset figure.figure-right {
+  float: right;
+  width: 360px;
+  max-width: 45%;
+  margin: 0.2rem 0 1rem 1.25rem;
+}
+
+.md-typeset figure.figure-right img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.md-typeset figure.figure-right figcaption {
+  max-width: 100%;
+  margin-right: 0;
+  margin-left: 0;
+}
+
 img.figure {
   max-width: 100%;
   height: auto;
@@ -88,6 +113,24 @@ img.figure {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   display: block;
   margin: 0 auto;
+}
+
+.md-typeset figcaption::before {
+  content: "Figure " counter(figure) ". ";
+  font-style: normal;
+  font-weight: 700;
+}
+
+.md-typeset next-fig::before {
+  counter-increment: figure 1;
+  content: "Figure " counter(figure);
+  font-style: normal;
+  font-weight: 700;
+}
+
+next-fig::after {
+    counter-increment: figure -1;
+    content: '';
 }
 
 .md-typeset table {

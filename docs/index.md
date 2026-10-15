@@ -29,9 +29,13 @@ Most users are familiar with the problems. Systems leveraging databases face cha
 
 ![Example of database error](images/SpeedLimitDiscrepancy.png)
 
+<figure><figcaption>Example of database error</figcaption></figure>
+
 Video image processing systems also have challenges. Not only can signs be obscured, but signs can sometimes be misinterpreted.
 
 ![Video image processing error](images/VideoProcessingError.png)
+
+<figure><figcaption>Example of video image processing error</figcaption></figure>
 
 ## Limitations of the Status Quo
 
@@ -53,6 +57,8 @@ If these errors persist, users will lose trust in driving automation and informa
         allowfullscreen>
     </iframe>
 </div>
+
+<figure><figcaption>METR solution</figcaption></figure>
 
 <div class="button-row" markdown="span">
 

@@ -42,6 +42,8 @@ Installers may adjust placement for sight lines or add devices so non-METR users
 
 ![Example TCDs at a signalized pedestrian crossing that need accurate positioning](images/tro/tro-example-tcd-crossing.png)
 
+<figure><figcaption>Example TCDs at a signalized pedestrian crossing that need accurate positioning</figcaption></figure>
+
 Wrong stop-line or marking coordinates can have serious consequences for ITS and automated driving applications.
 
 ## Who uses which representation

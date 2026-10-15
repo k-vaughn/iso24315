@@ -25,6 +25,8 @@ As METR systems become more widespread, regional implementation guides are essen
 
 ![Three-tiered approach](../images/three-tiered-approach.png)
 
+<figure><figcaption>Three-tiered approach</figcaption></figure>
+
 Without clear regional guidance, there is a risk of fragmented or incompatible systems that could undermine the effectiveness of METR, leading to potential safety issues, inefficiencies, and challenges in regulation enforcement.
 
 ## Scope of METR Systems

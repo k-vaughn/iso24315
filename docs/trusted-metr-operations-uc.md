@@ -8,23 +8,20 @@ The use cases define, as applicable, requirements for entity authentication, cre
 
 ![Trusted METR Operations](images\trusted-metr-operations-uc.jpg)
 
+<figure><figcaption>Trusted METR Operations</figcaption></figure>
+
 #### Verify Legal Rule
 
 Before a Legal Rule is transformed into a METR Rule, the METR Regulation System shall authenticate the Rule Maker and verify that the Rule Maker is authorized to publish the rule.
 
 The verification shall determine whether the Rule Maker has authority applicable to the rule, including, as relevant:
 
-·    the defined geographic area; 
-
-·    the applicable vehicle classes; 
-
-·    the category of rule, such as parking restrictions or speed limits; 
-
-·    the affected vehicle types, such as emergency vehicles; 
-
-·    the defined times of day or operational periods; and 
-
-·    the applicable roadway classifications, such as municipal roads or interstate highways. 
+- the defined geographic area;
+- the applicable vehicle classes;
+- the category of rule, such as parking restrictions or speed limits;
+- the affected vehicle types, such as emergency vehicles;
+- the defined times of day or operational periods; and
+- the applicable roadway classifications, such as municipal roads or interstate highways.
 
 The METR Regulation System shall record the Rule Maker identity, the applicable authorization evidence, and the results of the role and scope authorization decisions.
 
@@ -32,9 +29,7 @@ The authentication and verification process is region-specific and may be perfor
 
  ![Verify Legal Rule](images\verify-legal-rule.png)
 
-
-
-
+<figure><figcaption>Verify Legal Rule</figcaption></figure>
 
 #### Digitize Legal Rule
 
@@ -42,19 +37,13 @@ After a Legal Rule has been verified, the METR Regulation System shall make the 
 
 The digitization process shall preserve the relationship between the source Legal Rule and the resulting METR information. At a minimum, the process shall:
 
-·    identify the Legal Rule used as the source; 
-
-·    record the Rule Translation Agent responsible for the digitization; 
-
-·    record the transformation from the Legal Rule to the METR representation; 
-
-·    associate applicable provenance information with the resulting METR information; 
-
-·    protect the integrity of the digitized METR information during submission and processing; 
-
-·    record the results of applicable format, completeness, and internal consistency checks; and 
-
-·    record applicable digitization transaction events. 
+- identify the Legal Rule used as the source;
+- record the Rule Translation Agent responsible for the digitization;
+- record the transformation from the Legal Rule to the METR representation;
+- associate applicable provenance information with the resulting METR information;
+- protect the integrity of the digitized METR information during submission and processing;
+- record the results of applicable format, completeness, and internal consistency checks; and
+- record applicable digitization transaction events. 
 
 The METR Regulation System shall restrict digitization functions to authorized Rule Translation Agents.
 
@@ -64,9 +53,7 @@ The output of this process is unverified METR information. Independent verificat
 
 ![Digitize Legal Rule](images\digitize-legal-rule.png)
 
-
-
-
+<figure><figcaption>Digitize Legal Rule</figcaption></figure>
 
 #### Digitally Sign and Approve METR Rule
 
@@ -74,15 +61,11 @@ After a digitized METR Rule has been independently verified, the METR Regulation
 
 Before presenting the rule for approval, the METR Regulation System shall:
 
-·    confirm that the METR Rule has successfully completed the required verification process; 
-
-·    authenticate the Rule Signing Agent; 
-
-·    validate the applicable signing credential and certificate chain; 
-
-·    determine that the Rule Signing Agent is authorized to act for the applicable signing organization; and 
-
-·    protect the integrity and provenance of the METR Rule presented for approval. 
+- confirm that the METR Rule has successfully completed the required verification process;
+- authenticate the Rule Signing Agent;
+- validate the applicable signing credential and certificate chain;
+- determine that the Rule Signing Agent is authorized to act for the applicable signing organization; and
+- protect the integrity and provenance of the METR Rule presented for approval.
 
 The Rule Signing Agent shall review the verified METR Rule and either approve or reject it. The approval or rejection decision, the identity of the Rule Signing Agent, and the associated transaction event shall be recorded.
 
@@ -90,21 +73,16 @@ If approved, the Rule Signing Agent shall apply a digital signature that is boun
 
 The signed METR Rule shall identify, directly or through an associated internal record:
 
-·    the approving person or organization; 
-
-·    the applicable rule record; and 
-
-·    relevant signing and update information. 
+  - the approving person or organization; 
+  - the applicable rule record; and 
+  - relevant signing and update information. 
 
 Upon receipt of the signed METR Rule, the METR Regulation System shall validate:
 
-·    the digital signature; 
-
-·    the signing credential; 
-
-·    the applicable certificate chain; and 
-
-·    the authority of the Rule Signing Agent. 
+  - the digital signature;
+  - the signing credential; 
+  - the applicable certificate chain; and 
+  - the authority of the Rule Signing Agent. 
 
 If these validations succeed, the METR Regulation System shall preserve the signed object and associated evidence, record the transaction event and validation results, and mark the METR Rule as approved.
 
@@ -112,17 +90,19 @@ If the Rule Signing Agent rejects the rule, or if the signature, credential, cer
 
 ![Digitally Sign METR Rule](images\digitally-sign-legal-rule.png)
 
+<figure><figcaption>Digitally Sign METR Rule</figcaption></figure>
+
 #### Package Rule for Distribution
 
 After a METR Rule has been approved and digitally signed, the METR Regulation System shall prepare the rule for provisioning to an authorized METR Distribution System.
 
 Before packaging the rule, the METR Regulation System shall verify that:
 
-- the rule remains approved; 
-- the digital signature is valid; 
-- the supporting credential and applicable     certificate chain are valid; 
-- the signed content has not been modified;     and 
-- the associated security evidence remains     valid. 
+- the rule remains approved;
+- the digital signature is valid;
+- the supporting credential and applicable certificate chain are valid;
+- the signed content has not been modified; and
+- the associated security evidence remains valid.
 
 The METR Regulation System shall authenticate the intended METR Distribution System and determine that it is authorized to receive the package.
 
@@ -134,7 +114,7 @@ If the signature, credential, certificate chain, approval status, integrity, aut
 
 ![Package Rule for Distribution](images\package-rule-for-distribution.png)
 
-
+<figure><figcaption>Package Rule for Distribution</figcaption></figure>
 
 #### Distribute Rule
 
@@ -144,17 +124,12 @@ Distribution may be performed by a METR Distribution System or by an authorized 
 
 Before distribution, the distribution service shall verify that:
 
-·    the METR information originated from an authorized source; 
-
-·    the included METR Rules remain approved and digitally signed; 
-
-·    the signatures, supporting credentials, and applicable certificate chains are valid; 
-
-·    the signed content has not been modified; 
-
-·    the information remains within its applicable freshness and authorization scope; and 
-
-·    the package and associated security evidence comply with applicable METR policy. 
+  - the METR information originated from an authorized source; 
+  - the included METR Rules remain approved and digitally signed; 
+  - the signatures, supporting credentials, and applicable certificate chains are valid; 
+  - the signed content has not been modified; 
+  - the information remains within its applicable freshness and authorization scope; and 
+  - the package and associated security evidence comply with applicable METR policy. 
 
 Before transmitting the METR information, the distribution service shall establish Transport Layer Security with the destination system using an approved secure communication protocol.
 
@@ -166,7 +141,7 @@ The output of this process is signed METR information transmitted or made availa
 
  ![Distribute METR Rule](images\distribute-metr-rule.png)
 
-
+<figure><figcaption>Distribute METR Rule</figcaption></figure>
 
 #### Receive Rule
 
@@ -176,15 +151,11 @@ The METR Consumer System shall receive the METR information over an established 
 
 The METR Consumer System shall record the applicable transaction event, including:
 
-·    the source of the METR information; 
-
-·    the receiving system; 
-
-·    the time and status of receipt; 
-
-·    the received METR information package; and 
-
-·    the applicable transport and transaction evidence. 
+  - the source of the METR information; 
+  - the receiving system; 
+  - the time and status of receipt; 
+  - the received METR information package; and 
+  - the applicable transport and transaction evidence. 
 
 Where required by applicable policy, the METR Consumer System shall generate and retain non-repudiation-of-delivery evidence confirming receipt of the specific METR information package.
 
@@ -192,9 +163,9 @@ If the protected transport session is not established or the METR information pa
 
 The output of this process is received METR information preserved for subsequent verification. Validation of the rule signature, credential, content integrity, authorization scope, freshness, provenance, and other security evidence is addressed by the separate Verify Received Rule use case.
 
- ![Receive METR Rule](images\receive-metr-rule.png)
+![Receive METR Rule](images\receive-metr-rule.png)
 
-
+<figure><figcaption>Receive METR Rule</figcaption></figure>
 
 #### Verify Received Rule
 
@@ -202,21 +173,16 @@ This use case describes how a METR Consumer System verifies received METR inform
 
 The METR Consumer System shall verify that:
 
-·    the digital signature is valid for the received METR Rule; 
+  - the digital signature is valid for the received METR Rule; 
 
-·    the signing credential is valid, current, not revoked, and appropriate for use; 
+  - the signing credential is valid, current, not revoked, and appropriate for use; 
 
-·    the credential chains to an accepted trust anchor; 
-
-·    the signed content has not been modified; 
-
-·    the signer was authorized to act in the applicable role and scope; 
-
-·    the METR information remains sufficiently fresh; 
-
-·    the provenance and associated security evidence are valid; and 
-
-·    the METR information complies with applicable METR policy. 
+  - the credential chains to an accepted trust anchor;
+  - the signed content has not been modified;
+  - the signer was authorized to act in the applicable role and scope;
+  - the METR information remains sufficiently fresh;
+  - the provenance and associated security evidence are valid; and
+  - the METR information complies with applicable METR policy.
 
 The METR Consumer System shall record the applicable transaction event and the results of the signature, credential, integrity, authorization, freshness, provenance, and policy validations.
 
@@ -228,7 +194,7 @@ The output of this process is either a verified METR Rule accepted for subsequen
 
 ![Verify Received METR Rule](images\verify-received-rule.png)
 
-
+<figure><figcaption>Verify Received METR Rule</figcaption></figure>
 
 #### Report Discrepancy
 
@@ -246,13 +212,9 @@ If the protected communication session cannot be established, or if the reportin
 
 The output of this process is an authenticated and authorized discrepancy report received by the METR Discrepancy Handling System.
 
-
-
 ![Report METR Discrepancy](images\report-metr-discrepancy.png)
 
-
-
-
+<figure><figcaption>Report METR Discrepancy</figcaption></figure>
 
 #### Evaluate METR Rule Provenance
 
@@ -273,3 +235,5 @@ If provenance information is incomplete, inconsistent, cannot be fully associate
 The output of this use case is a determination that the METR Rule provenance is established, established with reduced confidence, or indeterminate, based on electronic evaluation of the rule's metadata, recorded history, and associated security evidence back to its authoritative origin.
 
  ![Evaluate METR Rule Provenance](images\evaluate-metr-rule-provenance.jpg)
+
+<figure><figcaption>Evaluate METR Rule Provenance</figcaption></figure>

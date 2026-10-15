@@ -6,7 +6,7 @@ Trusted METR domain preparation use cases define the security activities require
 
 ![METR Trust Management Use Cases](images\metr-trust-management-uc.jpg)
 
-
+<figure><figcaption>METR Trust Management Use Cases</figcaption></figure>
 
 #### Manage METR Trust Relationships
 
@@ -21,6 +21,8 @@ The METR authority shall configure the trust information necessary for METR comp
 The output of this use case is an established and maintained METR trust framework identifying the approved trust services and relationships, their governing policies and practices, the trust information required by METR components, and the processes necessary to maintain those relationships throughout METR operation.
 
 ![Manage METR Trust](images\manage-metr-trust.jpg)
+
+<figure><figcaption>Manage METR Trust</figcaption></figure>
 
 #### Manage METR Security Policy 
 
@@ -40,6 +42,8 @@ The output of this use case is an approved and maintained METR domain security p
 
 ![Manage METR Security Policy](images\manage-meter-security-policy.jpg)
 
+<figure><figcaption>Manage METR Security Policy</figcaption></figure>
+
 #### Manage METR Identities and Credentials
 
 This use case describes the activities required to establish and maintain the identities and credentials used by METR actors, systems, services, and organizations within the trusted METR domain.
@@ -58,6 +62,8 @@ Changes to an identity, credential, organizational affiliation, or other securit
 
  ![Manage METR Identities and Credentials](images\manage-metr-identities-credentials.jpg)
 
+<figure><figcaption>Manage METR Identities and Credentials</figcaption></figure>
+
 #### Manage METR Roles and Permissions
 
 This use case describes the activities required to establish and maintain the authorization privileges that determine what an authenticated METR actor is permitted to do within the METR domain.
@@ -73,6 +79,8 @@ Authorization privileges shall remain associated with the identity to which they
 Changes to an actor's role, jurisdiction, organizational authority, or permitted scope shall result in the applicable authorization information and, where necessary, associated credentials being updated, replaced, suspended, or revoked.
 
  ![Manage METR Roles and Permissions](images\manage-metr-roles-and-permissions.jpg)
+
+ <figure><figcaption>Manage METR Roles and Permissions</figcaption></figure>
 
 #### Manage METR Accountability and Audit
 
@@ -94,6 +102,8 @@ The output of this use case is a METR domain in which each component is configur
 
 ![Manage METR Accountability and Audit](images\manage-metr-accountability-and-audit.jpg)
 
+<figure><figcaption>Manage METR Accountability and Audit</figcaption></figure>
+
 #### Manage METR Device Security
 
 This use case describes the activities performed to ensure that devices used to provide METR functions are securely configured, validated, and approved before participating in trusted METR operations.
@@ -111,6 +121,8 @@ A device that does not satisfy required security conditions shall not be authori
 The device security evaluation result, supporting evidence, and authorization decision shall be recorded in accordance with applicable METR audit and evidence requirements.
 
 ![Manage METR Device Security](images\manage-metr-device-security.jpg)
+
+<figure><figcaption>Manage METR Device Security</figcaption></figure>
 
 #### Manage Trusted METR Services
 
@@ -134,5 +146,4 @@ A service whose trust relationship, credential, authorization, or security confi
 
 ![Manage Trusted METR Services](images\manage-trusted-metr-services.jpg)
 
-
-
+<figure><figcaption>Manage Trusted METR Services</figcaption></figure>

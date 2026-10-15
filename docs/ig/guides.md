@@ -20,6 +20,8 @@ Each implementation guide is presented from the perspective of one of the entiti
 
 ![Conceptual Architecture](../images/major_components.png)
 
+<figure><figcaption>Conceptual Architecture</figcaption></figure>
+
 - [Regional Guidance](../regional-body-perspective.md): The interfaces at the top of teh diagram indicate the need for a regional framework that sets the regulations for how to deploy METR within a region to ensure a base level of interoperability within that region while also setting policies for how METR user devices can transition between regions. This guide identifies key issues that need to be considered when defining a region.
 - [Sample Framework](../regional-framework.md): The sample framework extends the discussion of the Regional Guidance by providing an initial stub of a page that identifies the topics that this page should address.
 - [Rule Makers](../rule-maker-perspective.md): The rule maker guide represents the METR translator, METR Verifier, and METR Signer as well as the regulation-making functions that occur before translation occurs.
