@@ -24,7 +24,7 @@ The output of this use case is an established and maintained METR trust framewor
 
 <figure><figcaption>Manage METR Trust</figcaption></figure>
 
-#### Manage METR Security Policy 
+#### Manage METR Security Policy
 
  This use case describes the activities required to establish and maintain the security policy that governs the METR domain. The METR Policy Authority shall define the roles and trust relationships recognized within the domain, select the security mechanisms approved for use, and establish the authorization, information protection, non-repudiation, trust translation, audit, and evidence policies that apply to METR operations.
 

@@ -14,7 +14,7 @@ METR was developed using systems engineering methods grounded in stakeholder eng
 
 ### Vocabulary
 
-Consistent terminology is essential across independently owned METR components. The [vocabulary](documentation/Vocab.md) material aligns with ISO/TS 24315-1 and supports precise reading of the operational concept, requirements, and implementation guides.
+Consistent terminology is essential across independently owned METR components. The [vocabulary](https://isotc204.org/iso24315-vocab/latest/) material aligns with ISO/TS 24315-1 and supports precise reading of the operational concept, requirements, and implementation guides.
 
 ### Traceability
 

@@ -43,7 +43,7 @@ The digitization process shall preserve the relationship between the source Lega
 - associate applicable provenance information with the resulting METR information;
 - protect the integrity of the digitized METR information during submission and processing;
 - record the results of applicable format, completeness, and internal consistency checks; and
-- record applicable digitization transaction events. 
+- record applicable digitization transaction events.
 
 The METR Regulation System shall restrict digitization functions to authorized Rule Translation Agents.
 
@@ -73,16 +73,16 @@ If approved, the Rule Signing Agent shall apply a digital signature that is boun
 
 The signed METR Rule shall identify, directly or through an associated internal record:
 
-  - the approving person or organization; 
-  - the applicable rule record; and 
-  - relevant signing and update information. 
+- the approving person or organization; 
+- the applicable rule record; and 
+- relevant signing and update information. 
 
 Upon receipt of the signed METR Rule, the METR Regulation System shall validate:
 
-  - the digital signature;
-  - the signing credential; 
-  - the applicable certificate chain; and 
-  - the authority of the Rule Signing Agent. 
+- the digital signature;
+- the signing credential; 
+- the applicable certificate chain; and 
+- the authority of the Rule Signing Agent. 
 
 If these validations succeed, the METR Regulation System shall preserve the signed object and associated evidence, record the transaction event and validation results, and mark the METR Rule as approved.
 
@@ -124,12 +124,12 @@ Distribution may be performed by a METR Distribution System or by an authorized 
 
 Before distribution, the distribution service shall verify that:
 
-  - the METR information originated from an authorized source; 
-  - the included METR Rules remain approved and digitally signed; 
-  - the signatures, supporting credentials, and applicable certificate chains are valid; 
-  - the signed content has not been modified; 
-  - the information remains within its applicable freshness and authorization scope; and 
-  - the package and associated security evidence comply with applicable METR policy. 
+- the METR information originated from an authorized source; 
+- the included METR Rules remain approved and digitally signed; 
+- the signatures, supporting credentials, and applicable certificate chains are valid; 
+- the signed content has not been modified; 
+- the information remains within its applicable freshness and authorization scope; and 
+- the package and associated security evidence comply with applicable METR policy. 
 
 Before transmitting the METR information, the distribution service shall establish Transport Layer Security with the destination system using an approved secure communication protocol.
 
@@ -151,11 +151,11 @@ The METR Consumer System shall receive the METR information over an established 
 
 The METR Consumer System shall record the applicable transaction event, including:
 
-  - the source of the METR information; 
-  - the receiving system; 
-  - the time and status of receipt; 
-  - the received METR information package; and 
-  - the applicable transport and transaction evidence. 
+- the source of the METR information; 
+- the receiving system; 
+- the time and status of receipt; 
+- the received METR information package; and 
+- the applicable transport and transaction evidence. 
 
 Where required by applicable policy, the METR Consumer System shall generate and retain non-repudiation-of-delivery evidence confirming receipt of the specific METR information package.
 
@@ -173,16 +173,14 @@ This use case describes how a METR Consumer System verifies received METR inform
 
 The METR Consumer System shall verify that:
 
-  - the digital signature is valid for the received METR Rule; 
-
-  - the signing credential is valid, current, not revoked, and appropriate for use; 
-
-  - the credential chains to an accepted trust anchor;
-  - the signed content has not been modified;
-  - the signer was authorized to act in the applicable role and scope;
-  - the METR information remains sufficiently fresh;
-  - the provenance and associated security evidence are valid; and
-  - the METR information complies with applicable METR policy.
+- the digital signature is valid for the received METR Rule;
+- the signing credential is valid, current, not revoked, and appropriate for use;
+    - the credential chains to an accepted trust anchor;
+    - the signed content has not been modified;
+    - the signer was authorized to act in the applicable role and scope;
+    - the METR information remains sufficiently fresh;
+    - the provenance and associated security evidence are valid; and
+    - the METR information complies with applicable METR policy.
 
 The METR Consumer System shall record the applicable transaction event and the results of the signature, credential, integrity, authorization, freshness, provenance, and policy validations.
 

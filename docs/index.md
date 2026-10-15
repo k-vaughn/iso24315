@@ -19,7 +19,7 @@
     METR provides users with geo-specific, trustworthy, timely, authoritative, machine-interpretable **<u>[rules](https://isotc204.org/iso24315-vocab/latest/terms/rule/)</u> and <u>[regulations](https://isotc204.org/iso24315-vocab/latest/terms/regulation/)</u> (R&amp;Rs)** established by jurisdictional entities
 
 !!! note
-    This website uses the [METR vocabulary](https://isotc204.org/iso24315-vocab/latest/terms/) to define key terms. This website includes updates to ISO 24315-1:2025 that are not yet approved by ISO, but will be submitted for consideration for teh next edition of the standard.
+    This website uses the [METR vocabulary](https://isotc204.org/iso24315-vocab/latest/) to define key terms. This website includes updates to ISO 24315-1:2025 that are not yet approved by ISO, but will be submitted for consideration for teh next edition of the standard.
 
 ## The Challenge
 
@@ -63,7 +63,7 @@ If these errors persist, users will lose trust in driving automation and informa
 <div class="button-row" markdown="span">
 
 [METR Vision](METRVision.pdf "A 13-page PDF describing METR"){ .md-button .md-button--primary target="_blank" }
-[Vocabulary](documentation/Vocab.md "Definitions for key terms used in METR"){ .md-button .md-button--primary }
+[Vocabulary](https://isotc204.org/iso24315-vocab/latest/ "Definitions for key terms used in METR"){ .md-button .md-button--primary }
 [Overview Presentation](METROverview.pdf "A 36-slide presentation describing METR"){ .md-button .md-button--primary target="_blank" }
 [Discussion forum](https://github.com/ISO-TC204/iso24315/discussions){ .md-button .md-button--primary target="_blank" }
 

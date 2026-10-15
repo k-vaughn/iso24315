@@ -22,14 +22,14 @@ Some TROs prepared for emergency preparedness may never be installed or implemen
 
 Implementation has a **physical infrastructure** path and a **METR digital infrastructure** path. They must stay coordinated:
 
-**Physical path (simplified)**
+### Physical path (simplified)
 
 1. Install required TRO measures.
 2. Update legal and electronic TRO records to reflect as-built installation (including measured coordinates).
 3. Activate / implement regulation(s) for observers.
 4. Override or deactivate later as the order requires.
 
-**Digital path (simplified)**
+### Digital path (simplified)
 
 1. Receive updates from installation.
 2. Translate the electronic TRO into METR information.

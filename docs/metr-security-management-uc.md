@@ -6,7 +6,7 @@
 
 <figure><figcaption>METR Security Management Use Cases</figcaption></figure>
 
-#### Perform Forensic Analysis
+## Perform Forensic Analysis
 
 This use case describes how an authorized METR Auditor obtains and examines audit information to determine whether METR component systems operated properly and to reconstruct security-relevant events following an incident, suspected compromise, dispute, or other condition requiring investigation.
 
@@ -14,29 +14,21 @@ The METR Auditor may request audit information from one or more METR component s
 
 Before providing audit information, the METR component system shall:
 
-·    authenticate the METR Auditor; 
-
-·    validate the applicable credential and certificate chain; 
-
-·    determine that the auditor is authorized to access the requested information; 
-
-·    enforce the resulting access control decision; and 
-
-·    protect the confidentiality and integrity of audit information during transmission. 
+- authenticate the METR Auditor;
+- validate the applicable credential and certificate chain;
+- determine that the auditor is authorized to access the requested information;
+- enforce the resulting access control decision; and
+- protect the confidentiality and integrity of audit information during transmission.
 
 The METR Auditor shall validate the available security evidence and examine relevant METR information, transaction records, validation results, authorization decisions, signed objects, provenance information, non-repudiation tokens, and related system records.
 
 The forensic analysis shall, as applicable:
 
-·    reconstruct the sequence of security-relevant events; 
-
-·    identify the actors, systems, information, and transactions involved; 
-
-·    determine whether applicable authentication, authorization, integrity, and policy controls operated as intended; 
-
-·    identify unauthorized modification, access, distribution, or other anomalous activity; and 
-
-·    determine the apparent cause and impact of the event. 
+- reconstruct the sequence of security-relevant events;
+- identify the actors, systems, information, and transactions involved;
+- determine whether applicable authentication, authorization, integrity, and policy controls operated as intended;
+- identify unauthorized modification, access, distribution, or other anomalous activity; and
+- determine the apparent cause and impact of the event.
 
 The METR Auditor shall record the analysis results and preserve the supporting evidence in accordance with applicable retention, confidentiality, and evidence-handling policies.
 
@@ -48,7 +40,7 @@ The output of this process is a documented forensic analysis supported by preser
 
 <figure><figcaption>Perform Forensic Analysis</figcaption></figure>
 
-#### Audit METR Operations
+## Audit METR Operations
 
 This use case describes the activities performed by the METR Auditor to review security-relevant activity recorded by METR system components and determine whether trusted METR operations are being performed in accordance with applicable METR security policy.
 
@@ -66,7 +58,7 @@ The results of the audit shall identify the records reviewed, the applicable per
 
 <figure><figcaption>Audit METR Operations</figcaption></figure>
 
-#### Prepare and Execute Contingency Plans
+## Prepare and Execute Contingency Plans
 
 This use case describes the activities performed by the METR Security Admin to establish, maintain, and execute contingency plans that preserve the availability and trusted operation of METR systems during service disruptions, degraded conditions, or other events affecting normal operation.
 
@@ -76,13 +68,13 @@ The METR Security Admin shall establish contingency procedures defining how affe
 
 Contingency plans shall support continued availability of relevant METR information in accordance with applicable METR availability requirements, including:
 
-·    recovery from service interruptions within the applicable metrRecoveryTime; 
+·    recovery from service interruptions within the applicable metrRecoveryTime;
 
 ·    continued availability of relevant pre-announced METR information during communications disruptions shorter than metrUpdateCycle;
 
-·    maintenance of required system or dissemination availability consistent with metrUpTimePercent; and 
+·    maintenance of required system or dissemination availability consistent with metrUpTimePercent; and
 
-·    identification of conditions under which METR systems operate in a degraded or fallback mode. 
+·    identification of conditions under which METR systems operate in a degraded or fallback mode.
 
 When a disruption or other contingency condition occurs, the METR Security Admin shall initiate the applicable contingency procedures and coordinate execution with the affected METR Operator or system process. Actions may include use of redundant systems, alternate communication paths, cached METR information, service failover, or other locally defined continuity mechanisms.
 
@@ -96,31 +88,24 @@ The execution of the contingency plan, including the triggering condition, affec
 
 <figure><figcaption>Prepare and Execute Contingency Plans</figcaption></figure>
 
-#### Manage METR Security Incidents
+## Manage METR Security Incidents
 
 This use case describes the activities performed by the METR Security Admin to identify, assess, contain, respond to, and recover from cybersecurity incidents that could affect trusted METR operations.
 
-A potential security incident may be identified through security monitoring, audit findings, validation failures, misbehavior reports, unauthorized access attempts, service disruptions, suspected credential compromise, or other security-relevant events.
+A potential security incident may be identified through security monitoring, audit findings, validation failures, misbehaviour reports, unauthorized access attempts, service disruptions, suspected credential compromise, or other security-relevant events.
 
 The METR Security Admin shall assess the potential incident to determine the affected METR components, services, information, credentials, trust relationships, and information flows, and shall determine the potential impact on METR operations.
 
 The METR Security Admin shall determine the appropriate response based on the nature and severity of the incident. Response actions may include:
 
-·    restricting or disabling access to affected functions or services; 
-
-·    isolating affected components or services; 
-
-·    rejecting or suspending use of information that cannot be trusted; 
-
-·    initiating credential suspension, revocation, or replacement; 
-
-·    initiating contingency or recovery procedures; 
-
-·    initiating misbehavior reporting; 
-
-·    preserving relevant audit records and security evidence; and 
-
-·    initiating forensic analysis where additional investigation is required. 
+- restricting or disabling access to affected functions or services;
+- isolating affected components or services;
+- rejecting or suspending use of information that cannot be trusted;
+- initiating credential suspension, revocation, or replacement;
+- initiating contingency or recovery procedures;
+- initiating misbehaviour reporting;
+- preserving relevant audit records and security evidence; and
+- initiating forensic analysis where additional investigation is required.
 
 The METR Security Admin shall coordinate recovery actions necessary to return affected METR components and services to a trusted operational state. Before normal operation is resumed, affected systems, information, credentials, and trust relationships shall be evaluated to determine that applicable METR security requirements are satisfied.
 
@@ -130,7 +115,7 @@ The METR Security Admin shall record the incident, affected components and infor
 
 <figure><figcaption>Manage METR Security Incidents</figcaption></figure>
 
-#### Manage METR Security Maintenance
+## Manage METR Security Maintenance
 
 This use case describes the activities performed by the METR Security Admin to maintain the security posture of METR components and services throughout operation.
 
@@ -142,19 +127,13 @@ Before maintenance is performed, the METR Security Admin shall evaluate the plan
 
 The METR Security Admin shall coordinate or perform the applicable maintenance actions. Actions may include:
 
-·    applying security patches or software and firmware updates; 
-
-·    modifying security configuration; 
-
-·    rotating, replacing, or revoking credentials or cryptographic material; 
-
-·    updating trust anchors or trusted-service information; 
-
-·    correcting identified vulnerabilities or insecure configurations; 
-
-·    updating security monitoring or audit configuration; and 
-
-·    removing or replacing unsupported or untrusted components or services. 
+- applying security patches or software and firmware updates;
+- modifying security configuration;
+- rotating, replacing, or revoking credentials or cryptographic material;
+- updating trust anchors or trusted-service information;
+- correcting identified vulnerabilities or insecure configurations;
+- updating security monitoring or audit configuration; and
+- removing or replacing unsupported or untrusted components or services.
 
 Where maintenance could affect METR availability, the METR Security Admin shall coordinate the activity to minimize disruption and shall initiate applicable contingency procedures when required.
 
@@ -166,7 +145,7 @@ The METR Security Admin shall record the maintenance performed, affected compone
 
 <figure><figcaption>Manage METR Security Maintenance</figcaption></figure>
 
-#### Manage METR Discrepancy Handling
+## Manage METR Discrepancy Handling
 
 This use case describes the activities performed by the METR Discrepancy Handling System to receive, manage, evaluate, and route misbehaviour reports associated with METR entities, services, credentials, or system behaviour.
 
@@ -178,17 +157,12 @@ The METR Discrepancy Handling System shall correlate related reports and support
 
 The METR Discrepancy Handling System shall evaluate the report in accordance with applicable misbehaviour reporting policy and determine the appropriate disposition. The disposition may include:
 
-·    retaining the report for continued monitoring or correlation; 
-
-·    requesting additional information or supporting evidence; 
-
-·    forwarding the report to an applicable CCMS/SCMS or other trust-management service; 
-
-·    initiating or supporting a security incident investigation; 
-
-·    initiating forensic analysis where additional investigation is required; or 
-
-·    closing the report when the reported condition does not warrant further action. 
+- retaining the report for continued monitoring or correlation;
+- requesting additional information or supporting evidence;
+- forwarding the report to an applicable CCMS/SCMS or other trust-management service;
+- initiating or supporting a security incident investigation;
+- initiating forensic analysis where additional investigation is required; or
+- closing the report when the reported condition does not warrant further action.
 
 Where a misbehaviour determination can affect the trust status or credentials of a METR entity or service, the METR Discrepancy Handling System shall provide the applicable report and supporting evidence to the authorized trust or credential-management service for further action.
 
@@ -199,4 +173,3 @@ Misbehaviour reports and associated supporting evidence shall be retained and pr
  ![Manage METR Discrepancy Handling](images\manage-metr-discrepancy-handling.jpg)
 
 <figure><figcaption>Manage METR Discrepancy Handling</figcaption></figure>
-
