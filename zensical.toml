@@ -21,12 +21,13 @@ nav = [
     { "METR Environment" = [
       "metr-environment.md",
       "regulatory-environment.md",
+      "transport-environment.md",
       "roadway-environment.md",
+      "communications-environment.md",
+      "regional-environment.md",
       "need-for-trustworthiness.md",
       "distribution-environment.md",
-      "communications-environment-with-consumer.md",
       "consumer-environment.md",
-      "regional-environment.md",
       "functional-view.md",
     ]},
     { "Key Components" = [

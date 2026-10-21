@@ -1,6 +1,6 @@
 # Jurisdictional Management Perspective
 
-<div class="draft4-watermark" aria-hidden="true"></div>
+<div class="draft3-watermark" aria-hidden="true"></div>
 
 The jurisdictional management perspective represents the point of view of an entity that hosts — and is accountable for — one or more of the back-office METR component systems that make electronic regulations available within a geographic area. In practice, that often means operating a **regulation system**, a **discrepancy handling system**, all or part of a **distribution system** (e.g., it might just perform the **collection function** and serve as a link between multiple regulation systems and multiple distribution systems), or a combination of these.
 

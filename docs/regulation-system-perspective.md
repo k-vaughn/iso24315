@@ -1,6 +1,6 @@
 # Guidance for METR Regulation System
 
-<div class="draft4-watermark" aria-hidden="true"></div>
+<div class="draft3-watermark" aria-hidden="true"></div>
 
 !!! note
     ==Audience: Deployer of METR regulation system (e.g., larger jurisdictions)==
@@ -90,6 +90,35 @@ While campus onboarding will likely be lighter than onboarding another public ag
 ### Prioritizing regulation categories
 
 The host of the regulation system should work with the rule makers to establish a preferred order of R&R conversion — speed limits, right of way, parking, road works, etc. — so users see a consistent service across the area the system covers.
+
+## Electronic regulation metadata
+
+When distributing electronic regulations, the regulation system must include a range of information about the regulation to ensure that consumers understand the context of the information so that the information is not misused. At a minimum, the distributed electronic regulation should include the following information:
+
+- the core definition of the electronic regulation:
+    - the type of the electronic regulation
+    - the jurisdictional area of the rule maker that issued the regulation
+    - the location(s) associated with the regulation
+    - the vehicle types associated with the regulation
+    - the conditions under which the regulation is applicable
+
+- metadata about the electronic regulation itself:
+    - a timestamp of when the electronic regulation was entered into the regulation system
+    - the signature associated with the electronic regulation
+    - the organizational identifiers used for the electronic regulation
+    - the freshness period for the electronic regulation
+    - acceptable supporting data providers to determine if conditions are met
+
+- metadata about the provisioning of the electronic regulation:
+    - a timestamp of when the electronic regulation was obtained from the regulation system 
+    - the freshness period for the electronic regulation
+
+## Verifying the electronic regulation
+
+The regulation system must verify the electronic regulation according to the policies and guidelines established by the **[regional body](regional-body-perspective.md)** and host agency. The verification process can include the following:
+
+- verification that the electronic regulation correctly represents the official regulation
+- verification that notifications posted within or near roadways are in place, correctly positioned and clearly visible
 
 ## Publishing regulations
 

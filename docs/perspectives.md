@@ -1,6 +1,6 @@
 # Perspectives and Guidance
 
-<div class="draft4-watermark" aria-hidden="true"></div>
+<div class="draft3-watermark" aria-hidden="true"></div>
 
 This portion of the METR website provide guidance to various stakeholders that share different perspectives of the METR system.
 

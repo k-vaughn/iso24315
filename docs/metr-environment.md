@@ -10,7 +10,7 @@ METR is designed to operate within the following environmental constraints:
 - [Roadway environment](roadway-environment.md)
 - [Need for trustworthiness](need-for-trustworthiness.md)
 - [Distribution environment](distribution-environment.md)
-- [Communications environment with the consumer](communications-environment-with-consumer.md)
+- [Communications environment with the consumer](communications-environment.md)
 - [Consumer environment](consumer-environment.md)
 - [Regional environment](regional-environment.md)
 - [Functional view](functional-view.md)

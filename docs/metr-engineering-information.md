@@ -1,6 +1,6 @@
 # METR Engineering Information
 
-<div class="draft4-watermark" aria-hidden="true"></div>
+<div class="draft3-watermark" aria-hidden="true"></div>
 
 This section provides additional information and guidance to assist in the understanding the technical details and foundations of METR, as defined by the ISO 24315 series. Where earlier pages explain *what* METR is and *how* different organizations should approach deployment, the pages here document *how the standards were developed*, *what terms mean*, *how requirements trace to stakeholder input*, and *detailed implementation guidance*.
 

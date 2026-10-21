@@ -1,6 +1,6 @@
 # Jurisdictional Entities and Rule Makers
 
-<div class="draft4-watermark" aria-hidden="true"></div>
+<div class="draft3-watermark" aria-hidden="true"></div>
 
 A regulator (e.g., a road authority) has the legal power to issue traffic regulations on behalf of its **jurisdictional entity** (e.g., city). Each jurisdictional entity is associated with a **jurisdictional area** and each regulator authorized by the jurisdictional entity can be further constrained to a sub-area within that jurisdictional area. Areas can overlap; for example, any particular point location is typically within multiple jurisdictional areas, including multi-national, national, sub-national, local, and even private-property (for example, a university campus) areas, each of which can impose its own set of traffic regulations.
 

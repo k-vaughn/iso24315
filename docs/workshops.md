@@ -1,5 +1,7 @@
 # Workshops
 
+<div class="draft4-watermark" aria-hidden="true"></div>
+
 To facilitate input from stakeholders, ISO/TC 204/WG 19 hosted a series of public workshops in late 2021 with 47 stakeholders from 13 countries. Slides and chat logs from the workshop series are listed below. [Workshop summary points](documentation/SP.md) trace to the ConOps.
 
 | Date | Presentation | Topic | Discussion |

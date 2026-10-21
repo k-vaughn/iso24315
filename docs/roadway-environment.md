@@ -1,6 +1,6 @@
 # Roadway Environment
 
-<div class="draft4-watermark" aria-hidden="true"></div>
+<div class="draft3-watermark" aria-hidden="true"></div>
 
 METR distributes trustworthy electronic rules and regulations, but those regulations still have to coexist with the physical roadway. Signs, pavement markings, signals, gates, and other traffic control devices (TCDs) remain the conventional way many regulations are publicized and enforced. The roadway environment is therefore not outside METR — it is one of the main sources of truth that electronic regulations must stay aligned with, and one of the main places where conflicts are discovered.
 

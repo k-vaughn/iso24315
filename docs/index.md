@@ -3,7 +3,14 @@
 <div class="draft4-watermark" aria-hidden="true"></div>
 
 !!! note
-    ==This is a draft website for ISO TC 204 WG 19 (and other invited experts) to review via HuddleKit. Items that are highlighted in yellow will be removed before the final version is published.==
+    ==This is a draft website for ISO TC 204 WG 19 (and other invited experts) to review via HuddleKit. Items that are highlighted in yellow will be removed before the final version is published. The website is managed within GitHub and updates can be made at any time, but the status shown on each page is an indicator of how close the page is to being ready for publication to the main public website.==
+
+    ==Each page on this site is labelled as one of the following:==
+
+    - ==FINAL DRAFT: The page is considered essentially ready for publication on the [public website](https://isotc204.org/iso24315/) and is waiting for final approval from ISO TC 204 WG 19. Comments are still welcome to further enhance the page and detailed comments fo issues such as grammar are useful.==
+    - ==DRAFT: The page is believed to have the major key points and the outline is not expected to radically change. However, further details and content are expected to be added, including examples, diagrams, hyperlinks and other content and detailed reviews are encouraged.==
+    - ==PRE-DRAFT: The page has substantial content already, but major points might still be missing and the outline of the content might change. Comments are welcome to further enhance the content of the page but detailed reviews are not yet encouraged.==
+    - ==NOT READY FOR REVIEW: The page is expected to change significantly and therefore any review beyond looking at the high-level content and structure is not yet encouraged.==
 
 !!! note
     ==Audience: Non-technical, unfamiliar with METR==
