@@ -1,4 +1,4 @@
-### Trusted METR Operations
+# Trusted METR Operations
 
 <div class="draft4-watermark" aria-hidden="true"></div>
 
@@ -10,7 +10,7 @@ The use cases define, as applicable, requirements for entity authentication, cre
 
 <figure><figcaption>Trusted METR Operations</figcaption></figure>
 
-#### Verify Legal Rule
+## Verify Legal Rule
 
 Before a Legal Rule is transformed into a METR Rule, the METR Regulation System shall authenticate the Rule Maker and verify that the Rule Maker is authorized to publish the rule.
 
@@ -31,7 +31,7 @@ The authentication and verification process is region-specific and may be perfor
 
 <figure><figcaption>Verify Legal Rule</figcaption></figure>
 
-#### Digitize Legal Rule
+## Digitize Legal Rule
 
 After a Legal Rule has been verified, the METR Regulation System shall make the verified Legal Rule available to an authorized Rule Translation Agent for conversion into the applicable METR format.
 
@@ -55,7 +55,7 @@ The output of this process is unverified METR information. Independent verificat
 
 <figure><figcaption>Digitize Legal Rule</figcaption></figure>
 
-#### Digitally Sign and Approve METR Rule
+## Digitally Sign and Approve METR Rule
 
 After a digitized METR Rule has been independently verified, the METR Regulation System shall request approval and signature from an authorized Rule Signing Agent.
 
@@ -92,7 +92,7 @@ If the Rule Signing Agent rejects the rule, or if the signature, credential, cer
 
 <figure><figcaption>Digitally Sign METR Rule</figcaption></figure>
 
-#### Package Rule for Distribution
+## Package Rule for Distribution
 
 After a METR Rule has been approved and digitally signed, the METR Regulation System shall prepare the rule for provisioning to an authorized METR Distribution System.
 
@@ -116,7 +116,7 @@ If the signature, credential, certificate chain, approval status, integrity, aut
 
 <figure><figcaption>Package Rule for Distribution</figcaption></figure>
 
-#### Distribute Rule
+## Distribute Rule
 
 This use case describes how signed METR information is distributed while preserving the trust established during rule generation, verification, approval, signing, and packaging.
 
@@ -143,7 +143,7 @@ The output of this process is signed METR information transmitted or made availa
 
 <figure><figcaption>Distribute METR Rule</figcaption></figure>
 
-#### Receive Rule
+## Receive Rule
 
 This use case describes how a METR Consumer System receives signed METR information from a METR Distribution System or an authorized third-party distribution service.
 
@@ -167,7 +167,7 @@ The output of this process is received METR information preserved for subsequent
 
 <figure><figcaption>Receive METR Rule</figcaption></figure>
 
-#### Verify Received Rule
+## Verify Received Rule
 
 This use case describes how a METR Consumer System verifies received METR information before accepting it for storage or use.
 
@@ -194,7 +194,7 @@ The output of this process is either a verified METR Rule accepted for subsequen
 
 <figure><figcaption>Verify Received METR Rule</figcaption></figure>
 
-#### Report Discrepancy
+## Report Discrepancy
 
 This use case describes the secure submission of a METR discrepancy report from a METR Consumer System to a METR Discrepancy Handling System.
 
@@ -214,7 +214,7 @@ The output of this process is an authenticated and authorized discrepancy report
 
 <figure><figcaption>Report METR Discrepancy</figcaption></figure>
 
-#### Evaluate METR Rule Provenance
+## Evaluate METR Rule Provenance
 
 This use case describes the activities performed by a METR Component to evaluate the provenance of a METR Rule and determine whether the rule's recorded origin and history can be relied upon.
 

@@ -1,4 +1,4 @@
-### METR Trust Management Use Cases
+# METR Trust Management Use Cases
 
 <div class="draft4-watermark" aria-hidden="true"></div>
 
@@ -8,7 +8,7 @@ Trusted METR domain preparation use cases define the security activities require
 
 <figure><figcaption>METR Trust Management Use Cases</figcaption></figure>
 
-#### Manage METR Trust Relationships
+## Manage METR Trust Relationships
 
 This use case describes the activities required to establish and maintain the trust framework used by a METR domain. Before trusted METR operations begin, the responsible METR authority shall identify the external or internal trust services on which the METR deployment will rely and determine that those services provide an appropriate level of assurance for their intended use.
 
@@ -24,7 +24,7 @@ The output of this use case is an established and maintained METR trust framewor
 
 <figure><figcaption>Manage METR Trust</figcaption></figure>
 
-#### Manage METR Security Policy
+## Manage METR Security Policy
 
  This use case describes the activities required to establish and maintain the security policy that governs the METR domain. The METR Policy Authority shall define the roles and trust relationships recognized within the domain, select the security mechanisms approved for use, and establish the authorization, information protection, non-repudiation, trust translation, audit, and evidence policies that apply to METR operations.
 
@@ -44,7 +44,7 @@ The output of this use case is an approved and maintained METR domain security p
 
 <figure><figcaption>Manage METR Security Policy</figcaption></figure>
 
-#### Manage METR Identities and Credentials
+## Manage METR Identities and Credentials
 
 This use case describes the activities required to establish and maintain the identities and credentials used by METR actors, systems, services, and organizations within the trusted METR domain.
 
@@ -64,7 +64,7 @@ Changes to an identity, credential, organizational affiliation, or other securit
 
 <figure><figcaption>Manage METR Identities and Credentials</figcaption></figure>
 
-#### Manage METR Roles and Permissions
+## Manage METR Roles and Permissions
 
 This use case describes the activities required to establish and maintain the authorization privileges that determine what an authenticated METR actor is permitted to do within the METR domain.
 
@@ -82,7 +82,7 @@ Changes to an actor's role, jurisdiction, organizational authority, or permitted
 
  <figure><figcaption>Manage METR Roles and Permissions</figcaption></figure>
 
-#### Manage METR Accountability and Audit
+## Manage METR Accountability and Audit
 
 This use case describes the activities required to establish and maintain the audit framework used to support accountability, traceability, security monitoring, investigation, and forensic analysis across the METR domain.
 
@@ -104,7 +104,7 @@ The output of this use case is a METR domain in which each component is configur
 
 <figure><figcaption>Manage METR Accountability and Audit</figcaption></figure>
 
-#### Manage METR Device Security
+## Manage METR Device Security
 
 This use case describes the activities performed to ensure that devices used to provide METR functions are securely configured, validated, and approved before participating in trusted METR operations.
 
@@ -124,7 +124,7 @@ The device security evaluation result, supporting evidence, and authorization de
 
 <figure><figcaption>Manage METR Device Security</figcaption></figure>
 
-#### Manage Trusted METR Services
+## Manage Trusted METR Services
 
 This use case describes the activities required to establish METR services and service endpoints as trusted participants within the METR domain before they are used for operational exchanges.
 

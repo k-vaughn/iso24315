@@ -7,8 +7,8 @@
 
     ==Each page on this site is labelled as one of the following:==
 
-    - ==FINAL DRAFT: The page is considered essentially ready for publication on the [public website](https://isotc204.org/iso24315/) and is waiting for final approval from ISO TC 204 WG 19. Comments are still welcome to further enhance the page and detailed comments fo issues such as grammar are useful.==
-    - ==DRAFT: The page is believed to have the major key points and the outline is not expected to radically change. However, further details and content are expected to be added, including examples, diagrams, hyperlinks and other content and detailed reviews are encouraged.==
+    - ==FINAL DRAFT: The page is considered essentially ready for publication on the [public website](https://isotc204.org/iso24315/) and is waiting for final approval from ISO TC 204 WG 19. Comments are still welcome to further enhance the page and detailed comments for issues such as grammar are useful.==
+    - ==DRAFT: The page is believed to have the major key points and the outline is not expected to radically change. However, further details and content are expected to be added, including examples, diagrams, hyperlinks and other content. Detailed reviews are encouraged.==
     - ==PRE-DRAFT: The page has substantial content already, but major points might still be missing and the outline of the content might change. Comments are welcome to further enhance the content of the page but detailed reviews are not yet encouraged.==
     - ==NOT READY FOR REVIEW: The page is expected to change significantly and therefore any review beyond looking at the high-level content and structure is not yet encouraged.==
 

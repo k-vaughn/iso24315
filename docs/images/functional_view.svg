@@ -22,7 +22,7 @@
 		.st9 {stroke:#ffffff;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
 		.st10 {fill:#ffffff;stroke:#000000;stroke-width:0.75}
 		.st11 {fill:none;stroke:none;stroke-width:0.25}
-		.st12 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+		.st12 {fill:none;fill-regulation:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
 	]]>
 	</style>
 
@@ -43,10 +43,10 @@
 		<v:pageProperties v:drawingScale="1" v:pageScale="1" v:drawingUnits="0" v:shadowOffsetX="9" v:shadowOffsetY="-9"/>
 		<v:layer v:name="Connector" v:index="0"/>
 		<v:layer v:name="Container" v:index="1"/>
-		<a xlink:href="#translate-into-electronic-rules" href="#translate-into-electronic-rules">
+		<a xlink:href="#translate-into-electronic-regulations" href="#translate-into-electronic-regulations">
 		<g id="shape7-1" v:mID="7" v:groupContext="shape" transform="translate(132.75,-384.75)">
 			<title>Circle.7</title>
-			<desc>Translate into electronic rules</desc>
+			<desc>Translate into electronic regulations</desc>
 			<v:userDefs>
 				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 			</v:userDefs>
@@ -54,12 +54,12 @@
 			<v:textRect cx="40.5" cy="571.5" width="70.88" height="60.75"/>
 			<path d="M0 571.5 A40.5 40.5 0 1 1 81 571.5 A40.5 40.5 0 0 1 0 571.5 Z" class="st1"/>
 			<text x="12.42" y="568.5" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Translate into <tspan
-						x="9.23" dy="1.2em" class="st3">electronic rules</tspan></text>		</g>
+						x="9.23" dy="1.2em" class="st3">electronic regulations</tspan></text>		</g>
 		</a>
-		<a xlink:href="#verify-electronic-rules" href="#verify-electronic-rules">
+		<a xlink:href="#verify-electronic-regulations" href="#verify-electronic-regulations">
 		<g id="shape8-5" v:mID="8" v:groupContext="shape" transform="translate(240.75,-384.75)">
 			<title>Circle.8</title>
-			<desc>Verify electronic rules</desc>
+			<desc>Verify electronic regulations</desc>
 			<v:userDefs>
 				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 			</v:userDefs>
@@ -67,12 +67,12 @@
 			<v:textRect cx="40.5" cy="571.5" width="70.88" height="60.75"/>
 			<path d="M0 571.5 A40.5 40.5 0 1 1 81 571.5 A40.5 40.5 0 0 1 0 571.5 Z" class="st1"/>
 			<text x="28.5" y="568.5" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Verify <tspan x="9.23"
-						dy="1.2em" class="st3">electronic rules</tspan></text>		</g>
+						dy="1.2em" class="st3">electronic regulations</tspan></text>		</g>
 		</a>
-		<a xlink:href="#implement-rules" href="#implement-rules">
+		<a xlink:href="#implement-regulations" href="#implement-regulations">
 		<g id="shape9-9" v:mID="9" v:groupContext="shape" transform="translate(22.5,-276.75)">
 			<title>Circle.9</title>
-			<desc>Implement rules</desc>
+			<desc>Implement regulations</desc>
 			<v:userDefs>
 				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 			</v:userDefs>
@@ -80,12 +80,12 @@
 			<v:textRect cx="40.5" cy="571.5" width="70.88" height="60.75"/>
 			<path d="M0 571.5 A40.5 40.5 0 1 1 81 571.5 A40.5 40.5 0 0 1 0 571.5 Z" class="st4"/>
 			<text x="18.2" y="568.5" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Implement <tspan
-						x="30.54" dy="1.2em" class="st3">rules</tspan></text>		</g>
+						x="30.54" dy="1.2em" class="st3">regulations</tspan></text>		</g>
 		</a>
-		<a xlink:href="#approve-electronic-rules" href="#approve-electronic-rules">
+		<a xlink:href="#approve-electronic-regulations" href="#approve-electronic-regulations">
 		<g id="shape10-13" v:mID="10" v:groupContext="shape" transform="translate(348.75,-384.75)">
 			<title>Circle.10</title>
-			<desc>Approve electronic rules</desc>
+			<desc>Approve electronic regulations</desc>
 			<v:userDefs>
 				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 			</v:userDefs>
@@ -93,25 +93,25 @@
 			<v:textRect cx="40.5" cy="571.5" width="70.88" height="60.75"/>
 			<path d="M0 571.5 A40.5 40.5 0 1 1 81 571.5 A40.5 40.5 0 0 1 0 571.5 Z" class="st1"/>
 			<text x="23.23" y="568.5" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Approve <tspan
-						x="9.23" dy="1.2em" class="st3">electronic rules</tspan></text>		</g>
+						x="9.23" dy="1.2em" class="st3">electronic regulations</tspan></text>		</g>
 		</a>
-		<a xlink:href="#distribute-rules-to-users" href="#distribute-rules-to-users">
+		<a xlink:href="#distribute-regulations-to-users" href="#distribute-regulations-to-users">
 		<g id="shape12-17" v:mID="12" v:groupContext="shape" transform="translate(564.75,-384.75)">
 			<title>Circle.12</title>
-			<desc>Distribute rules to users</desc>
+			<desc>Distribute regulations to users</desc>
 			<v:userDefs>
 				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 			</v:userDefs>
 			<v:textBlock v:margins="rect(4,4,4,4)"/>
 			<v:textRect cx="40.5" cy="571.5" width="70.88" height="60.75"/>
 			<path d="M0 571.5 A40.5 40.5 0 1 1 81 571.5 A40.5 40.5 0 0 1 0 571.5 Z" class="st1"/>
-			<text x="9.25" y="568.5" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Distribute rules <tspan
+			<text x="9.25" y="568.5" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Distribute regulations <tspan
 						x="24.29" dy="1.2em" class="st3">to users</tspan></text>		</g>
 		</a>
-		<a xlink:href="#identify-current-rules" href="#identify-current-rules">
+		<a xlink:href="#identify-current-regulations" href="#identify-current-regulations">
 		<g id="shape14-21" v:mID="14" v:groupContext="shape" transform="translate(455.586,-276.75)">
 			<title>Circle.14</title>
-			<desc>Identify current rules</desc>
+			<desc>Identify current regulations</desc>
 			<v:userDefs>
 				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 			</v:userDefs>
@@ -119,29 +119,29 @@
 			<v:textRect cx="40.5" cy="571.5" width="70.88" height="60.75"/>
 			<path d="M0 571.5 A40.5 40.5 0 1 1 81 571.5 A40.5 40.5 0 0 1 0 571.5 Z" class="st1"/>
 			<text x="24.89" y="568.5" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Identify <tspan
-						x="14.39" dy="1.2em" class="st3">current rules</tspan></text>		</g>
+						x="14.39" dy="1.2em" class="st3">current regulations</tspan></text>		</g>
 		</a>
 		<g id="shape16-25" v:mID="16" v:groupContext="shape" v:layerMember="0" transform="translate(201.892,-387.608)">
 			<title>Dynamic connector.16</title>
-			<desc>Electronic rules</desc>
+			<desc>Electronic regulations</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)"/>
 			<v:textRect cx="25.9209" cy="619.358" width="72.72" height="20.0036"/>
 			<path d="M0 603 C8.11 611.11 31.81 612.37 44.79 606.8 L45.09 606.6" class="st5"/>
 			<rect v:rectContext="textBkgnd" x="-5.30503" y="613.359" width="62.4521" height="12.0001" class="st7"/>
-			<text x="-5.31" y="622.36" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Electronic rules</text>		</g>
+			<text x="-5.31" y="622.36" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Electronic regulations</text>		</g>
 		<g id="shape17-33" v:mID="17" v:groupContext="shape" v:layerMember="0" transform="translate(309.892,-462.892)">
 			<title>Dynamic connector.17</title>
-			<desc>Verified rules</desc>
+			<desc>Verified regulations</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)"/>
 			<v:textRect cx="23.1084" cy="604.642" width="64.46" height="20.0036"/>
 			<path d="M0 621 C9.61 611.39 19.68 610.83 27.52 611.39 C33.73 611.82 38.54 612.96 44.95 616.96 L45.25 617.17"
 					class="st5"/>
 			<rect v:rectContext="textBkgnd" x="-3.98653" y="598.642" width="54.1901" height="12.0001" class="st8"/>
-			<text x="-3.99" y="607.64" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Verified rules</text>		</g>
-		<a xlink:href="#identify-relevant-rules" href="#identify-relevant-rules">
+			<text x="-3.99" y="607.64" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Verified regulations</text>		</g>
+		<a xlink:href="#identify-relevant-regulations" href="#identify-relevant-regulations">
 		<g id="shape22-40" v:mID="22" v:groupContext="shape" transform="translate(348.75,-168.75)">
 			<title>Circle.22</title>
-			<desc>Identify relevant rules</desc>
+			<desc>Identify relevant regulations</desc>
 			<v:userDefs>
 				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 			</v:userDefs>
@@ -149,7 +149,7 @@
 			<v:textRect cx="40.5" cy="571.5" width="70.88" height="60.75"/>
 			<path d="M0 571.5 A40.5 40.5 0 1 1 81 571.5 A40.5 40.5 0 0 1 0 571.5 Z" class="st4"/>
 			<text x="24.89" y="568.5" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Identify <tspan
-						x="12.59" dy="1.2em" class="st3">relevant rules</tspan></text>		</g>
+						x="12.59" dy="1.2em" class="st3">relevant regulations</tspan></text>		</g>
 		</a>
 		<a xlink:href="#report-unverified-discrepancies" href="#report-unverified-discrepancies">
 		<g id="shape23-44" v:mID="23" v:groupContext="shape" transform="translate(456.75,-168.75)">
@@ -178,10 +178,10 @@
 						x="20.32" dy="1.2em" class="st3">electronic </tspan><tspan x="18.48" dy="1.2em" class="st3">supporting </tspan><tspan
 						x="31.41" dy="1.2em" class="st3">data</tspan></text>		</g>
 		</a>
-		<a xlink:href="#present-relevant-rules" href="#present-relevant-rules">
+		<a xlink:href="#present-relevant-regulations" href="#present-relevant-regulations">
 		<g id="shape26-55" v:mID="26" v:groupContext="shape" transform="translate(240.75,-168.75)">
 			<title>Circle.26</title>
-			<desc>Present relevant rules</desc>
+			<desc>Present relevant regulations</desc>
 			<v:userDefs>
 				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 			</v:userDefs>
@@ -189,69 +189,69 @@
 			<v:textRect cx="40.5" cy="571.5" width="70.88" height="60.75"/>
 			<path d="M0 571.5 A40.5 40.5 0 1 1 81 571.5 A40.5 40.5 0 0 1 0 571.5 Z" class="st4"/>
 			<text x="24.94" y="568.5" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Present <tspan
-						x="12.59" dy="1.2em" class="st3">relevant rules</tspan></text>		</g>
+						x="12.59" dy="1.2em" class="st3">relevant regulations</tspan></text>		</g>
 		</a>
 		<g id="shape27-59" v:mID="27" v:groupContext="shape" v:layerMember="0" transform="translate(417.892,-396.304)">
 			<title>Dynamic connector</title>
-			<desc>Approved rules</desc>
+			<desc>Approved regulations</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)"/>
 			<v:textRect cx="27.6084" cy="628.054" width="72.25" height="20.0036"/>
 			<path d="M0 611.7 C14.39 618.91 36.69 620.96 46.92 600.83 L47.05 600.5" class="st5"/>
 			<rect v:rectContext="textBkgnd" x="-3.38281" y="622.054" width="61.9827" height="12.0001" class="st7"/>
-			<text x="-3.38" y="631.05" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Approved rules</text>		</g>
+			<text x="-3.38" y="631.05" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Approved regulations</text>		</g>
 		<g id="shape28-66" v:mID="28" v:groupContext="shape" v:layerMember="0" transform="translate(523.125,-414.304)">
 			<title>Dynamic connector.28</title>
-			<desc>Approved rules</desc>
+			<desc>Approved regulations</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)"/>
 			<v:textRect cx="7.875" cy="643.804" width="72.25" height="20.0036"/>
 			<path d="M0 612.3 C9.28 635.76 32.15 638.84 47.24 632.95 L47.56 632.78" class="st5"/>
 			<rect v:rectContext="textBkgnd" x="-23.1162" y="637.804" width="61.9827" height="12.0001" class="st8"/>
-			<text x="-23.12" y="646.8" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Approved rules</text>		</g>
+			<text x="-23.12" y="646.8" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Approved regulations</text>		</g>
 		<g id="shape29-73" v:mID="29" v:groupContext="shape" v:layerMember="0" transform="translate(604.406,-384.75)">
 			<title>Dynamic connector.29</title>
-			<desc>Requested rules</desc>
+			<desc>Requested regulations</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)"/>
 			<v:textRect cx="-5.90624" cy="657.844" width="55.91" height="32.0037"/>
 			<path d="M0.84 612 C7.59 623.25 12.19 626.8 15.28 636.32 C19.59 649.6 20.95 674.49 17.73 716.36 L17.7 716.72"
 					class="st5"/>
 			<rect v:rectContext="textBkgnd" x="-27.596" y="645.844" width="43.3795" height="23.9999" class="st8"/>
 			<text x="-27.6" y="654.84" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Requested <v:newlineChar/><tspan
-						x="-15.87" dy="1.2em" class="st3">rules</tspan></text>		</g>
+						x="-15.87" dy="1.2em" class="st3">regulations</tspan></text>		</g>
 		<g id="shape30-81" v:mID="30" v:groupContext="shape" v:layerMember="0" transform="translate(103.5,-317.25)">
 			<title>Dynamic connector.30</title>
-			<desc>Publicized rules</desc>
+			<desc>Publicized regulations</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)"/>
 			<v:textRect cx="83.1771" cy="605.753" width="51.24" height="32.0037"/>
 			<path d="M0 612 C38.73 612.51 73.76 613.94 80.01 634.28 L80.06 634.64" class="st5"/>
 			<rect v:rectContext="textBkgnd" x="62.6934" y="593.753" width="40.9675" height="23.9999" class="st8"/>
 			<text x="62.69" y="602.75" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Publicized<v:newlineChar/><tspan
-						x="73.22" dy="1.2em" class="st3">rules</tspan></text>		</g>
+						x="73.22" dy="1.2em" class="st3">regulations</tspan></text>		</g>
 		<g id="shape33-89" v:mID="33" v:groupContext="shape" v:layerMember="0" transform="translate(455.586,-317.25)">
 			<title>Dynamic connector.33</title>
-			<desc>Current rules</desc>
+			<desc>Current regulations</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)"/>
 			<v:textRect cx="-37.0862" cy="603" width="65.85" height="20.0036"/>
 			<path d="M0 612 C-16.58 612 -41.4 612 -53.84 624.59 C-64.69 635.59 -66.12 656.18 -66.31 672.46 L-66.31 672.82"
 					class="st5"/>
 			<rect v:rectContext="textBkgnd" x="-63.7465" y="597" width="53.3205" height="12.0001" class="st8"/>
-			<text x="-63.75" y="606" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Current rules  </text>		</g>
+			<text x="-63.75" y="606" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Current regulations  </text>		</g>
 		<g id="shape35-96" v:mID="35" v:groupContext="shape" v:layerMember="0" transform="translate(360.608,-228.892)">
 			<title>Dynamic connector.35</title>
-			<desc>Relevant rules</desc>
+			<desc>Relevant regulations</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)"/>
 			<v:textRect cx="-23.1084" cy="584.392" width="68.04" height="20.0036"/>
 			<path d="M0 603 C-5.11 597.89 -15.25 593.62 -23.87 593.4 C-31.28 593.21 -37.57 596.02 -44.51 599.68 L-44.83 599.85"
 					class="st5"/>
 			<rect v:rectContext="textBkgnd" x="-51.9929" y="578.392" width="57.7691" height="12.0001" class="st8"/>
-			<text x="-51.99" y="587.39" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Relevant rules</text>		</g>
+			<text x="-51.99" y="587.39" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Relevant regulations</text>		</g>
 		<g id="shape36-103" v:mID="36" v:groupContext="shape" v:layerMember="0" transform="translate(240.75,-201.6)">
 			<title>Dynamic connector.36</title>
-			<desc>Relevant rule presentation</desc>
+			<desc>Relevant regulation presentation</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)"/>
 			<v:textRect cx="-65.25" cy="602.1" width="118.56" height="20.0036"/>
 			<path d="M0 604.35 C-29.42 623.61 -90.37 620.48 -133.53 604.27 L-133.86 604.13" class="st5"/>
 			<rect v:rectContext="textBkgnd" x="-119.394" y="596.1" width="108.287" height="12.0001" class="st7"/>
-			<text x="-119.39" y="605.1" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Relevant rule presentation</text>		</g>
+			<text x="-119.39" y="605.1" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Relevant regulation presentation</text>		</g>
 		<g id="shape37-110" v:mID="37" v:groupContext="shape" v:layerMember="0" transform="translate(351.608,-129.892)">
 			<title>Dynamic connector.37</title>
 			<desc>Electronic supporting data</desc>
@@ -329,12 +329,12 @@
 		</a>
 		<g id="shape44-153" v:mID="44" v:groupContext="shape" v:layerMember="0" transform="translate(497.25,-450)">
 			<title>Dynamic connector.44</title>
-			<desc>Approved rules</desc>
+			<desc>Approved regulations</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)"/>
 			<v:textRect cx="11.25" cy="555.188" width="72.25" height="20.0036"/>
 			<path d="M0 612 C-0.53 577.9 30.23 563.99 70.33 552.53 L70.67 552.44" class="st5"/>
 			<rect v:rectContext="textBkgnd" x="-19.7412" y="549.188" width="61.9827" height="12.0001" class="st8"/>
-			<text x="-19.74" y="558.19" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Approved rules</text>		</g>
+			<text x="-19.74" y="558.19" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Approved regulations</text>		</g>
 		<a xlink:href="#resolve-discrepancies" href="#resolve-discrepancies">
 		<g id="shape46-160" v:mID="46" v:groupContext="shape" transform="translate(240.75,-492.75)">
 			<title>Circle.46</title>
@@ -424,13 +424,13 @@
 			<text x="-4.16" y="594.34" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Supporting data</text>		</g>
 		<g id="shape66-208" v:mID="66" v:groupContext="shape" v:layerMember="0" transform="translate(184.5,-264.375)">
 			<title>Dynamic connector.66</title>
-			<desc>Publicized rules</desc>
+			<desc>Publicized regulations</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)"/>
 			<v:textRect cx="-90" cy="619.875" width="51.24" height="32.0037"/>
 			<path d="M0 612 C0 637.38 -97.37 622.35 -112.75 649.12 L-112.85 649.47" class="st5"/>
 			<rect v:rectContext="textBkgnd" x="-110.484" y="607.875" width="40.9675" height="23.9999" class="st8"/>
 			<text x="-110.48" y="616.88" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Publicized<v:newlineChar/><tspan
-						x="-99.96" dy="1.2em" class="st3">rules</tspan></text>		</g>
+						x="-99.96" dy="1.2em" class="st3">regulations</tspan></text>		</g>
 		<g id="shape67-216" v:mID="67" v:groupContext="shape" v:layerMember="0" transform="translate(562.5,-545.625)">
 			<title>Dynamic connector.67</title>
 			<desc>System-generated discrepancy</desc>
@@ -451,69 +451,69 @@
 			<text x="127.17" y="621.75" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Supporting data</text>		</g>
 		<g id="shape88-231" v:mID="88" v:groupContext="shape" v:layerMember="0" transform="translate(72,-436.196)">
 			<title>Dynamic connector.88</title>
-			<desc>Legal Rules</desc>
+			<desc>Legal regulations</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)"/>
 			<v:textRect cx="24.1875" cy="577.946" width="50" height="32.0037"/>
 			<path d="M0 611.7 C0 607.35 -0 601.65 10.38 598.44 C22.16 594.8 47.33 594.36 65.57 594.31 L65.93 594.31" class="st5"/>
 			<rect v:rectContext="textBkgnd" x="13.2547" y="565.946" width="21.8655" height="23.9999" class="st8"/>
 			<text x="13.7" y="574.95" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Legal <v:newlineChar/><tspan
-						x="13.25" dy="1.2em" class="st3">Rules</tspan></text>		</g>
+						x="13.25" dy="1.2em" class="st3">regulations</tspan></text>		</g>
 		<g id="shape91-239" v:mID="91" v:groupContext="shape" v:layerMember="0" transform="translate(516.25,-450)">
 			<title>Dynamic connector.91</title>
-			<desc>Approved rules</desc>
+			<desc>Approved regulations</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)"/>
 			<v:textRect cx="130.505" cy="576.306" width="72.25" height="20.0036"/>
 			<path d="M0 612 C1.25 592.31 93.53 544.31 127.58 595.68 C163.04 649.16 135.36 810.39 152 839.7 L152.27 839.93"
 					class="st5"/>
 			<rect v:rectContext="textBkgnd" x="99.514" y="570.306" width="61.9827" height="12.0001" class="st8"/>
-			<text x="99.51" y="579.31" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Approved rules</text>		</g>
+			<text x="99.51" y="579.31" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Approved regulations</text>		</g>
 		<g id="shape92-246" v:mID="92" v:groupContext="shape" v:layerMember="0" transform="translate(468.281,-450)">
 			<title>Dynamic connector.92</title>
-			<desc>Approved rules</desc>
+			<desc>Approved regulations</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)"/>
 			<v:textRect cx="-79.0313" cy="571.5" width="72.25" height="20.0036"/>
 			<path d="M0 612 C-2.85 589.73 -126.55 581.77 -153.67 562.61 L-153.91 562.35" class="st5"/>
 			<rect v:rectContext="textBkgnd" x="-110.022" y="565.5" width="61.9827" height="12.0001" class="st8"/>
-			<text x="-110.02" y="574.5" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Approved rules</text>		</g>
+			<text x="-110.02" y="574.5" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Approved regulations</text>		</g>
 		<g id="shape93-253" v:mID="93" v:groupContext="shape" v:layerMember="0" transform="translate(591.75,-273.375)">
 			<title>Dynamic connector.93</title>
-			<desc>Requested rules</desc>
+			<desc>Requested regulations</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)"/>
 			<v:textRect cx="-33.75" cy="583.875" width="53.65" height="32.0037"/>
 			<path d="M0 612 C-2.25 570.38 -15.28 562.35 -27.26 560.99 C-34.62 560.15 -41.59 561.84 -48.84 565.03 L-49.16 565.19"
 					class="st5"/>
 			<rect v:rectContext="textBkgnd" x="-55.4397" y="571.875" width="43.3795" height="23.9999" class="st8"/>
 			<text x="-55.44" y="580.88" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Requested<v:newlineChar/><tspan
-						x="-43.71" dy="1.2em" class="st3">rules</tspan></text>		</g>
+						x="-43.71" dy="1.2em" class="st3">regulations</tspan></text>		</g>
 		<g id="shape94-261" v:mID="94" v:groupContext="shape" v:layerMember="0" transform="translate(50.7886,-418.5)">
 			<title>Dynamic connector.94</title>
-			<desc>Legal rules</desc>
+			<desc>Legal regulations</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)"/>
 			<v:textRect cx="-5.14551" cy="647.557" width="50" height="32.0037"/>
 			<path d="M-1.57 612 C-26.58 641.14 -30 666.92 -21.39 679.61 L-21.13 679.86" class="st5"/>
 			<rect v:rectContext="textBkgnd" x="-15.6315" y="635.557" width="20.9721" height="23.9999" class="st8"/>
 			<text x="-15.63" y="644.56" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Legal<v:newlineChar/><tspan
-						x="-15.11" dy="1.2em" class="st3">rules</tspan></text>		</g>
+						x="-15.11" dy="1.2em" class="st3">regulations</tspan></text>		</g>
 		<g id="shape97-269" v:mID="97" v:groupContext="shape" v:layerMember="0" transform="translate(229.5,-276.187)">
 			<title>Dynamic connector.97</title>
-			<desc>Publicized rules</desc>
+			<desc>Publicized regulations</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)"/>
 			<v:textRect cx="58.3984" cy="589.868" width="73.42" height="20.0036"/>
 			<path d="M0 612 C12.94 612 30.62 612 40.25 595.1 C50.8 576.57 51.67 537.72 51.74 510.48 L51.74 510.12" class="st5"/>
 			<rect v:rectContext="textBkgnd" x="26.8234" y="583.869" width="63.1502" height="12.0001" class="st8"/>
-			<text x="26.82" y="592.87" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Publicized rules</text>		</g>
+			<text x="26.82" y="592.87" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Publicized regulations</text>		</g>
 		<g id="group102-276" transform="translate(139.5,-264.375)" v:mID="102" v:groupContext="group">
 			<title>Sheet.102</title>
 			<g id="shape98-277" v:mID="98" v:groupContext="shape">
 				<title>Rectangle</title>
-				<desc>Publicized rules</desc>
+				<desc>Publicized regulations</desc>
 				<v:userDefs>
 					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 				</v:userDefs>
 				<v:textBlock v:margins="rect(4,4,4,4)" v:verticalAlign="2"/>
 				<v:textRect cx="45" cy="600.187" width="90.01" height="23.625"/>
 				<rect x="0" y="588.375" width="90" height="23.625" class="st1"/>
-				<text x="13.43" y="605" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Publicized rules</text>			</g>
+				<text x="13.43" y="605" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Publicized regulations</text>			</g>
 			<g id="shape100-280" v:mID="100" v:groupContext="shape" transform="translate(702,589.008) rotate(90)">
 				<title>Sheet.100</title>
 				<path d="M0 612 L22.29 612" class="st9"/>
@@ -527,14 +527,14 @@
 			<title>Sheet.107</title>
 			<g id="shape103-287" v:mID="103" v:groupContext="shape">
 				<title>Rectangle</title>
-				<desc>Downloaded rules</desc>
+				<desc>Downloaded regulations</desc>
 				<v:userDefs>
 					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 				</v:userDefs>
 				<v:textBlock v:margins="rect(4,4,4,4)" v:verticalAlign="2"/>
 				<v:textRect cx="46.125" cy="599.625" width="92.26" height="24.75"/>
 				<rect x="0" y="587.25" width="92.25" height="24.75" class="st10"/>
-				<text x="9.2" y="605" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Downloaded rules</text>			</g>
+				<text x="9.2" y="605" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Downloaded regulations</text>			</g>
 			<g id="shape105-290" v:mID="105" v:groupContext="shape" transform="translate(612,587.813) rotate(90)">
 				<title>Sheet.105</title>
 				<path d="M0 612 L23.62 612" class="st9"/>
@@ -548,7 +548,7 @@
 			<title>Sheet.110</title>
 			<g id="shape104-297" v:mID="104" v:groupContext="shape">
 				<title>Rectangle.104</title>
-				<desc>Approved electronic rules</desc>
+				<desc>Approved electronic regulations</desc>
 				<v:userDefs>
 					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 				</v:userDefs>
@@ -556,7 +556,7 @@
 				<v:textRect cx="47.25" cy="594" width="94.51" height="36"/>
 				<rect x="0" y="576" width="94.5" height="36" class="st10"/>
 				<text x="27.35" y="593" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Approved <v:newlineChar/><tspan
-							x="15.98" dy="1.2em" class="st3">electronic rules</tspan></text>			</g>
+							x="15.98" dy="1.2em" class="st3">electronic regulations</tspan></text>			</g>
 			<g id="shape108-301" v:mID="108" v:groupContext="shape" transform="translate(706.5,576.779) rotate(90)">
 				<title>Sheet.108</title>
 				<path d="M0 612 L34.38 612" class="st9"/>
@@ -568,11 +568,11 @@
 		</g>
 		<g id="shape111-307" v:mID="111" v:groupContext="shape" transform="translate(37.4063,-418.5)">
 			<title>Sheet.111</title>
-			<desc>Rule maker</desc>
+			<desc>regulation maker</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)"/>
 			<v:textRect cx="34.5938" cy="603" width="69.19" height="18"/>
 			<rect x="0" y="594" width="69.1875" height="18" class="st10"/>
-			<text x="11.59" y="606" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Rule maker</text>		</g>
+			<text x="11.59" y="606" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>regulation maker</text>		</g>
 		<g id="shape113-310" v:mID="113" v:groupContext="shape" transform="translate(31.5,-202.5)">
 			<title>Sheet.113</title>
 			<desc>Transport user</desc>

@@ -7,10 +7,9 @@ This section describes the environments in which METR operates — regulatory, r
 METR is designed to operate within the following environmental constraints:
 
 - [Regulatory environment](regulatory-environment.md)
+- [Transport environment](transport-environment.md)
 - [Roadway environment](roadway-environment.md)
-- [Need for trustworthiness](need-for-trustworthiness.md)
-- [Distribution environment](distribution-environment.md)
-- [Communications environment with the consumer](communications-environment.md)
-- [Consumer environment](consumer-environment.md)
+- [Communications environment](communications-environment.md)
 - [Regional environment](regional-environment.md)
+- [Need for trustworthiness](need-for-trustworthiness.md)
 - [Functional view](functional-view.md)
