@@ -33,7 +33,7 @@ Jurisdictional hosting concentrates platform, security, and interface responsibi
 
 ## Jurisdictional Management Context
 
-To understand the role of the jurisdictional manager, it is important to understand the context in which they operate. This is largely explained by the [regulatory environment](regulatory-environment.md) and [distribution environment](distribution-environment.md) pages.
+To understand the role of the jurisdictional manager, it is important to understand the context in which they operate. This is largely explained by the [METR environment](metr-environment.md) pages.
 
 ### Scope of What a Jurisdictional Manager May Host
 

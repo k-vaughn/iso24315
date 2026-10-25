@@ -26,8 +26,6 @@ nav = [
       "communications-environment.md",
       "regional-environment.md",
       "need-for-trustworthiness.md",
-      "distribution-environment.md",
-      "consumer-environment.md",
       "functional-view.md",
     ]},
     { "Key Components" = [

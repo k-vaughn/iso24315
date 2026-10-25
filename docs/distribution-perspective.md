@@ -103,7 +103,7 @@ A [traffic regulation order](tro-what-is-a-tro.md) groups regulations the way a 
 
 Packaging is the repackaging of signed regulations into a set shaped by what the consumer asked for: a place or a route, a direction, a time, a vehicle class, and the regulation categories that consumer uses. During the repackaging process, it is critical that the trust chain is maintained so that there is always a clear chain of trust back to the original rule maker. Packaging changes how regulations are grouped for delivery. It does not create a new legal instrument.
 
-Whatever is packaged, the consumer has to be able to tell what the package claims to contain. For each area, the distributor should indicate which regulation categories are electronically available, whether that electronic set is complete for those categories, and whether the electronic regulation is legally binding or informational. Without that, a user could incorrectly trust an incomplete feed, or ignore a feed that is complete for the categories it claims. How a consumer obtains and applies the package is the subject of the [communications environment](communications-environment.md) and the [consumer environment](consumer-environment.md).
+Whatever is packaged, the consumer has to be able to tell what the package claims to contain. For each area, the distributor should indicate which regulation categories are electronically available, whether that electronic set is complete for those categories, and whether the electronic regulation is legally binding or informational. Without that, a user could incorrectly trust an incomplete feed, or ignore a feed that is complete for the categories it claims.
 
 #### Types of Vehicles
 
